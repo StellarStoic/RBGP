@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RBGP</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="logo"><img src="/pics/red-bull-goni-pony.png" alt="Red bull goni Pony logo" style="width:15em; height: auto;"></div>
+    <div class="search-container">
+        
+        <input type="text" class="input-style" id="search-input" placeholder="Enter a competitor name or number...">
+        <button class="ui-btn" id="search-button">
+            <span>
+                Search 
+            </span>
+        </button>
+    </div>
+    <div class="button-container">
+        
+        <button id="home-btn">Home</button>
+
+        <button id="all-years-button"><span>Veterans</span></button>
+        <button id="top10">Top 10 each year</button>
+        <button id="all-overall">Overall ranking</button>
+    </div>
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="times"></div>
+        <h2 id="modal-title"></h2>
+        <div id="modal-text"></div>
+    </div>
+</div>
+
+    <div id="top101-overall"></div>
+    <div id="results"></div>
+    <div id="times"></div>
+    <div id="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- Footer with hyperlinks -->
+    <div class="blur-background"></div>
+    <footer>
+        <div class="footer-container">
+            <a href="/about.html" id="about-link">About</a> |
+            <a href="/GDPR.html" id="gdpr-link">GDPR</a> |
+            <a href="/contact.html" id="contact-link">Contact</a>
+        </div>
+    </footer>
+    </div>
+
+    <button id="scrollToTopButton">&#8593;</button>
+
+
+    <script src="home.js"></script>
+    <script src="veterans.js"></script>
+    <script src="allOverall.js"></script>
+    <script src="top10.js"></script>
+    <script src="chart.js"></script>
+    <script src="scrollToTopBtn.js"></script>
+    <script src="search.js"></script>
+
+    
+</body>
+</html>

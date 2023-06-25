@@ -1,0 +1,10103 @@
+[
+  {
+    "Place": "1",
+    "Number": "1188",
+    "Surename": "HÖCK",
+    "Name": "MARTIN",
+    "Time": "00:44:20"
+  },
+  {
+    "Place": "2",
+    "Number": "31",
+    "Surename": "KASTELIC",
+    "Name": "KLEMEN",
+    "Time": "00:44:46"
+  },
+  {
+    "Place": "3",
+    "Number": "160",
+    "Surename": "BERZELAK",
+    "Name": "MITJA",
+    "Time": "00:44:54"
+  },
+  {
+    "Place": "4",
+    "Number": "30",
+    "Surename": "ŠIMENC",
+    "Name": "LAURA",
+    "Time": "00:44:55"
+  },
+  {
+    "Place": "5",
+    "Number": "327",
+    "Surename": "NOVAK",
+    "Name": "IVAN",
+    "Time": "00:45:04"
+  },
+  {
+    "Place": "6",
+    "Number": "1125",
+    "Surename": "ŽAGAR",
+    "Name": "METOD",
+    "Time": "00:45:06"
+  },
+  {
+    "Place": "7",
+    "Number": "663",
+    "Surename": "MIKAC",
+    "Name": "PATRIK",
+    "Time": "00:46:29"
+  },
+  {
+    "Place": "8",
+    "Number": "65",
+    "Surename": "PLAHUTAR",
+    "Name": "ŽIGA",
+    "Time": "00:46:44"
+  },
+  {
+    "Place": "9",
+    "Number": "842",
+    "Surename": "KASTREVC",
+    "Name": "JOŽE",
+    "Time": "00:47:11"
+  },
+  {
+    "Place": "10",
+    "Number": "711",
+    "Surename": "BRULC",
+    "Name": "SRECKO",
+    "Time": "00:47:36"
+  },
+  {
+    "Place": "11",
+    "Number": "1088",
+    "Surename": "PETRIČ",
+    "Name": "DEJAN",
+    "Time": "00:48:04"
+  },
+  {
+    "Place": "12",
+    "Number": "246",
+    "Surename": "PER",
+    "Name": "DAVID",
+    "Time": "00:48:34"
+  },
+  {
+    "Place": "13",
+    "Number": "1263",
+    "Surename": "PIRIH",
+    "Name": "ALEKSANDER",
+    "Time": "00:49:07"
+  },
+  {
+    "Place": "14",
+    "Number": "1242",
+    "Surename": "DOLENŠEK",
+    "Name": "ANŽE",
+    "Time": "00:49:33"
+  },
+  {
+    "Place": "15",
+    "Number": "68",
+    "Surename": "ZUPANCIC",
+    "Name": "ROK",
+    "Time": "00:50:34"
+  },
+  {
+    "Place": "16",
+    "Number": "1348",
+    "Surename": "KREMSER",
+    "Name": "DANIEL",
+    "Time": "00:51:34"
+  },
+  {
+    "Place": "17",
+    "Number": "102",
+    "Surename": "GULJA",
+    "Name": "SIMON",
+    "Time": "00:51:50"
+  },
+  {
+    "Place": "18",
+    "Number": "1078",
+    "Surename": "KLADNIK",
+    "Name": "TOMAŽ",
+    "Time": "00:52:05"
+  },
+  {
+    "Place": "19",
+    "Number": "1136",
+    "Surename": "FLAJNIK",
+    "Name": "BINE",
+    "Time": "00:52:46"
+  },
+  {
+    "Place": "20",
+    "Number": "575",
+    "Surename": "JERMAN",
+    "Name": "ŽIGA",
+    "Time": "00:53:18"
+  },
+  {
+    "Place": "21",
+    "Number": "1347",
+    "Surename": "SWASCHNIG",
+    "Name": "DANIEL",
+    "Time": "00:53:27"
+  },
+  {
+    "Place": "22",
+    "Number": "1022",
+    "Surename": "BOŽIČ",
+    "Name": "ŽIGA",
+    "Time": "00:53:28"
+  },
+  {
+    "Place": "23",
+    "Number": "1444",
+    "Surename": "POTOČNIK",
+    "Name": "MATIJA",
+    "Time": "00:53:30"
+  },
+  {
+    "Place": "24",
+    "Number": "1054",
+    "Surename": "PLEŠNIK",
+    "Name": "ANJA",
+    "Time": "00:54:16"
+  },
+  {
+    "Place": "25",
+    "Number": "772",
+    "Surename": "SIMONČIČ",
+    "Name": "SIMON",
+    "Time": "00:54:19"
+  },
+  {
+    "Place": "26",
+    "Number": "987",
+    "Surename": "NAPOTNIK",
+    "Name": "URBAN",
+    "Time": "00:54:24"
+  },
+  {
+    "Place": "27",
+    "Number": "1402",
+    "Surename": "VRTAČNIK",
+    "Name": "URBAN",
+    "Time": "00:54:26"
+  },
+  {
+    "Place": "28",
+    "Number": "556",
+    "Surename": "MENCIGAR",
+    "Name": "MAJA",
+    "Time": "00:54:34"
+  },
+  {
+    "Place": "29",
+    "Number": "231",
+    "Surename": "DJURIČ MILER",
+    "Name": "RENE",
+    "Time": "00:54:39"
+  },
+  {
+    "Place": "30",
+    "Number": "421",
+    "Surename": "MERTELJ",
+    "Name": "ENEJ",
+    "Time": "00:54:41"
+  },
+  {
+    "Place": "31",
+    "Number": "997",
+    "Surename": "FERLAN",
+    "Name": "BLAŽ",
+    "Time": "00:54:44"
+  },
+  {
+    "Place": "32",
+    "Number": "721",
+    "Surename": "RODE",
+    "Name": "SANDI",
+    "Time": "00:54:53"
+  },
+  {
+    "Place": "33",
+    "Number": "1039",
+    "Surename": "JURČIČ",
+    "Name": "TILEN",
+    "Time": "00:55:11"
+  },
+  {
+    "Place": "34",
+    "Number": "1070",
+    "Surename": "PIKULIC",
+    "Name": "DAVOR",
+    "Time": "00:55:31"
+  },
+  {
+    "Place": "35",
+    "Number": "1374",
+    "Surename": "MEGUŠAR",
+    "Name": "LENART",
+    "Time": "00:55:42"
+  },
+  {
+    "Place": "36",
+    "Number": "844",
+    "Surename": "DOBRAJC",
+    "Name": "DANI",
+    "Time": "00:55:49"
+  },
+  {
+    "Place": "37",
+    "Number": "234",
+    "Surename": "MRAVLJAK",
+    "Name": "JURE",
+    "Time": "00:55:56"
+  },
+  {
+    "Place": "38",
+    "Number": "233",
+    "Surename": "KRAJNC",
+    "Name": "ROBERT",
+    "Time": "00:56:20"
+  },
+  {
+    "Place": "39",
+    "Number": "791",
+    "Surename": "BOBEN",
+    "Name": "ŽAN",
+    "Time": "00:56:23"
+  },
+  {
+    "Place": "40",
+    "Number": "930",
+    "Surename": "ROŽNIK",
+    "Name": "SIMON",
+    "Time": "00:56:23"
+  },
+  {
+    "Place": "41",
+    "Number": "382",
+    "Surename": "JELOVČAN",
+    "Name": "JAKA",
+    "Time": "00:56:25"
+  },
+  {
+    "Place": "42",
+    "Number": "1306",
+    "Surename": "FALE",
+    "Name": "ROK",
+    "Time": "00:56:54"
+  },
+  {
+    "Place": "43",
+    "Number": "545",
+    "Surename": "RADEJ",
+    "Name": "MITJA",
+    "Time": "00:56:56"
+  },
+  {
+    "Place": "44",
+    "Number": "1031",
+    "Surename": "KOVAČ",
+    "Name": "MARKO",
+    "Time": "00:57:03"
+  },
+  {
+    "Place": "45",
+    "Number": "1508",
+    "Surename": "CEFARIN",
+    "Name": "NICOLA",
+    "Time": "00:57:10"
+  },
+  {
+    "Place": "46",
+    "Number": "63",
+    "Surename": "GLAMOČAK",
+    "Name": "TAJDA",
+    "Time": "00:57:25"
+  },
+  {
+    "Place": "47",
+    "Number": "272",
+    "Surename": "ŽNIDARIČ",
+    "Name": "GAŠPER",
+    "Time": "00:57:27"
+  },
+  {
+    "Place": "48",
+    "Number": "237",
+    "Surename": "LESKOVAR",
+    "Name": "ANDREJ",
+    "Time": "00:57:29"
+  },
+  {
+    "Place": "49",
+    "Number": "662",
+    "Surename": "KNEDL",
+    "Name": "TADEJ",
+    "Time": "00:57:44"
+  },
+  {
+    "Place": "50",
+    "Number": "470",
+    "Surename": "ZUPAN",
+    "Name": "URH",
+    "Time": "00:57:51"
+  },
+  {
+    "Place": "51",
+    "Number": "1119",
+    "Surename": "OBLAK",
+    "Name": "TOMAŽ",
+    "Time": "00:57:54"
+  },
+  {
+    "Place": "52",
+    "Number": "93",
+    "Surename": "KRALJ",
+    "Name": "DOMEN",
+    "Time": "00:58:20"
+  },
+  {
+    "Place": "53",
+    "Number": "1130",
+    "Surename": "ČEČEK",
+    "Name": "BLAŽ",
+    "Time": "00:58:29"
+  },
+  {
+    "Place": "54",
+    "Number": "755",
+    "Surename": "NAGLAV",
+    "Name": "GREGOR",
+    "Time": "00:58:32"
+  },
+  {
+    "Place": "55",
+    "Number": "25",
+    "Surename": "HARB",
+    "Name": "MARKO",
+    "Time": "00:58:37"
+  },
+  {
+    "Place": "56",
+    "Number": "1080",
+    "Surename": "SORN",
+    "Name": "GABER",
+    "Time": "00:58:41"
+  },
+  {
+    "Place": "57",
+    "Number": "347",
+    "Surename": "PETER",
+    "Name": "ALEXANDER",
+    "Time": "00:58:46"
+  },
+  {
+    "Place": "58",
+    "Number": "276",
+    "Surename": "POČIVALŠEK",
+    "Name": "DEJAN",
+    "Time": "00:58:56"
+  },
+  {
+    "Place": "59",
+    "Number": "1468",
+    "Surename": "LEMUT",
+    "Name": "TADEJ",
+    "Time": "00:58:56"
+  },
+  {
+    "Place": "60",
+    "Number": "1201",
+    "Surename": "OKIČIČ",
+    "Name": "MATEJ",
+    "Time": "00:59:05"
+  },
+  {
+    "Place": "61",
+    "Number": "816",
+    "Surename": "CEGLAR",
+    "Name": "MAJ",
+    "Time": "00:59:06"
+  },
+  {
+    "Place": "62",
+    "Number": "200",
+    "Surename": "JARC",
+    "Name": "JERNEJ",
+    "Time": "00:59:07"
+  },
+  {
+    "Place": "63",
+    "Number": "228",
+    "Surename": "PROSENAK",
+    "Name": "DAMJAN",
+    "Time": "00:59:08"
+  },
+  {
+    "Place": "64",
+    "Number": "690",
+    "Surename": "NOVŠAK",
+    "Name": "DAVID",
+    "Time": "00:59:17"
+  },
+  {
+    "Place": "65",
+    "Number": "319",
+    "Surename": "URABEL",
+    "Name": "LUKAS",
+    "Time": "00:59:28"
+  },
+  {
+    "Place": "66",
+    "Number": "250",
+    "Surename": "SKOK",
+    "Name": "DOMEN",
+    "Time": "00:59:38"
+  },
+  {
+    "Place": "67",
+    "Number": "1276",
+    "Surename": "ROZMAN",
+    "Name": "ŽIGA",
+    "Time": "00:59:45"
+  },
+  {
+    "Place": "68",
+    "Number": "146",
+    "Surename": "AVBELJ",
+    "Name": "DOMEN",
+    "Time": "01:00:03"
+  },
+  {
+    "Place": "69",
+    "Number": "75",
+    "Surename": "KORLAT",
+    "Name": "EDIS",
+    "Time": "01:00:04"
+  },
+  {
+    "Place": "70",
+    "Number": "158",
+    "Surename": "MAVER",
+    "Name": "DEJAN",
+    "Time": "01:00:09"
+  },
+  {
+    "Place": "71",
+    "Number": "975",
+    "Surename": "BAJŽELJ",
+    "Name": "GREGA",
+    "Time": "01:00:18"
+  },
+  {
+    "Place": "72",
+    "Number": "639",
+    "Surename": "SCHAUNIG",
+    "Name": "CHRISTOPH",
+    "Time": "01:00:20"
+  },
+  {
+    "Place": "73",
+    "Number": "1270",
+    "Surename": "OŠTARIJAŠ",
+    "Name": "ANŽE",
+    "Time": "01:00:27"
+  },
+  {
+    "Place": "74",
+    "Number": "554",
+    "Surename": "ŽAGAR",
+    "Name": "MARKO",
+    "Time": "01:00:30"
+  },
+  {
+    "Place": "75",
+    "Number": "208",
+    "Surename": "ANTOLIN",
+    "Name": "ALEŠ",
+    "Time": "01:00:37"
+  },
+  {
+    "Place": "76",
+    "Number": "1259",
+    "Surename": "WEISS",
+    "Name": "ANŽE",
+    "Time": "01:00:37"
+  },
+  {
+    "Place": "77",
+    "Number": "266",
+    "Surename": "ŠLAMBERGER",
+    "Name": "TIMI",
+    "Time": "01:00:39"
+  },
+  {
+    "Place": "78",
+    "Number": "594",
+    "Surename": "DOBLEKAR",
+    "Name": "NIK",
+    "Time": "01:00:46"
+  },
+  {
+    "Place": "79",
+    "Number": "782",
+    "Surename": "KOSAJNČ",
+    "Name": "ROBERT",
+    "Time": "01:00:52"
+  },
+  {
+    "Place": "80",
+    "Number": "1258",
+    "Surename": "PRAH",
+    "Name": "TJAŽ",
+    "Time": "01:00:56"
+  },
+  {
+    "Place": "81",
+    "Number": "453",
+    "Surename": "BRZIN",
+    "Name": "ALEŠ",
+    "Time": "01:00:57"
+  },
+  {
+    "Place": "82",
+    "Number": "1052",
+    "Surename": "ŠKUFCA",
+    "Name": "DOMEN",
+    "Time": "01:01:15"
+  },
+  {
+    "Place": "83",
+    "Number": "966",
+    "Surename": "INFANGER",
+    "Name": "LUKAS",
+    "Time": "01:01:19"
+  },
+  {
+    "Place": "84",
+    "Number": "1163",
+    "Surename": "PODPEČAN",
+    "Name": "BORIS",
+    "Time": "01:01:28"
+  },
+  {
+    "Place": "85",
+    "Number": "377",
+    "Surename": "MAVRIČ",
+    "Name": "MARKO",
+    "Time": "01:01:29"
+  },
+  {
+    "Place": "86",
+    "Number": "281",
+    "Surename": "GRAZE",
+    "Name": "BERND",
+    "Time": "01:01:29"
+  },
+  {
+    "Place": "87",
+    "Number": "604",
+    "Surename": "NEMANIČ",
+    "Name": "MATIJA",
+    "Time": "01:01:33"
+  },
+  {
+    "Place": "88",
+    "Number": "632",
+    "Surename": "BENEDICIC",
+    "Name": "MARJAN",
+    "Time": "01:01:33"
+  },
+  {
+    "Place": "89",
+    "Number": "951",
+    "Surename": "PINTER",
+    "Name": "HANNES",
+    "Time": "01:01:38"
+  },
+  {
+    "Place": "90",
+    "Number": "295",
+    "Surename": "ŠKRABANJA",
+    "Name": "SAMO",
+    "Time": "01:01:40"
+  },
+  {
+    "Place": "91",
+    "Number": "252",
+    "Surename": "TOLAR",
+    "Name": "BLAZ",
+    "Time": "01:01:41"
+  },
+  {
+    "Place": "92",
+    "Number": "953",
+    "Surename": "GODAR",
+    "Name": "MARJAN",
+    "Time": "01:01:48"
+  },
+  {
+    "Place": "93",
+    "Number": "1436",
+    "Surename": "HRIBAR",
+    "Name": "DOMEN",
+    "Time": "01:01:48"
+  },
+  {
+    "Place": "94",
+    "Number": "452",
+    "Surename": "ZUPAN",
+    "Name": "JAKA",
+    "Time": "01:01:54"
+  },
+  {
+    "Place": "95",
+    "Number": "407",
+    "Surename": "FRICS",
+    "Name": "BALÁZS",
+    "Time": "01:02:18"
+  },
+  {
+    "Place": "96",
+    "Number": "1381",
+    "Surename": "BLUMAUER",
+    "Name": "ALEŠ",
+    "Time": "01:02:20"
+  },
+  {
+    "Place": "97",
+    "Number": "1101",
+    "Surename": "ZEL",
+    "Name": "TADEJ",
+    "Time": "01:02:52"
+  },
+  {
+    "Place": "98",
+    "Number": "777",
+    "Surename": "KRAJNIK",
+    "Name": "LUKA",
+    "Time": "01:02:57"
+  },
+  {
+    "Place": "99",
+    "Number": "1315",
+    "Surename": "KALTAK",
+    "Name": "ALJAZ",
+    "Time": "01:03:02"
+  },
+  {
+    "Place": "100",
+    "Number": "1001",
+    "Surename": "MUROVEC",
+    "Name": "ERIK",
+    "Time": "01:03:09"
+  },
+  {
+    "Place": "101",
+    "Number": "192",
+    "Surename": "DÁVID",
+    "Name": "KOVÁCS",
+    "Time": "01:03:15"
+  },
+  {
+    "Place": "102",
+    "Number": "1311",
+    "Surename": "BAVCON",
+    "Name": "JURE",
+    "Time": "01:03:16"
+  },
+  {
+    "Place": "103",
+    "Number": "547",
+    "Surename": "NETAHLY",
+    "Name": "TADEJ",
+    "Time": "01:03:19"
+  },
+  {
+    "Place": "104",
+    "Number": "519",
+    "Surename": "BRUS",
+    "Name": "TIMOTEJ",
+    "Time": "01:03:20"
+  },
+  {
+    "Place": "105",
+    "Number": "691",
+    "Surename": "PAVLOVIC",
+    "Name": "MATEJ",
+    "Time": "01:03:20"
+  },
+  {
+    "Place": "106",
+    "Number": "785",
+    "Surename": "WARMUTH",
+    "Name": "THOMAS",
+    "Time": "01:03:26"
+  },
+  {
+    "Place": "107",
+    "Number": "1435",
+    "Surename": "ZUPANC",
+    "Name": "JAKOB",
+    "Time": "01:03:27"
+  },
+  {
+    "Place": "108",
+    "Number": "847",
+    "Surename": "BRZIN",
+    "Name": "BARBARA",
+    "Time": "01:03:35"
+  },
+  {
+    "Place": "109",
+    "Number": "1257",
+    "Surename": "VOGLAR",
+    "Name": "LENART",
+    "Time": "01:03:37"
+  },
+  {
+    "Place": "110",
+    "Number": "558",
+    "Surename": "SLEMENŠEK",
+    "Name": "JOB",
+    "Time": "01:03:39"
+  },
+  {
+    "Place": "111",
+    "Number": "10",
+    "Surename": "JAKLIČ",
+    "Name": "JURE",
+    "Time": "01:03:40"
+  },
+  {
+    "Place": "112",
+    "Number": "198",
+    "Surename": "KELENC",
+    "Name": "ALEŠ",
+    "Time": "01:03:43"
+  },
+  {
+    "Place": "113",
+    "Number": "316",
+    "Surename": "GALAUZ",
+    "Name": "MATHIAS",
+    "Time": "01:03:46"
+  },
+  {
+    "Place": "114",
+    "Number": "1509",
+    "Surename": "FAMEA",
+    "Name": "FABRIZZIO",
+    "Time": "01:03:48"
+  },
+  {
+    "Place": "115",
+    "Number": "174",
+    "Surename": "VRTAČNIK",
+    "Name": "JAKA",
+    "Time": "01:03:51"
+  },
+  {
+    "Place": "116",
+    "Number": "379",
+    "Surename": "DE LUISA",
+    "Name": "ANDRAŽ",
+    "Time": "01:03:57"
+  },
+  {
+    "Place": "117",
+    "Number": "1003",
+    "Surename": "LAVRIČ",
+    "Name": "NIK",
+    "Time": "01:03:58"
+  },
+  {
+    "Place": "118",
+    "Number": "255",
+    "Surename": "MENEGATTI",
+    "Name": "TADEJ",
+    "Time": "01:03:59"
+  },
+  {
+    "Place": "119",
+    "Number": "996",
+    "Surename": "VUK",
+    "Name": "OSKAR",
+    "Time": "01:04:01"
+  },
+  {
+    "Place": "120",
+    "Number": "44",
+    "Surename": "LAVTAR",
+    "Name": "MATIC",
+    "Time": "01:04:04"
+  },
+  {
+    "Place": "121",
+    "Number": "1086",
+    "Surename": "VAJNGERL",
+    "Name": "UROŠ",
+    "Time": "01:04:10"
+  },
+  {
+    "Place": "122",
+    "Number": "1428",
+    "Surename": "TAVČAR",
+    "Name": "LUKA",
+    "Time": "01:04:10"
+  },
+  {
+    "Place": "123",
+    "Number": "390",
+    "Surename": "URANIČ",
+    "Name": "PRIMOŽ",
+    "Time": "01:04:13"
+  },
+  {
+    "Place": "124",
+    "Number": "297",
+    "Surename": "PUŠAVEC",
+    "Name": "ROK",
+    "Time": "01:04:15"
+  },
+  {
+    "Place": "125",
+    "Number": "950",
+    "Surename": "ŠMID",
+    "Name": "BORIS",
+    "Time": "01:04:26"
+  },
+  {
+    "Place": "126",
+    "Number": "546",
+    "Surename": "KLEMENČIČ",
+    "Name": "PAVLE",
+    "Time": "01:04:27"
+  },
+  {
+    "Place": "127",
+    "Number": "244",
+    "Surename": "MALEŠIČ",
+    "Name": "NEJC",
+    "Time": "01:04:30"
+  },
+  {
+    "Place": "128",
+    "Number": "817",
+    "Surename": "HAUPTMAN",
+    "Name": "GAL",
+    "Time": "01:04:36"
+  },
+  {
+    "Place": "129",
+    "Number": "713",
+    "Surename": "KODRIČ",
+    "Name": "BORIS",
+    "Time": "01:04:45"
+  },
+  {
+    "Place": "130",
+    "Number": "600",
+    "Surename": "LEKAN",
+    "Name": "MATEJ",
+    "Time": "01:04:47"
+  },
+  {
+    "Place": "131",
+    "Number": "726",
+    "Surename": "SLUGA",
+    "Name": "JURIJ",
+    "Time": "01:04:51"
+  },
+  {
+    "Place": "132",
+    "Number": "1355",
+    "Surename": "ŠTEPEC",
+    "Name": "JAKOB",
+    "Time": "01:04:59"
+  },
+  {
+    "Place": "133",
+    "Number": "737",
+    "Surename": "NAHLIK",
+    "Name": "THOMAS",
+    "Time": "01:05:08"
+  },
+  {
+    "Place": "134",
+    "Number": "949",
+    "Surename": "KLEMENČIČ",
+    "Name": "DOMINIK",
+    "Time": "01:05:08"
+  },
+  {
+    "Place": "135",
+    "Number": "1024",
+    "Surename": "JERAJ",
+    "Name": "MATIJA",
+    "Time": "01:05:13"
+  },
+  {
+    "Place": "136",
+    "Number": "20",
+    "Surename": "STROŽER",
+    "Name": "BLAŽ",
+    "Time": "01:05:13"
+  },
+  {
+    "Place": "137",
+    "Number": "693",
+    "Surename": "RESMAN",
+    "Name": "URH",
+    "Time": "01:05:19"
+  },
+  {
+    "Place": "138",
+    "Number": "1378",
+    "Surename": "MUMEL",
+    "Name": "ZIGA",
+    "Time": "01:05:22"
+  },
+  {
+    "Place": "139",
+    "Number": "567",
+    "Surename": "SEDEJ",
+    "Name": "ALES",
+    "Time": "01:05:29"
+  },
+  {
+    "Place": "140",
+    "Number": "136",
+    "Surename": "KONČINA",
+    "Name": "LUKA",
+    "Time": "01:05:33"
+  },
+  {
+    "Place": "141",
+    "Number": "1469",
+    "Surename": "CURK",
+    "Name": "MARKO",
+    "Time": "01:05:35"
+  },
+  {
+    "Place": "142",
+    "Number": "129",
+    "Surename": "HAFNER",
+    "Name": "UROŠ",
+    "Time": "01:05:38"
+  },
+  {
+    "Place": "143",
+    "Number": "82",
+    "Surename": "ROTIM",
+    "Name": "IGOR",
+    "Time": "01:05:49"
+  },
+  {
+    "Place": "144",
+    "Number": "889",
+    "Surename": "ŠTEHARNIK",
+    "Name": "PRIMOŽ",
+    "Time": "01:05:57"
+  },
+  {
+    "Place": "145",
+    "Number": "848",
+    "Surename": "GAŠPERIN",
+    "Name": "LAN",
+    "Time": "01:06:01"
+  },
+  {
+    "Place": "146",
+    "Number": "9",
+    "Surename": "KLEMEN",
+    "Name": "PETER",
+    "Time": "01:06:08"
+  },
+  {
+    "Place": "147",
+    "Number": "942",
+    "Surename": "ALEGRO",
+    "Name": "GAŠPER",
+    "Time": "01:06:10"
+  },
+  {
+    "Place": "148",
+    "Number": "733",
+    "Surename": "MAKOVEC",
+    "Name": "GREGOR",
+    "Time": "01:06:16"
+  },
+  {
+    "Place": "149",
+    "Number": "859",
+    "Surename": "PLEŠE",
+    "Name": "BOJAN",
+    "Time": "01:06:17"
+  },
+  {
+    "Place": "150",
+    "Number": "1089",
+    "Surename": "RUPNIK KOKOŠINSKA",
+    "Name": "MARTINA",
+    "Time": "01:06:20"
+  },
+  {
+    "Place": "151",
+    "Number": "165",
+    "Surename": "JURJEC",
+    "Name": "ALEŠ",
+    "Time": "01:06:25"
+  },
+  {
+    "Place": "152",
+    "Number": "330",
+    "Surename": "AHČIN",
+    "Name": "MATEVŽ",
+    "Time": "01:06:25"
+  },
+  {
+    "Place": "153",
+    "Number": "1346",
+    "Surename": "VALLANT",
+    "Name": "GÜNTHER",
+    "Time": "01:06:27"
+  },
+  {
+    "Place": "154",
+    "Number": "818",
+    "Surename": "ZAMAN",
+    "Name": "MATJAŽ",
+    "Time": "01:06:33"
+  },
+  {
+    "Place": "155",
+    "Number": "468",
+    "Surename": "KAVAŠ",
+    "Name": "ROMAN",
+    "Time": "01:06:35"
+  },
+  {
+    "Place": "156",
+    "Number": "490",
+    "Surename": "MARN",
+    "Name": "MARKO",
+    "Time": "01:06:40"
+  },
+  {
+    "Place": "157",
+    "Number": "447",
+    "Surename": "KROPEJ",
+    "Name": "FRANCI",
+    "Time": "01:06:43"
+  },
+  {
+    "Place": "158",
+    "Number": "1173",
+    "Surename": "SETNIČAR",
+    "Name": "ROBERT",
+    "Time": "01:06:43"
+  },
+  {
+    "Place": "159",
+    "Number": "386",
+    "Surename": "ZAPLOTNIK",
+    "Name": "ANDRAŽ",
+    "Time": "01:06:45"
+  },
+  {
+    "Place": "160",
+    "Number": "682",
+    "Surename": "BENEDIČIČ",
+    "Name": "ANDREJ",
+    "Time": "01:06:49"
+  },
+  {
+    "Place": "161",
+    "Number": "288",
+    "Surename": "BARZAUNER",
+    "Name": "HELMUT",
+    "Time": "01:06:53"
+  },
+  {
+    "Place": "162",
+    "Number": "1229",
+    "Surename": "MAURER",
+    "Name": "SIEGFRIED",
+    "Time": "01:06:58"
+  },
+  {
+    "Place": "163",
+    "Number": "443",
+    "Surename": "PAVLIČ",
+    "Name": "MATEVŽ",
+    "Time": "01:06:59"
+  },
+  {
+    "Place": "164",
+    "Number": "460",
+    "Surename": "KRIŠTO",
+    "Name": "VIKTOR",
+    "Time": "01:07:12"
+  },
+  {
+    "Place": "165",
+    "Number": "1198",
+    "Surename": "BARBIČ",
+    "Name": "MATEJ",
+    "Time": "01:07:16"
+  },
+  {
+    "Place": "166",
+    "Number": "360",
+    "Surename": "KONJC",
+    "Name": "MARTINA",
+    "Time": "01:07:17"
+  },
+  {
+    "Place": "167",
+    "Number": "720",
+    "Surename": "RODE",
+    "Name": "TANJA",
+    "Time": "01:07:19"
+  },
+  {
+    "Place": "168",
+    "Number": "1341",
+    "Surename": "KLEMENČIČ",
+    "Name": "ZDENKO",
+    "Time": "01:07:25"
+  },
+  {
+    "Place": "169",
+    "Number": "932",
+    "Surename": "SVAB",
+    "Name": "MATIC",
+    "Time": "01:07:26"
+  },
+  {
+    "Place": "170",
+    "Number": "1239",
+    "Surename": "ONUK",
+    "Name": "BORIS",
+    "Time": "01:07:29"
+  },
+  {
+    "Place": "171",
+    "Number": "680",
+    "Surename": "PATAČKO KODERMAN",
+    "Name": "ŽIGA",
+    "Time": "01:07:29"
+  },
+  {
+    "Place": "172",
+    "Number": "59",
+    "Surename": "KRAMAR",
+    "Name": "MARKO",
+    "Time": "01:07:31"
+  },
+  {
+    "Place": "173",
+    "Number": "1157",
+    "Surename": "TANKO",
+    "Name": "PRIMOZ",
+    "Time": "01:07:34"
+  },
+  {
+    "Place": "174",
+    "Number": "1251",
+    "Surename": "MARKELJ",
+    "Name": "DUŠAN",
+    "Time": "01:07:38"
+  },
+  {
+    "Place": "175",
+    "Number": "569",
+    "Surename": "STUPICA",
+    "Name": "JANEZ",
+    "Time": "01:07:38"
+  },
+  {
+    "Place": "176",
+    "Number": "371",
+    "Surename": "KOSELJ",
+    "Name": "NACE",
+    "Time": "01:07:40"
+  },
+  {
+    "Place": "177",
+    "Number": "268",
+    "Surename": "MRAK",
+    "Name": "LIDIJA",
+    "Time": "01:07:40"
+  },
+  {
+    "Place": "178",
+    "Number": "1029",
+    "Surename": "KERN",
+    "Name": "ANA",
+    "Time": "01:07:46"
+  },
+  {
+    "Place": "179",
+    "Number": "175",
+    "Surename": "MAURIČ",
+    "Name": "ALOJZ",
+    "Time": "01:07:49"
+  },
+  {
+    "Place": "180",
+    "Number": "783",
+    "Surename": "ZAGORC",
+    "Name": "MATJAŽ",
+    "Time": "01:07:51"
+  },
+  {
+    "Place": "181",
+    "Number": "130",
+    "Surename": "KOCJANČIČ",
+    "Name": "GREGOR",
+    "Time": "01:07:53"
+  },
+  {
+    "Place": "182",
+    "Number": "1004",
+    "Surename": "GOMBOŠI",
+    "Name": "GREGOR",
+    "Time": "01:07:55"
+  },
+  {
+    "Place": "183",
+    "Number": "1036",
+    "Surename": "ARMAN",
+    "Name": "TINE",
+    "Time": "01:08:03"
+  },
+  {
+    "Place": "184",
+    "Number": "258",
+    "Surename": "JAMNIK",
+    "Name": "MIHA",
+    "Time": "01:08:04"
+  },
+  {
+    "Place": "185",
+    "Number": "201",
+    "Surename": "PEČNIK",
+    "Name": "UROŠ",
+    "Time": "01:08:06"
+  },
+  {
+    "Place": "186",
+    "Number": "1244",
+    "Surename": "RASPOTNIK",
+    "Name": "THOMAS",
+    "Time": "01:08:09"
+  },
+  {
+    "Place": "187",
+    "Number": "506",
+    "Surename": "KOČEVAR",
+    "Name": "JURIJ",
+    "Time": "01:08:12"
+  },
+  {
+    "Place": "188",
+    "Number": "166",
+    "Surename": "ŠTRAKL",
+    "Name": "AMADEJ",
+    "Time": "01:08:17"
+  },
+  {
+    "Place": "189",
+    "Number": "1176",
+    "Surename": "BRIC KROLNIK",
+    "Name": "JAKA",
+    "Time": "01:08:17"
+  },
+  {
+    "Place": "190",
+    "Number": "275",
+    "Surename": "KOLAR",
+    "Name": "ROK",
+    "Time": "01:08:18"
+  },
+  {
+    "Place": "191",
+    "Number": "1419",
+    "Surename": "SVETINA",
+    "Name": "TIN",
+    "Time": "01:08:19"
+  },
+  {
+    "Place": "192",
+    "Number": "1249",
+    "Surename": "HELLWEG",
+    "Name": "THOMAS",
+    "Time": "01:08:24"
+  },
+  {
+    "Place": "193",
+    "Number": "638",
+    "Surename": "BINTER",
+    "Name": "DENIS",
+    "Time": "01:08:27"
+  },
+  {
+    "Place": "194",
+    "Number": "1224",
+    "Surename": "HIPP",
+    "Name": "GERNOT",
+    "Time": "01:08:29"
+  },
+  {
+    "Place": "195",
+    "Number": "461",
+    "Surename": "KRIŠTO",
+    "Name": "GORAN",
+    "Time": "01:08:30"
+  },
+  {
+    "Place": "196",
+    "Number": "780",
+    "Surename": "BRATUŠA",
+    "Name": "ROBERT",
+    "Time": "01:08:33"
+  },
+  {
+    "Place": "197",
+    "Number": "1326",
+    "Surename": "DOVŽAN PEROVIĆ",
+    "Name": "ANŽE",
+    "Time": "01:08:35"
+  },
+  {
+    "Place": "198",
+    "Number": "435",
+    "Surename": "LIPIČNIK",
+    "Name": "ANDRAŽ",
+    "Time": "01:08:36"
+  },
+  {
+    "Place": "199",
+    "Number": "1271",
+    "Surename": "SKODLAR",
+    "Name": "ERIK",
+    "Time": "01:08:38"
+  },
+  {
+    "Place": "200",
+    "Number": "792",
+    "Surename": "DOBRAVC",
+    "Name": "MATJAZ",
+    "Time": "01:08:44"
+  },
+  {
+    "Place": "201",
+    "Number": "841",
+    "Surename": "DJURIC",
+    "Name": "LEON",
+    "Time": "01:08:50"
+  },
+  {
+    "Place": "202",
+    "Number": "280",
+    "Surename": "ATELJEVIC",
+    "Name": "ZORAN",
+    "Time": "01:08:53"
+  },
+  {
+    "Place": "203",
+    "Number": "287",
+    "Surename": "KITZBICHLER",
+    "Name": "ASTRID",
+    "Time": "01:08:53"
+  },
+  {
+    "Place": "204",
+    "Number": "88",
+    "Surename": "KAVČIČ",
+    "Name": "ROK",
+    "Time": "01:08:54"
+  },
+  {
+    "Place": "205",
+    "Number": "935",
+    "Surename": "OGRINC",
+    "Name": "LUKA",
+    "Time": "01:08:54"
+  },
+  {
+    "Place": "206",
+    "Number": "1333",
+    "Surename": "BRATINA",
+    "Name": "ANDREJ",
+    "Time": "01:08:55"
+  },
+  {
+    "Place": "207",
+    "Number": "1046",
+    "Surename": "ZUPAN",
+    "Name": "MATIC",
+    "Time": "01:08:55"
+  },
+  {
+    "Place": "208",
+    "Number": "1002",
+    "Surename": "VOLOVŠEK",
+    "Name": "JAKA",
+    "Time": "01:09:00"
+  },
+  {
+    "Place": "209",
+    "Number": "344",
+    "Surename": "MITHANS",
+    "Name": "BRANKO",
+    "Time": "01:09:01"
+  },
+  {
+    "Place": "210",
+    "Number": "448",
+    "Surename": "HAGER",
+    "Name": "HUBI",
+    "Time": "01:09:02"
+  },
+  {
+    "Place": "211",
+    "Number": "1115",
+    "Surename": "JEVŠNIK",
+    "Name": "ALEŠ",
+    "Time": "01:09:11"
+  },
+  {
+    "Place": "212",
+    "Number": "406",
+    "Surename": "GAŠPERIN",
+    "Name": "JURE",
+    "Time": "01:09:12"
+  },
+  {
+    "Place": "213",
+    "Number": "958",
+    "Surename": "OBLAK",
+    "Name": "ROK",
+    "Time": "01:09:13"
+  },
+  {
+    "Place": "214",
+    "Number": "1329",
+    "Surename": "MALI",
+    "Name": "KLEMEN",
+    "Time": "01:09:14"
+  },
+  {
+    "Place": "215",
+    "Number": "274",
+    "Surename": "ŠELEKAR",
+    "Name": "BLAŽ",
+    "Time": "01:09:21"
+  },
+  {
+    "Place": "216",
+    "Number": "477",
+    "Surename": "OBLAK",
+    "Name": "MIHA",
+    "Time": "01:09:25"
+  },
+  {
+    "Place": "217",
+    "Number": "905",
+    "Surename": "NOVŠAK",
+    "Name": "BOŠTJAN",
+    "Time": "01:09:26"
+  },
+  {
+    "Place": "218",
+    "Number": "1205",
+    "Surename": "PANGERC",
+    "Name": "DEJAN",
+    "Time": "01:09:29"
+  },
+  {
+    "Place": "219",
+    "Number": "592",
+    "Surename": "SADAR",
+    "Name": "MATIC",
+    "Time": "01:09:33"
+  },
+  {
+    "Place": "220",
+    "Number": "1093",
+    "Surename": "VINDIŠAR",
+    "Name": "JAKA",
+    "Time": "01:09:39"
+  },
+  {
+    "Place": "221",
+    "Number": "1277",
+    "Surename": "GORIŠEK",
+    "Name": "ANŽE",
+    "Time": "01:09:43"
+  },
+  {
+    "Place": "222",
+    "Number": "573",
+    "Surename": "JARC",
+    "Name": "JONATAN",
+    "Time": "01:09:43"
+  },
+  {
+    "Place": "223",
+    "Number": "83",
+    "Surename": "SAVIĆ",
+    "Name": "SIMON",
+    "Time": "01:09:45"
+  },
+  {
+    "Place": "224",
+    "Number": "947",
+    "Surename": "DUŠAN",
+    "Name": "JURIČ",
+    "Time": "01:09:48"
+  },
+  {
+    "Place": "225",
+    "Number": "840",
+    "Surename": "HOČEVAR",
+    "Name": "JANI",
+    "Time": "01:09:49"
+  },
+  {
+    "Place": "226",
+    "Number": "203",
+    "Surename": "RAK",
+    "Name": "GAJ",
+    "Time": "01:09:50"
+  },
+  {
+    "Place": "227",
+    "Number": "906",
+    "Surename": "BAJEC",
+    "Name": "KRISTIAN",
+    "Time": "01:09:51"
+  },
+  {
+    "Place": "228",
+    "Number": "653",
+    "Surename": "GOTLIB",
+    "Name": "SIMON",
+    "Time": "01:09:53"
+  },
+  {
+    "Place": "229",
+    "Number": "829",
+    "Surename": "TERTINEK",
+    "Name": "ALES",
+    "Time": "01:09:56"
+  },
+  {
+    "Place": "230",
+    "Number": "572",
+    "Surename": "CIZERLE",
+    "Name": "DAMJAN",
+    "Time": "01:09:58"
+  },
+  {
+    "Place": "231",
+    "Number": "392",
+    "Surename": "BITAR",
+    "Name": "NIKOLA",
+    "Time": "01:10:01"
+  },
+  {
+    "Place": "232",
+    "Number": "433",
+    "Surename": "ZUPAN",
+    "Name": "JAKA",
+    "Time": "01:10:02"
+  },
+  {
+    "Place": "233",
+    "Number": "952",
+    "Surename": "ZAMAN",
+    "Name": "JAKOB",
+    "Time": "01:10:03"
+  },
+  {
+    "Place": "234",
+    "Number": "42",
+    "Surename": "HRIBAR",
+    "Name": "MARUŠA",
+    "Time": "01:10:04"
+  },
+  {
+    "Place": "235",
+    "Number": "699",
+    "Surename": "PODOBNIK",
+    "Name": "JANEZ",
+    "Time": "01:10:06"
+  },
+  {
+    "Place": "236",
+    "Number": "1017",
+    "Surename": "MAČEROL",
+    "Name": "ANTON",
+    "Time": "01:10:12"
+  },
+  {
+    "Place": "237",
+    "Number": "1454",
+    "Surename": "WERBER",
+    "Name": "JURE",
+    "Time": "01:10:12"
+  },
+  {
+    "Place": "238",
+    "Number": "585",
+    "Surename": "MEISTERL",
+    "Name": "MARIO",
+    "Time": "01:10:13"
+  },
+  {
+    "Place": "239",
+    "Number": "722",
+    "Surename": "KASTELIC",
+    "Name": "MATIJA",
+    "Time": "01:10:16"
+  },
+  {
+    "Place": "240",
+    "Number": "387",
+    "Surename": "OFFENBACHER",
+    "Name": "MICHAEL",
+    "Time": "01:10:22"
+  },
+  {
+    "Place": "241",
+    "Number": "423",
+    "Surename": "KOSEM",
+    "Name": "TOMAŽ",
+    "Time": "01:10:23"
+  },
+  {
+    "Place": "242",
+    "Number": "1206",
+    "Surename": "MOHORČIČ",
+    "Name": "DAVID",
+    "Time": "01:10:23"
+  },
+  {
+    "Place": "243",
+    "Number": "242",
+    "Surename": "ROJEC",
+    "Name": "MATEJ",
+    "Time": "01:10:25"
+  },
+  {
+    "Place": "244",
+    "Number": "191",
+    "Surename": "NORBERT",
+    "Name": "HUSZÁR",
+    "Time": "01:10:25"
+  },
+  {
+    "Place": "245",
+    "Number": "784",
+    "Surename": "DOBRAVC",
+    "Name": "KLEMEN",
+    "Time": "01:10:28"
+  },
+  {
+    "Place": "246",
+    "Number": "629",
+    "Surename": "PETRONIO",
+    "Name": "FRANCO",
+    "Time": "01:10:30"
+  },
+  {
+    "Place": "247",
+    "Number": "1156",
+    "Surename": "ZAVRNIK",
+    "Name": "SERGEJ",
+    "Time": "01:10:31"
+  },
+  {
+    "Place": "248",
+    "Number": "1320",
+    "Surename": "ANDOLJSEK",
+    "Name": "MITJA",
+    "Time": "01:10:34"
+  },
+  {
+    "Place": "249",
+    "Number": "103",
+    "Surename": "ČERNIGOJ",
+    "Name": "PETER",
+    "Time": "01:10:34"
+  },
+  {
+    "Place": "250",
+    "Number": "866",
+    "Surename": "KVAS",
+    "Name": "JANEZ",
+    "Time": "01:10:38"
+  },
+  {
+    "Place": "251",
+    "Number": "432",
+    "Surename": "ZUPAN",
+    "Name": "BLAŽ",
+    "Time": "01:10:39"
+  },
+  {
+    "Place": "252",
+    "Number": "1339",
+    "Surename": "ČEH",
+    "Name": "ČOLI SLAVKO",
+    "Time": "01:10:46"
+  },
+  {
+    "Place": "253",
+    "Number": "1005",
+    "Surename": "OZBIC",
+    "Name": "IRENA",
+    "Time": "01:10:52"
+  },
+  {
+    "Place": "254",
+    "Number": "271",
+    "Surename": "MEJAČ",
+    "Name": "ANITA",
+    "Time": "01:10:54"
+  },
+  {
+    "Place": "255",
+    "Number": "190",
+    "Surename": "KOTROCZO",
+    "Name": "NANDOR",
+    "Time": "01:10:55"
+  },
+  {
+    "Place": "256",
+    "Number": "1394",
+    "Surename": "LENIČ",
+    "Name": "ALEŠ",
+    "Time": "01:10:57"
+  },
+  {
+    "Place": "257",
+    "Number": "323",
+    "Surename": "HERBERT KOFLER",
+    "Name": "HEIMO",
+    "Time": "01:11:01"
+  },
+  {
+    "Place": "258",
+    "Number": "263",
+    "Surename": "DEMŠAR",
+    "Name": "JURIJ",
+    "Time": "01:11:03"
+  },
+  {
+    "Place": "259",
+    "Number": "1245",
+    "Surename": "RASPOTNIK",
+    "Name": "CHRISTIAN",
+    "Time": "01:11:04"
+  },
+  {
+    "Place": "260",
+    "Number": "712",
+    "Surename": "POVSNAR",
+    "Name": "DEJAN",
+    "Time": "01:11:04"
+  },
+  {
+    "Place": "261",
+    "Number": "799",
+    "Surename": "WEISSENSTEIN",
+    "Name": "CARMEN",
+    "Time": "01:11:04"
+  },
+  {
+    "Place": "262",
+    "Number": "27",
+    "Surename": "GRAD",
+    "Name": "LUCIJA",
+    "Time": "01:11:05"
+  },
+  {
+    "Place": "263",
+    "Number": "804",
+    "Surename": "TOMOVIĆ",
+    "Name": "NIKI",
+    "Time": "01:11:08"
+  },
+  {
+    "Place": "264",
+    "Number": "67",
+    "Surename": "JOVANOVIĆ",
+    "Name": "SANDI",
+    "Time": "01:11:08"
+  },
+  {
+    "Place": "265",
+    "Number": "416",
+    "Surename": "BOGATAJ",
+    "Name": "IZTOK",
+    "Time": "01:11:08"
+  },
+  {
+    "Place": "266",
+    "Number": "180",
+    "Surename": "VODENIK",
+    "Name": "ANDREJ",
+    "Time": "01:11:10"
+  },
+  {
+    "Place": "267",
+    "Number": "1232",
+    "Surename": "GREGORC",
+    "Name": "ANITA",
+    "Time": "01:11:13"
+  },
+  {
+    "Place": "268",
+    "Number": "240",
+    "Surename": "KOUTER",
+    "Name": "DENIS",
+    "Time": "01:11:16"
+  },
+  {
+    "Place": "269",
+    "Number": "1264",
+    "Surename": "JENE",
+    "Name": "ROK",
+    "Time": "01:11:16"
+  },
+  {
+    "Place": "270",
+    "Number": "1087",
+    "Surename": "PUNCER",
+    "Name": "GAŠPER",
+    "Time": "01:11:16"
+  },
+  {
+    "Place": "271",
+    "Number": "163",
+    "Surename": "GONZA",
+    "Name": "ALEN",
+    "Time": "01:11:20"
+  },
+  {
+    "Place": "272",
+    "Number": "1260",
+    "Surename": "SILOVŠEK",
+    "Name": "MARTIN",
+    "Time": "01:11:23"
+  },
+  {
+    "Place": "273",
+    "Number": "672",
+    "Surename": "MIHELJ",
+    "Name": "GREGOR",
+    "Time": "01:11:27"
+  },
+  {
+    "Place": "274",
+    "Number": "463",
+    "Surename": "SEVER",
+    "Name": "BORIS",
+    "Time": "01:11:28"
+  },
+  {
+    "Place": "275",
+    "Number": "1451",
+    "Surename": "VOGRINEC",
+    "Name": "MILAN",
+    "Time": "01:11:30"
+  },
+  {
+    "Place": "276",
+    "Number": "223",
+    "Surename": "SRAML",
+    "Name": "JAN",
+    "Time": "01:11:36"
+  },
+  {
+    "Place": "277",
+    "Number": "591",
+    "Surename": "UPELJ",
+    "Name": "NEJC",
+    "Time": "01:11:38"
+  },
+  {
+    "Place": "278",
+    "Number": "1318",
+    "Surename": "PUŠAVEC",
+    "Name": "KATJA",
+    "Time": "01:11:40"
+  },
+  {
+    "Place": "279",
+    "Number": "144",
+    "Surename": "ŽAGAR",
+    "Name": "DOMEN",
+    "Time": "01:11:41"
+  },
+  {
+    "Place": "280",
+    "Number": "1274",
+    "Surename": "BELAJ",
+    "Name": "NIKO",
+    "Time": "01:11:45"
+  },
+  {
+    "Place": "281",
+    "Number": "1373",
+    "Surename": "MEGUŠAR",
+    "Name": "LOVRO",
+    "Time": "01:11:45"
+  },
+  {
+    "Place": "282",
+    "Number": "1463",
+    "Surename": "VENTORINI",
+    "Name": "TOBIA",
+    "Time": "01:11:45"
+  },
+  {
+    "Place": "283",
+    "Number": "508",
+    "Surename": "JAKŠA",
+    "Name": "MATEJ",
+    "Time": "01:11:50"
+  },
+  {
+    "Place": "284",
+    "Number": "1187",
+    "Surename": "NOVAK",
+    "Name": "DENIS",
+    "Time": "01:11:52"
+  },
+  {
+    "Place": "285",
+    "Number": "890",
+    "Surename": "RAK",
+    "Name": "JAN",
+    "Time": "01:11:57"
+  },
+  {
+    "Place": "286",
+    "Number": "705",
+    "Surename": "FOJKAR",
+    "Name": "ZAN",
+    "Time": "01:12:02"
+  },
+  {
+    "Place": "287",
+    "Number": "1507",
+    "Surename": "JELUSIC",
+    "Name": "DEJAN",
+    "Time": "01:12:03"
+  },
+  {
+    "Place": "288",
+    "Number": "1252",
+    "Surename": "GASER",
+    "Name": "MATEJ",
+    "Time": "01:12:06"
+  },
+  {
+    "Place": "289",
+    "Number": "87",
+    "Surename": "IVANJKO",
+    "Name": "KLEMEN",
+    "Time": "01:12:09"
+  },
+  {
+    "Place": "290",
+    "Number": "1182",
+    "Surename": "HEKIC",
+    "Name": "GORAN",
+    "Time": "01:12:10"
+  },
+  {
+    "Place": "291",
+    "Number": "775",
+    "Surename": "MEDVED",
+    "Name": "ALEŠ",
+    "Time": "01:12:10"
+  },
+  {
+    "Place": "292",
+    "Number": "1065",
+    "Surename": "MARTINČIČ",
+    "Name": "GAŠPER",
+    "Time": "01:12:16"
+  },
+  {
+    "Place": "293",
+    "Number": "28",
+    "Surename": "MIKUŽ",
+    "Name": "ROBI",
+    "Time": "01:12:23"
+  },
+  {
+    "Place": "294",
+    "Number": "251",
+    "Surename": "LAZAR",
+    "Name": "GAŠPER",
+    "Time": "01:12:27"
+  },
+  {
+    "Place": "295",
+    "Number": "410",
+    "Surename": "RICLER",
+    "Name": "MÁRTON",
+    "Time": "01:12:28"
+  },
+  {
+    "Place": "296",
+    "Number": "1241",
+    "Surename": "HORVAT",
+    "Name": "TOMAŽ",
+    "Time": "01:12:30"
+  },
+  {
+    "Place": "297",
+    "Number": "822",
+    "Surename": "JERMAN",
+    "Name": "ŽIGA",
+    "Time": "01:12:32"
+  },
+  {
+    "Place": "298",
+    "Number": "372",
+    "Surename": "BERČON",
+    "Name": "DAVID",
+    "Time": "01:12:32"
+  },
+  {
+    "Place": "299",
+    "Number": "1172",
+    "Surename": "MAROVT",
+    "Name": "TIM",
+    "Time": "01:12:34"
+  },
+  {
+    "Place": "300",
+    "Number": "605",
+    "Surename": "VERGELJ",
+    "Name": "MOJCA",
+    "Time": "01:12:34"
+  },
+  {
+    "Place": "301",
+    "Number": "17",
+    "Surename": "PERČIČ",
+    "Name": "MARKO",
+    "Time": "01:12:37"
+  },
+  {
+    "Place": "302",
+    "Number": "1079",
+    "Surename": "JANKOVIČ",
+    "Name": "ALEŠ",
+    "Time": "01:12:39"
+  },
+  {
+    "Place": "303",
+    "Number": "92",
+    "Surename": "ZAJC",
+    "Name": "TOMAZ",
+    "Time": "01:12:49"
+  },
+  {
+    "Place": "304",
+    "Number": "1099",
+    "Surename": "BIZJAK",
+    "Name": "MARKO",
+    "Time": "01:12:51"
+  },
+  {
+    "Place": "305",
+    "Number": "301",
+    "Surename": "ŽIŠKA",
+    "Name": "ONDŘEJ",
+    "Time": "01:12:53"
+  },
+  {
+    "Place": "306",
+    "Number": "431",
+    "Surename": "GÁBOR",
+    "Name": "MIKLOVICZ",
+    "Time": "01:12:53"
+  },
+  {
+    "Place": "307",
+    "Number": "548",
+    "Surename": "LEKŠE",
+    "Name": "MITJA",
+    "Time": "01:12:55"
+  },
+  {
+    "Place": "308",
+    "Number": "1098",
+    "Surename": "KRAMAR",
+    "Name": "MIHA",
+    "Time": "01:12:55"
+  },
+  {
+    "Place": "309",
+    "Number": "1397",
+    "Surename": "ĐURIĆ",
+    "Name": "BOJAN",
+    "Time": "01:12:55"
+  },
+  {
+    "Place": "310",
+    "Number": "824",
+    "Surename": "KOČEVAR",
+    "Name": "DUŠAN",
+    "Time": "01:13:00"
+  },
+  {
+    "Place": "311",
+    "Number": "976",
+    "Surename": "BERK",
+    "Name": "KRISTJAN",
+    "Time": "01:13:01"
+  },
+  {
+    "Place": "312",
+    "Number": "394",
+    "Surename": "BUH",
+    "Name": "PETER",
+    "Time": "01:13:03"
+  },
+  {
+    "Place": "313",
+    "Number": "1383",
+    "Surename": "PONIKVAR",
+    "Name": "TOBIJA",
+    "Time": "01:13:04"
+  },
+  {
+    "Place": "314",
+    "Number": "253",
+    "Surename": "SENICA",
+    "Name": "MILOŠ",
+    "Time": "01:13:05"
+  },
+  {
+    "Place": "315",
+    "Number": "1016",
+    "Surename": "SUŠNIK",
+    "Name": "JUŠ",
+    "Time": "01:13:05"
+  },
+  {
+    "Place": "316",
+    "Number": "1434",
+    "Surename": "PODLIPNIK",
+    "Name": "MATEJ",
+    "Time": "01:13:06"
+  },
+  {
+    "Place": "317",
+    "Number": "348",
+    "Surename": "GROM",
+    "Name": "ALJOŠA",
+    "Time": "01:13:14"
+  },
+  {
+    "Place": "318",
+    "Number": "854",
+    "Surename": "JESIH",
+    "Name": "MARTIN",
+    "Time": "01:13:15"
+  },
+  {
+    "Place": "319",
+    "Number": "884",
+    "Surename": "GJERGJEK",
+    "Name": "TIMI",
+    "Time": "01:13:21"
+  },
+  {
+    "Place": "320",
+    "Number": "938",
+    "Surename": "ROM",
+    "Name": "OSKAR",
+    "Time": "01:13:25"
+  },
+  {
+    "Place": "321",
+    "Number": "830",
+    "Surename": "DOBNIK",
+    "Name": "MATJAŽ",
+    "Time": "01:13:27"
+  },
+  {
+    "Place": "322",
+    "Number": "736",
+    "Surename": "SOVILLA",
+    "Name": "DENIS",
+    "Time": "01:13:28"
+  },
+  {
+    "Place": "323",
+    "Number": "787",
+    "Surename": "RANT",
+    "Name": "MATEJ",
+    "Time": "01:13:32"
+  },
+  {
+    "Place": "324",
+    "Number": "362",
+    "Surename": "FILIPIČ",
+    "Name": "MARKO",
+    "Time": "01:13:34"
+  },
+  {
+    "Place": "325",
+    "Number": "1474",
+    "Surename": "EGART",
+    "Name": "GREGA",
+    "Time": "01:13:37"
+  },
+  {
+    "Place": "326",
+    "Number": "1175",
+    "Surename": "STEINER",
+    "Name": "KURT",
+    "Time": "01:13:42"
+  },
+  {
+    "Place": "327",
+    "Number": "870",
+    "Surename": "COSTAPERARIA",
+    "Name": "FEDERICO",
+    "Time": "01:13:44"
+  },
+  {
+    "Place": "328",
+    "Number": "156",
+    "Surename": "JEREB",
+    "Name": "GASPER",
+    "Time": "01:13:44"
+  },
+  {
+    "Place": "329",
+    "Number": "731",
+    "Surename": "BOHINC",
+    "Name": "MIHA",
+    "Time": "01:13:50"
+  },
+  {
+    "Place": "330",
+    "Number": "1294",
+    "Surename": "TAVČAR",
+    "Name": "KLEMEN",
+    "Time": "01:13:50"
+  },
+  {
+    "Place": "331",
+    "Number": "56",
+    "Surename": "ŠTRASNER",
+    "Name": "JERNEJ",
+    "Time": "01:13:58"
+  },
+  {
+    "Place": "332",
+    "Number": "187",
+    "Surename": "KRŠINAR",
+    "Name": "ANAMARIJA",
+    "Time": "01:13:58"
+  },
+  {
+    "Place": "333",
+    "Number": "210",
+    "Surename": "FUCHS",
+    "Name": "ALOJZ",
+    "Time": "01:14:03"
+  },
+  {
+    "Place": "334",
+    "Number": "835",
+    "Surename": "TURITTO",
+    "Name": "LIVIO",
+    "Time": "01:14:06"
+  },
+  {
+    "Place": "335",
+    "Number": "206",
+    "Surename": "GROBLJAR",
+    "Name": "LEON",
+    "Time": "01:14:09"
+  },
+  {
+    "Place": "336",
+    "Number": "650",
+    "Surename": "JELENCIC",
+    "Name": "MIHA",
+    "Time": "01:14:10"
+  },
+  {
+    "Place": "337",
+    "Number": "1007",
+    "Surename": "MROVLJE",
+    "Name": "DENIS",
+    "Time": "01:14:10"
+  },
+  {
+    "Place": "338",
+    "Number": "111",
+    "Surename": "MAZE",
+    "Name": "ALJA",
+    "Time": "01:14:10"
+  },
+  {
+    "Place": "339",
+    "Number": "147",
+    "Surename": "ORAŽEM",
+    "Name": "ŽIGA",
+    "Time": "01:14:15"
+  },
+  {
+    "Place": "340",
+    "Number": "1282",
+    "Surename": "OMRZEL",
+    "Name": "RAFKO",
+    "Time": "01:14:17"
+  },
+  {
+    "Place": "341",
+    "Number": "1185",
+    "Surename": "RAKOVEC",
+    "Name": "MIHA",
+    "Time": "01:14:18"
+  },
+  {
+    "Place": "342",
+    "Number": "1025",
+    "Surename": "DOLINAR",
+    "Name": "ANŽE",
+    "Time": "01:14:22"
+  },
+  {
+    "Place": "343",
+    "Number": "868",
+    "Surename": "ISTENIČ",
+    "Name": "FILIP",
+    "Time": "01:14:22"
+  },
+  {
+    "Place": "344",
+    "Number": "1343",
+    "Surename": "HREN",
+    "Name": "PRIMOŽ",
+    "Time": "01:14:25"
+  },
+  {
+    "Place": "345",
+    "Number": "225",
+    "Surename": "KOLENC",
+    "Name": "TINA",
+    "Time": "01:14:25"
+  },
+  {
+    "Place": "346",
+    "Number": "753",
+    "Surename": "TURIČNIK",
+    "Name": "SAŠO",
+    "Time": "01:14:28"
+  },
+  {
+    "Place": "347",
+    "Number": "1388",
+    "Surename": "STREMFELJ",
+    "Name": "PETER",
+    "Time": "01:14:28"
+  },
+  {
+    "Place": "348",
+    "Number": "1344",
+    "Surename": "AŽMAN",
+    "Name": "JANEZ",
+    "Time": "01:14:31"
+  },
+  {
+    "Place": "349",
+    "Number": "101",
+    "Surename": "DEBELAK",
+    "Name": "MATIC",
+    "Time": "01:14:32"
+  },
+  {
+    "Place": "350",
+    "Number": "609",
+    "Surename": "BARAKONYI",
+    "Name": "GERGO",
+    "Time": "01:14:33"
+  },
+  {
+    "Place": "351",
+    "Number": "1483",
+    "Surename": "KOSMAČ",
+    "Name": "TOMAŽ",
+    "Time": "01:14:34"
+  },
+  {
+    "Place": "352",
+    "Number": "220",
+    "Surename": "NAVOTNIK",
+    "Name": "TOMI",
+    "Time": "01:14:39"
+  },
+  {
+    "Place": "353",
+    "Number": "321",
+    "Surename": "JAGER",
+    "Name": "MATEJ",
+    "Time": "01:14:39"
+  },
+  {
+    "Place": "354",
+    "Number": "1149",
+    "Surename": "OPAČIĆ",
+    "Name": "VID",
+    "Time": "01:14:41"
+  },
+  {
+    "Place": "355",
+    "Number": "1420",
+    "Surename": "KOPIC",
+    "Name": "MATIC",
+    "Time": "01:14:41"
+  },
+  {
+    "Place": "356",
+    "Number": "376",
+    "Surename": "HARTMAN",
+    "Name": "LOVRO",
+    "Time": "01:14:45"
+  },
+  {
+    "Place": "357",
+    "Number": "595",
+    "Surename": "PEČNIK",
+    "Name": "UROŠ",
+    "Time": "01:14:46"
+  },
+  {
+    "Place": "358",
+    "Number": "1279",
+    "Surename": "KOUZOV",
+    "Name": "VICTOR",
+    "Time": "01:14:48"
+  },
+  {
+    "Place": "359",
+    "Number": "628",
+    "Surename": "GAŠPERIN",
+    "Name": "ROBERT",
+    "Time": "01:14:51"
+  },
+  {
+    "Place": "360",
+    "Number": "487",
+    "Surename": "MIKOLIČ",
+    "Name": "JAN",
+    "Time": "01:14:51"
+  },
+  {
+    "Place": "361",
+    "Number": "77",
+    "Surename": "DECMAN",
+    "Name": "GASPER",
+    "Time": "01:14:51"
+  },
+  {
+    "Place": "362",
+    "Number": "5",
+    "Surename": "",
+    "Name": "",
+    "Time": "01:14:52"
+  },
+  {
+    "Place": "363",
+    "Number": "873",
+    "Surename": "PIRC",
+    "Name": "BOŠTJAN",
+    "Time": "01:14:52"
+  },
+  {
+    "Place": "364",
+    "Number": "941",
+    "Surename": "VRAČUN",
+    "Name": "JANKO",
+    "Time": "01:14:56"
+  },
+  {
+    "Place": "365",
+    "Number": "1133",
+    "Surename": "VILMAN",
+    "Name": "LEA",
+    "Time": "01:15:00"
+  },
+  {
+    "Place": "366",
+    "Number": "462",
+    "Surename": "ŠTIMAC",
+    "Name": "SANJIN",
+    "Time": "01:15:01"
+  },
+  {
+    "Place": "367",
+    "Number": "1129",
+    "Surename": "DOLINAR",
+    "Name": "DANIJEL",
+    "Time": "01:15:05"
+  },
+  {
+    "Place": "368",
+    "Number": "464",
+    "Surename": "LEVPUŠČEK",
+    "Name": "IZTOK",
+    "Time": "01:15:08"
+  },
+  {
+    "Place": "369",
+    "Number": "1416",
+    "Surename": "DOMJANIC",
+    "Name": "JURE",
+    "Time": "01:15:10"
+  },
+  {
+    "Place": "370",
+    "Number": "1238",
+    "Surename": "DERVARIČ",
+    "Name": "SAŠO",
+    "Time": "01:15:11"
+  },
+  {
+    "Place": "371",
+    "Number": "429",
+    "Surename": "KRALJ",
+    "Name": "JAKOB",
+    "Time": "01:15:13"
+  },
+  {
+    "Place": "372",
+    "Number": "502",
+    "Surename": "LAINŠČEK",
+    "Name": "DOMINIK",
+    "Time": "01:15:15"
+  },
+  {
+    "Place": "373",
+    "Number": "560",
+    "Surename": "ROJ",
+    "Name": "MITJA",
+    "Time": "01:15:17"
+  },
+  {
+    "Place": "374",
+    "Number": "539",
+    "Surename": "ŽITKO",
+    "Name": "DAMJAN",
+    "Time": "01:15:19"
+  },
+  {
+    "Place": "375",
+    "Number": "217",
+    "Surename": "KLENOVŠEK",
+    "Name": "KLEMEN",
+    "Time": "01:15:20"
+  },
+  {
+    "Place": "376",
+    "Number": "469",
+    "Surename": "PLANKO",
+    "Name": "ZDRAVKO",
+    "Time": "01:15:25"
+  },
+  {
+    "Place": "377",
+    "Number": "903",
+    "Surename": "KOPAČ",
+    "Name": "JAKA",
+    "Time": "01:15:27"
+  },
+  {
+    "Place": "378",
+    "Number": "863",
+    "Surename": "BEŠENIČ",
+    "Name": "ROBERT",
+    "Time": "01:15:27"
+  },
+  {
+    "Place": "379",
+    "Number": "1057",
+    "Surename": "BISCANIN",
+    "Name": "IGOR",
+    "Time": "01:15:29"
+  },
+  {
+    "Place": "380",
+    "Number": "992",
+    "Surename": "ZAMAN",
+    "Name": "MIJA",
+    "Time": "01:15:31"
+  },
+  {
+    "Place": "381",
+    "Number": "1278",
+    "Surename": "PLANOVŠEK",
+    "Name": "JERNEJ",
+    "Time": "01:15:32"
+  },
+  {
+    "Place": "382",
+    "Number": "622",
+    "Surename": "CUZNAR",
+    "Name": "IGOR",
+    "Time": "01:15:33"
+  },
+  {
+    "Place": "383",
+    "Number": "308",
+    "Surename": "URBANČIČ",
+    "Name": "ANŽE",
+    "Time": "01:15:34"
+  },
+  {
+    "Place": "384",
+    "Number": "891",
+    "Surename": "ZUPAN",
+    "Name": "MAJA",
+    "Time": "01:15:35"
+  },
+  {
+    "Place": "385",
+    "Number": "1124",
+    "Surename": "BOŠTJANČIČ",
+    "Name": "ŽIGA",
+    "Time": "01:15:36"
+  },
+  {
+    "Place": "386",
+    "Number": "961",
+    "Surename": "KUKOVEC",
+    "Name": "DAVID MARTIN",
+    "Time": "01:15:36"
+  },
+  {
+    "Place": "387",
+    "Number": "331",
+    "Surename": "VESEL",
+    "Name": "MATEJ",
+    "Time": "01:15:38"
+  },
+  {
+    "Place": "388",
+    "Number": "923",
+    "Surename": "LOVŠIN",
+    "Name": "ROK",
+    "Time": "01:15:40"
+  },
+  {
+    "Place": "389",
+    "Number": "186",
+    "Surename": "SETNIČAR",
+    "Name": "ROK",
+    "Time": "01:15:41"
+  },
+  {
+    "Place": "390",
+    "Number": "654",
+    "Surename": "NICODEMO",
+    "Name": "ALBERTO",
+    "Time": "01:15:44"
+  },
+  {
+    "Place": "391",
+    "Number": "307",
+    "Surename": "POLJANŠEK",
+    "Name": "NEJC",
+    "Time": "01:15:48"
+  },
+  {
+    "Place": "392",
+    "Number": "305",
+    "Surename": "TRČEK",
+    "Name": "SAŠO",
+    "Time": "01:15:51"
+  },
+  {
+    "Place": "393",
+    "Number": "70",
+    "Surename": "BENKO",
+    "Name": "NEJC",
+    "Time": "01:15:54"
+  },
+  {
+    "Place": "394",
+    "Number": "1170",
+    "Surename": "KOZAR",
+    "Name": "TADEJ",
+    "Time": "01:15:54"
+  },
+  {
+    "Place": "395",
+    "Number": "104",
+    "Surename": "BAJC",
+    "Name": "LUKA",
+    "Time": "01:15:56"
+  },
+  {
+    "Place": "396",
+    "Number": "1174",
+    "Surename": "PRISTOVNIK",
+    "Name": "SAVO",
+    "Time": "01:15:58"
+  },
+  {
+    "Place": "397",
+    "Number": "1336",
+    "Surename": "GRZNAR",
+    "Name": "MILOS",
+    "Time": "01:15:59"
+  },
+  {
+    "Place": "398",
+    "Number": "343",
+    "Surename": "KACIN",
+    "Name": "JERNEJ",
+    "Time": "01:16:05"
+  },
+  {
+    "Place": "399",
+    "Number": "901",
+    "Surename": "MEDEN",
+    "Name": "VESNA",
+    "Time": "01:16:05"
+  },
+  {
+    "Place": "400",
+    "Number": "339",
+    "Surename": "MOROZ",
+    "Name": "GAŠPER",
+    "Time": "01:16:07"
+  },
+  {
+    "Place": "401",
+    "Number": "1240",
+    "Surename": "ZAGORC",
+    "Name": "BORUT",
+    "Time": "01:16:12"
+  },
+  {
+    "Place": "402",
+    "Number": "1275",
+    "Surename": "KOČNIK",
+    "Name": "ŽAN",
+    "Time": "01:16:13"
+  },
+  {
+    "Place": "403",
+    "Number": "1295",
+    "Surename": "LAMBERGAR",
+    "Name": "BLAŽ",
+    "Time": "01:16:15"
+  },
+  {
+    "Place": "404",
+    "Number": "84",
+    "Surename": "KUZMAN",
+    "Name": "TILEN",
+    "Time": "01:16:16"
+  },
+  {
+    "Place": "405",
+    "Number": "1128",
+    "Surename": "MATIJASIC",
+    "Name": "LAURA",
+    "Time": "01:16:18"
+  },
+  {
+    "Place": "406",
+    "Number": "1389",
+    "Surename": "ROZMAN",
+    "Name": "UROŠ",
+    "Time": "01:16:19"
+  },
+  {
+    "Place": "407",
+    "Number": "964",
+    "Surename": "GODAR",
+    "Name": "MARTIN",
+    "Time": "01:16:26"
+  },
+  {
+    "Place": "408",
+    "Number": "1268",
+    "Surename": "SINKIĆ",
+    "Name": "MLADEN",
+    "Time": "01:16:28"
+  },
+  {
+    "Place": "409",
+    "Number": "1192",
+    "Surename": "RAZPOTNIK",
+    "Name": "MARKO",
+    "Time": "01:16:29"
+  },
+  {
+    "Place": "410",
+    "Number": "526",
+    "Surename": "TANČICA",
+    "Name": "ANDREJ",
+    "Time": "01:16:31"
+  },
+  {
+    "Place": "411",
+    "Number": "1061",
+    "Surename": "TRNJANIN",
+    "Name": "ZLATKO",
+    "Time": "01:16:32"
+  },
+  {
+    "Place": "412",
+    "Number": "277",
+    "Surename": "CIMPRIČ",
+    "Name": "GAŠPER",
+    "Time": "01:16:34"
+  },
+  {
+    "Place": "413",
+    "Number": "449",
+    "Surename": "HAGER",
+    "Name": "RUDOLF",
+    "Time": "01:16:35"
+  },
+  {
+    "Place": "414",
+    "Number": "426",
+    "Surename": "OMAHEN",
+    "Name": "SIMON",
+    "Time": "01:16:37"
+  },
+  {
+    "Place": "415",
+    "Number": "378",
+    "Surename": "ŠPES",
+    "Name": "MITJA",
+    "Time": "01:16:37"
+  },
+  {
+    "Place": "416",
+    "Number": "920",
+    "Surename": "REBERNAK",
+    "Name": "GASPER",
+    "Time": "01:16:39"
+  },
+  {
+    "Place": "417",
+    "Number": "740",
+    "Surename": "ZUPANCIC",
+    "Name": "NADINE",
+    "Time": "01:16:40"
+  },
+  {
+    "Place": "418",
+    "Number": "1190",
+    "Surename": "UPELJ",
+    "Name": "JURE",
+    "Time": "01:16:44"
+  },
+  {
+    "Place": "419",
+    "Number": "933",
+    "Surename": "ANŽLOVAR",
+    "Name": "ŽIGA",
+    "Time": "01:16:46"
+  },
+  {
+    "Place": "420",
+    "Number": "172",
+    "Surename": "BIZJAK",
+    "Name": "DAVID",
+    "Time": "01:16:46"
+  },
+  {
+    "Place": "421",
+    "Number": "444",
+    "Surename": "NOVAK",
+    "Name": "MITJA",
+    "Time": "01:16:49"
+  },
+  {
+    "Place": "422",
+    "Number": "837",
+    "Surename": "PENNA",
+    "Name": "LUCA",
+    "Time": "01:16:49"
+  },
+  {
+    "Place": "423",
+    "Number": "643",
+    "Surename": "SCHAUNIG",
+    "Name": "MICHAEL",
+    "Time": "01:16:50"
+  },
+  {
+    "Place": "424",
+    "Number": "702",
+    "Surename": "KLEMENČIČ",
+    "Name": "PAVLE",
+    "Time": "01:16:52"
+  },
+  {
+    "Place": "425",
+    "Number": "1166",
+    "Surename": "ŽMAHAR",
+    "Name": "ROK",
+    "Time": "01:16:53"
+  },
+  {
+    "Place": "426",
+    "Number": "1181",
+    "Surename": "VENTA",
+    "Name": "SANDI",
+    "Time": "01:16:54"
+  },
+  {
+    "Place": "427",
+    "Number": "383",
+    "Surename": "MELINK",
+    "Name": "MATEJ",
+    "Time": "01:16:58"
+  },
+  {
+    "Place": "428",
+    "Number": "584",
+    "Surename": "KOROŠEC",
+    "Name": "KLEMEN",
+    "Time": "01:16:59"
+  },
+  {
+    "Place": "429",
+    "Number": "1183",
+    "Surename": "ŠEF",
+    "Name": "MATJAŽ",
+    "Time": "01:17:00"
+  },
+  {
+    "Place": "430",
+    "Number": "1196",
+    "Surename": "KNEZ",
+    "Name": "SIMON",
+    "Time": "01:17:00"
+  },
+  {
+    "Place": "431",
+    "Number": "1365",
+    "Surename": "HOHENBERGER",
+    "Name": "RONNY",
+    "Time": "01:17:02"
+  },
+  {
+    "Place": "432",
+    "Number": "1072",
+    "Surename": "ZADRAVEC",
+    "Name": "ALEN",
+    "Time": "01:17:07"
+  },
+  {
+    "Place": "433",
+    "Number": "899",
+    "Surename": "GAMBS",
+    "Name": "ANDREAS",
+    "Time": "01:17:08"
+  },
+  {
+    "Place": "434",
+    "Number": "1391",
+    "Surename": "GLAVENDEKIĆ",
+    "Name": "RANKO",
+    "Time": "01:17:12"
+  },
+  {
+    "Place": "435",
+    "Number": "517",
+    "Surename": "WINKLER",
+    "Name": "MANFRED",
+    "Time": "01:17:13"
+  },
+  {
+    "Place": "436",
+    "Number": "838",
+    "Surename": "PITTAO",
+    "Name": "FULVIO",
+    "Time": "01:17:17"
+  },
+  {
+    "Place": "437",
+    "Number": "687",
+    "Surename": "RAHNE",
+    "Name": "MATIC",
+    "Time": "01:17:23"
+  },
+  {
+    "Place": "438",
+    "Number": "553",
+    "Surename": "HAFNAR",
+    "Name": "PETER",
+    "Time": "01:17:24"
+  },
+  {
+    "Place": "439",
+    "Number": "732",
+    "Surename": "FABJAN",
+    "Name": "NEJC",
+    "Time": "01:17:25"
+  },
+  {
+    "Place": "440",
+    "Number": "661",
+    "Surename": "MLINAR",
+    "Name": "VALERIJA",
+    "Time": "01:17:25"
+  },
+  {
+    "Place": "441",
+    "Number": "106",
+    "Surename": "ŽELEZNIK",
+    "Name": "PETRA",
+    "Time": "01:17:26"
+  },
+  {
+    "Place": "442",
+    "Number": "613",
+    "Surename": "VIDMAR",
+    "Name": "SIMON",
+    "Time": "01:17:28"
+  },
+  {
+    "Place": "443",
+    "Number": "1146",
+    "Surename": "ROŽMAN",
+    "Name": "DOMEN",
+    "Time": "01:17:30"
+  },
+  {
+    "Place": "444",
+    "Number": "1312",
+    "Surename": "RAZINGER",
+    "Name": "URBAN",
+    "Time": "01:17:30"
+  },
+  {
+    "Place": "445",
+    "Number": "533",
+    "Surename": "GORTNAR",
+    "Name": "ANDREJ",
+    "Time": "01:17:32"
+  },
+  {
+    "Place": "446",
+    "Number": "981",
+    "Surename": "KURIDŽA",
+    "Name": "BOJAN",
+    "Time": "01:17:39"
+  },
+  {
+    "Place": "447",
+    "Number": "1033",
+    "Surename": "ZERJAL",
+    "Name": "ANDREJ",
+    "Time": "01:17:41"
+  },
+  {
+    "Place": "448",
+    "Number": "338",
+    "Surename": "NAPOTNIK",
+    "Name": "JOŠT",
+    "Time": "01:17:42"
+  },
+  {
+    "Place": "449",
+    "Number": "803",
+    "Surename": "TOMOVIĆ",
+    "Name": "SAŠO",
+    "Time": "01:17:43"
+  },
+  {
+    "Place": "450",
+    "Number": "91",
+    "Surename": "HALEC",
+    "Name": "SEBASTJAN",
+    "Time": "01:17:47"
+  },
+  {
+    "Place": "451",
+    "Number": "214",
+    "Surename": "MEDLE",
+    "Name": "LUKA",
+    "Time": "01:17:54"
+  },
+  {
+    "Place": "452",
+    "Number": "669",
+    "Surename": "PRITRŽNIK",
+    "Name": "TOMAŽ",
+    "Time": "01:17:54"
+  },
+  {
+    "Place": "453",
+    "Number": "1314",
+    "Surename": "GORINJAC",
+    "Name": "ZIJAD",
+    "Time": "01:17:54"
+  },
+  {
+    "Place": "454",
+    "Number": "442",
+    "Surename": "PAVLIČ",
+    "Name": "DAVID",
+    "Time": "01:17:56"
+  },
+  {
+    "Place": "455",
+    "Number": "749",
+    "Surename": "OSGYÁNI",
+    "Name": "DÁVID",
+    "Time": "01:17:58"
+  },
+  {
+    "Place": "456",
+    "Number": "264",
+    "Surename": "KREK",
+    "Name": "JON",
+    "Time": "01:18:00"
+  },
+  {
+    "Place": "457",
+    "Number": "117",
+    "Surename": "BARIŠIČ",
+    "Name": "EVA",
+    "Time": "01:18:01"
+  },
+  {
+    "Place": "458",
+    "Number": "823",
+    "Surename": "EGED",
+    "Name": "ZOLTÁN",
+    "Time": "01:18:03"
+  },
+  {
+    "Place": "459",
+    "Number": "892",
+    "Surename": "TRŽAN",
+    "Name": "BOŠTJAN",
+    "Time": "01:18:05"
+  },
+  {
+    "Place": "460",
+    "Number": "1440",
+    "Surename": "ČOP",
+    "Name": "MARKO",
+    "Time": "01:18:08"
+  },
+  {
+    "Place": "461",
+    "Number": "896",
+    "Surename": "LOPATIČ",
+    "Name": "SANDI",
+    "Time": "01:18:11"
+  },
+  {
+    "Place": "462",
+    "Number": "994",
+    "Surename": "KOBLIČ",
+    "Name": "ALEŠ",
+    "Time": "01:18:11"
+  },
+  {
+    "Place": "463",
+    "Number": "865",
+    "Surename": "BIZJAK",
+    "Name": "ROMAN",
+    "Time": "01:18:14"
+  },
+  {
+    "Place": "464",
+    "Number": "714",
+    "Surename": "MOHORKO",
+    "Name": "DARKO",
+    "Time": "01:18:16"
+  },
+  {
+    "Place": "465",
+    "Number": "7",
+    "Surename": "VERTAČNIK",
+    "Name": "SLAVI",
+    "Time": "01:18:16"
+  },
+  {
+    "Place": "466",
+    "Number": "8",
+    "Surename": "SEVŠEK",
+    "Name": "MATIC",
+    "Time": "01:18:17"
+  },
+  {
+    "Place": "467",
+    "Number": "1218",
+    "Surename": "JUCH",
+    "Name": "HEIMO",
+    "Time": "01:18:18"
+  },
+  {
+    "Place": "468",
+    "Number": "1443",
+    "Surename": "POGAČNIK",
+    "Name": "KARMEN",
+    "Time": "01:18:18"
+  },
+  {
+    "Place": "469",
+    "Number": "1299",
+    "Surename": "MUHA",
+    "Name": "NEJC",
+    "Time": "01:18:21"
+  },
+  {
+    "Place": "470",
+    "Number": "1352",
+    "Surename": "ARVAJ",
+    "Name": "MATIJA",
+    "Time": "01:18:23"
+  },
+  {
+    "Place": "471",
+    "Number": "1298",
+    "Surename": "POZAR",
+    "Name": "MATEVZ",
+    "Time": "01:18:25"
+  },
+  {
+    "Place": "472",
+    "Number": "601",
+    "Surename": "KODELJA",
+    "Name": "JANEZ",
+    "Time": "01:18:26"
+  },
+  {
+    "Place": "473",
+    "Number": "135",
+    "Surename": "HORVAT",
+    "Name": "LUKA",
+    "Time": "01:18:27"
+  },
+  {
+    "Place": "474",
+    "Number": "1453",
+    "Surename": "HORVAT",
+    "Name": "RENE",
+    "Time": "01:18:27"
+  },
+  {
+    "Place": "475",
+    "Number": "1178",
+    "Surename": "KRALJ",
+    "Name": "KLEMEN",
+    "Time": "01:18:36"
+  },
+  {
+    "Place": "476",
+    "Number": "1097",
+    "Surename": "KRAMAR",
+    "Name": "DARKO",
+    "Time": "01:18:37"
+  },
+  {
+    "Place": "477",
+    "Number": "751",
+    "Surename": "GRAČNAR",
+    "Name": "ROMAN",
+    "Time": "01:18:37"
+  },
+  {
+    "Place": "478",
+    "Number": "549",
+    "Surename": "ARKO",
+    "Name": "TJAŠA",
+    "Time": "01:18:41"
+  },
+  {
+    "Place": "479",
+    "Number": "37",
+    "Surename": "ŠVAB",
+    "Name": "ANŽE",
+    "Time": "01:18:42"
+  },
+  {
+    "Place": "480",
+    "Number": "984",
+    "Surename": "TEKAVČIČ",
+    "Name": "ŽAN",
+    "Time": "01:18:48"
+  },
+  {
+    "Place": "481",
+    "Number": "247",
+    "Surename": "JERMAN",
+    "Name": "NEJC",
+    "Time": "01:18:50"
+  },
+  {
+    "Place": "482",
+    "Number": "286",
+    "Surename": "PETŘÍK",
+    "Name": "MILAN",
+    "Time": "01:18:50"
+  },
+  {
+    "Place": "483",
+    "Number": "651",
+    "Surename": "SEVCNIKAR",
+    "Name": "ALJAZ",
+    "Time": "01:18:50"
+  },
+  {
+    "Place": "484",
+    "Number": "1467",
+    "Surename": "VALENČIČ",
+    "Name": "UROŠ",
+    "Time": "01:18:50"
+  },
+  {
+    "Place": "485",
+    "Number": "243",
+    "Surename": "MALEŠIČ",
+    "Name": "MATEVŽ",
+    "Time": "01:18:51"
+  },
+  {
+    "Place": "486",
+    "Number": "353",
+    "Surename": "MARGON",
+    "Name": "SIMON",
+    "Time": "01:18:53"
+  },
+  {
+    "Place": "487",
+    "Number": "668",
+    "Surename": "KLEČ",
+    "Name": "GREGA",
+    "Time": "01:18:53"
+  },
+  {
+    "Place": "488",
+    "Number": "635",
+    "Surename": "LAMBERGER",
+    "Name": "PETER",
+    "Time": "01:18:55"
+  },
+  {
+    "Place": "489",
+    "Number": "369",
+    "Surename": "ZORE",
+    "Name": "ŠPELA",
+    "Time": "01:18:59"
+  },
+  {
+    "Place": "490",
+    "Number": "977",
+    "Surename": "URLEB",
+    "Name": "UROŠ",
+    "Time": "01:19:00"
+  },
+  {
+    "Place": "491",
+    "Number": "1351",
+    "Surename": "ZUPAN",
+    "Name": "ALJAŽ",
+    "Time": "01:19:00"
+  },
+  {
+    "Place": "492",
+    "Number": "1505",
+    "Surename": "ČUKAJ",
+    "Name": "DENIS",
+    "Time": "01:19:01"
+  },
+  {
+    "Place": "493",
+    "Number": "1135",
+    "Surename": "REMIC",
+    "Name": "PETRA",
+    "Time": "01:19:01"
+  },
+  {
+    "Place": "494",
+    "Number": "739",
+    "Surename": "GERTSCHNIG",
+    "Name": "SABRINA",
+    "Time": "01:19:10"
+  },
+  {
+    "Place": "495",
+    "Number": "955",
+    "Surename": "IVAČIČ",
+    "Name": "TOMAŽ",
+    "Time": "01:19:12"
+  },
+  {
+    "Place": "496",
+    "Number": "202",
+    "Surename": "BUČAN",
+    "Name": "KLEMEN",
+    "Time": "01:19:12"
+  },
+  {
+    "Place": "497",
+    "Number": "445",
+    "Surename": "NOVAK",
+    "Name": "MATIC",
+    "Time": "01:19:17"
+  },
+  {
+    "Place": "498",
+    "Number": "937",
+    "Surename": "MATJAČIČ",
+    "Name": "TIN",
+    "Time": "01:19:23"
+  },
+  {
+    "Place": "499",
+    "Number": "1202",
+    "Surename": "VONČINA",
+    "Name": "TIM",
+    "Time": "01:19:24"
+  },
+  {
+    "Place": "500",
+    "Number": "134",
+    "Surename": "ZAJC",
+    "Name": "MOJCA",
+    "Time": "01:19:30"
+  },
+  {
+    "Place": "501",
+    "Number": "132",
+    "Surename": "RAČIČ",
+    "Name": "MARTIN",
+    "Time": "01:19:34"
+  },
+  {
+    "Place": "502",
+    "Number": "972",
+    "Surename": "",
+    "Name": "",
+    "Time": "01:19:38"
+  },
+  {
+    "Place": "503",
+    "Number": "1243",
+    "Surename": "VALANT",
+    "Name": "FRENK",
+    "Time": "01:19:40"
+  },
+  {
+    "Place": "504",
+    "Number": "334",
+    "Surename": "STARČEVIĆ",
+    "Name": "DARIO",
+    "Time": "01:19:41"
+  },
+  {
+    "Place": "505",
+    "Number": "1408",
+    "Surename": "PIRC",
+    "Name": "MATEJ",
+    "Time": "01:19:41"
+  },
+  {
+    "Place": "506",
+    "Number": "1406",
+    "Surename": "RIBIČ",
+    "Name": "ŽIGA",
+    "Time": "01:19:50"
+  },
+  {
+    "Place": "507",
+    "Number": "398",
+    "Surename": "JERAJ",
+    "Name": "EVA",
+    "Time": "01:19:51"
+  },
+  {
+    "Place": "508",
+    "Number": "1012",
+    "Surename": "GOSTINCAR",
+    "Name": "TIM",
+    "Time": "01:19:52"
+  },
+  {
+    "Place": "509",
+    "Number": "1445",
+    "Surename": "PORENTA",
+    "Name": "EMA",
+    "Time": "01:19:54"
+  },
+  {
+    "Place": "510",
+    "Number": "813",
+    "Surename": "EIBEL",
+    "Name": "DAMIR",
+    "Time": "01:19:55"
+  },
+  {
+    "Place": "511",
+    "Number": "768",
+    "Surename": "HRNČÍŘ",
+    "Name": "LUKÁŠ",
+    "Time": "01:19:56"
+  },
+  {
+    "Place": "512",
+    "Number": "1422",
+    "Surename": "PINTER",
+    "Name": "BOŠTJAN",
+    "Time": "01:19:58"
+  },
+  {
+    "Place": "513",
+    "Number": "969",
+    "Surename": "KUZMIČ",
+    "Name": "SIMON",
+    "Time": "01:20:00"
+  },
+  {
+    "Place": "514",
+    "Number": "320",
+    "Surename": "BALAŽIC",
+    "Name": "SIMON",
+    "Time": "01:20:00"
+  },
+  {
+    "Place": "515",
+    "Number": "232",
+    "Surename": "GRUM",
+    "Name": "KRISTJAN",
+    "Time": "01:20:00"
+  },
+  {
+    "Place": "516",
+    "Number": "239",
+    "Surename": "JEVŠOVAR",
+    "Name": "PRIMOŽ",
+    "Time": "01:20:03"
+  },
+  {
+    "Place": "517",
+    "Number": "505",
+    "Surename": "ŠTILEC",
+    "Name": "MIHA",
+    "Time": "01:20:06"
+  },
+  {
+    "Place": "518",
+    "Number": "368",
+    "Surename": "MANDELJ",
+    "Name": "LUKA",
+    "Time": "01:20:11"
+  },
+  {
+    "Place": "519",
+    "Number": "534",
+    "Surename": "ĆERIĆ",
+    "Name": "BORIS",
+    "Time": "01:20:12"
+  },
+  {
+    "Place": "520",
+    "Number": "1390",
+    "Surename": "KLUKOVIČ",
+    "Name": "TILEN",
+    "Time": "01:20:12"
+  },
+  {
+    "Place": "521",
+    "Number": "471",
+    "Surename": "KODRIČ",
+    "Name": "SIMON",
+    "Time": "01:20:15"
+  },
+  {
+    "Place": "522",
+    "Number": "430",
+    "Surename": "KRALJ",
+    "Name": "URBAN",
+    "Time": "01:20:16"
+  },
+  {
+    "Place": "523",
+    "Number": "965",
+    "Surename": "ČREŠNAR",
+    "Name": "PRIMOŽ",
+    "Time": "01:20:16"
+  },
+  {
+    "Place": "524",
+    "Number": "35",
+    "Surename": "MARINKOVIĆ",
+    "Name": "ROBERT",
+    "Time": "01:20:18"
+  },
+  {
+    "Place": "525",
+    "Number": "151",
+    "Surename": "MILIVOJEVIĆ",
+    "Name": "RASTKO",
+    "Time": "01:20:20"
+  },
+  {
+    "Place": "526",
+    "Number": "215",
+    "Surename": "GORIČANEC",
+    "Name": "JANEZ",
+    "Time": "01:20:20"
+  },
+  {
+    "Place": "527",
+    "Number": "1158",
+    "Surename": "ILC",
+    "Name": "MIHA",
+    "Time": "01:20:25"
+  },
+  {
+    "Place": "528",
+    "Number": "515",
+    "Surename": "JANIETZ",
+    "Name": "MATHIAS",
+    "Time": "01:20:30"
+  },
+  {
+    "Place": "529",
+    "Number": "608",
+    "Surename": "LAVRIČ",
+    "Name": "ANDREJ",
+    "Time": "01:20:36"
+  },
+  {
+    "Place": "530",
+    "Number": "912",
+    "Surename": "KLEMENČIČ",
+    "Name": "MATJAŽ",
+    "Time": "01:20:36"
+  },
+  {
+    "Place": "531",
+    "Number": "86",
+    "Surename": "VASIĆ",
+    "Name": "RADOMIR",
+    "Time": "01:20:40"
+  },
+  {
+    "Place": "532",
+    "Number": "1040",
+    "Surename": "ŽENKO",
+    "Name": "BLAŽ",
+    "Time": "01:20:42"
+  },
+  {
+    "Place": "533",
+    "Number": "1290",
+    "Surename": "NOVŠAK",
+    "Name": "PETER",
+    "Time": "01:20:47"
+  },
+  {
+    "Place": "534",
+    "Number": "561",
+    "Surename": "CASASOLA",
+    "Name": "MATTIA",
+    "Time": "01:20:49"
+  },
+  {
+    "Place": "535",
+    "Number": "1482",
+    "Surename": "KRENKER",
+    "Name": "KLEMEN",
+    "Time": "01:20:55"
+  },
+  {
+    "Place": "536",
+    "Number": "1421",
+    "Surename": "HOLER",
+    "Name": "JANKO JANEZ",
+    "Time": "01:21:03"
+  },
+  {
+    "Place": "537",
+    "Number": "66",
+    "Surename": "VIDERGAR",
+    "Name": "JANEZ",
+    "Time": "01:21:03"
+  },
+  {
+    "Place": "538",
+    "Number": "1090",
+    "Surename": "KUŽNIK",
+    "Name": "ANDRAŽ",
+    "Time": "01:21:06"
+  },
+  {
+    "Place": "539",
+    "Number": "1466",
+    "Surename": "NIKOLIĆ",
+    "Name": "ANA",
+    "Time": "01:21:06"
+  },
+  {
+    "Place": "540",
+    "Number": "1345",
+    "Surename": "JELEN HÖBERL",
+    "Name": "ANDREAS",
+    "Time": "01:21:07"
+  },
+  {
+    "Place": "541",
+    "Number": "957",
+    "Surename": "KOŠIR",
+    "Name": "TINE",
+    "Time": "01:21:10"
+  },
+  {
+    "Place": "542",
+    "Number": "568",
+    "Surename": "MANDELJ",
+    "Name": "ŽIGA",
+    "Time": "01:21:10"
+  },
+  {
+    "Place": "543",
+    "Number": "1459",
+    "Surename": "HOČEVAR",
+    "Name": "MARJAN",
+    "Time": "01:21:10"
+  },
+  {
+    "Place": "544",
+    "Number": "1400",
+    "Surename": "BENEDIČIČ",
+    "Name": "MITJA",
+    "Time": "01:21:12"
+  },
+  {
+    "Place": "545",
+    "Number": "76",
+    "Surename": "",
+    "Name": "",
+    "Time": "01:21:19"
+  },
+  {
+    "Place": "546",
+    "Number": "624",
+    "Surename": "MEZNARČIČ",
+    "Name": "BLAŽ",
+    "Time": "01:21:20"
+  },
+  {
+    "Place": "547",
+    "Number": "78",
+    "Surename": "",
+    "Name": "",
+    "Time": "01:21:22"
+  },
+  {
+    "Place": "548",
+    "Number": "1415",
+    "Surename": "BAROVIČ",
+    "Name": "MILAN",
+    "Time": "01:21:22"
+  },
+  {
+    "Place": "549",
+    "Number": "157",
+    "Surename": "LEGAN",
+    "Name": "NINA",
+    "Time": "01:21:27"
+  },
+  {
+    "Place": "550",
+    "Number": "325",
+    "Surename": "TOJNKO",
+    "Name": "SREČKO",
+    "Time": "01:21:34"
+  },
+  {
+    "Place": "551",
+    "Number": "648",
+    "Surename": "KOREVAAR",
+    "Name": "PETER",
+    "Time": "01:21:37"
+  },
+  {
+    "Place": "552",
+    "Number": "843",
+    "Surename": "BRODNIK",
+    "Name": "MATJAZ",
+    "Time": "01:21:38"
+  },
+  {
+    "Place": "553",
+    "Number": "1384",
+    "Surename": "PAVLICA",
+    "Name": "BOSTJAN",
+    "Time": "01:21:39"
+  },
+  {
+    "Place": "554",
+    "Number": "551",
+    "Surename": "PALATIN",
+    "Name": "TOMAZ",
+    "Time": "01:21:44"
+  },
+  {
+    "Place": "555",
+    "Number": "544",
+    "Surename": "CVIRN",
+    "Name": "PETER",
+    "Time": "01:21:45"
+  },
+  {
+    "Place": "556",
+    "Number": "633",
+    "Surename": "GUCEK",
+    "Name": "KRISTJAN",
+    "Time": "01:21:46"
+  },
+  {
+    "Place": "557",
+    "Number": "241",
+    "Surename": "MEDIŽEVEC",
+    "Name": "MATEVŽ",
+    "Time": "01:21:50"
+  },
+  {
+    "Place": "558",
+    "Number": "1114",
+    "Surename": "GOVEKAR",
+    "Name": "ANDREJ",
+    "Time": "01:21:50"
+  },
+  {
+    "Place": "559",
+    "Number": "1118",
+    "Surename": "OBLAK",
+    "Name": "KRISTINA",
+    "Time": "01:21:50"
+  },
+  {
+    "Place": "560",
+    "Number": "1330",
+    "Surename": "ŽAVBI",
+    "Name": "ROMAN",
+    "Time": "01:21:52"
+  },
+  {
+    "Place": "561",
+    "Number": "864",
+    "Surename": "KOTNIK",
+    "Name": "KLEMEN",
+    "Time": "01:21:53"
+  },
+  {
+    "Place": "562",
+    "Number": "1292",
+    "Surename": "KOZMUS",
+    "Name": "TOMAŽ",
+    "Time": "01:21:54"
+  },
+  {
+    "Place": "563",
+    "Number": "414",
+    "Surename": "PETROVA",
+    "Name": "PLAMENA",
+    "Time": "01:21:57"
+  },
+  {
+    "Place": "564",
+    "Number": "259",
+    "Surename": "JUROVIC",
+    "Name": "JERKO",
+    "Time": "01:21:58"
+  },
+  {
+    "Place": "565",
+    "Number": "38",
+    "Surename": "MEGLIČ",
+    "Name": "IZIDOR",
+    "Time": "01:22:02"
+  },
+  {
+    "Place": "566",
+    "Number": "1162",
+    "Surename": "VOZELJ",
+    "Name": "NEJC",
+    "Time": "01:22:03"
+  },
+  {
+    "Place": "567",
+    "Number": "1030",
+    "Surename": "BOHINC",
+    "Name": "SERGEJ",
+    "Time": "01:22:05"
+  },
+  {
+    "Place": "568",
+    "Number": "602",
+    "Surename": "RENER",
+    "Name": "DAVID",
+    "Time": "01:22:05"
+  },
+  {
+    "Place": "569",
+    "Number": "834",
+    "Surename": "VIDMAR",
+    "Name": "ZIGA",
+    "Time": "01:22:09"
+  },
+  {
+    "Place": "570",
+    "Number": "425",
+    "Surename": "TRONTELJ",
+    "Name": "KLEMEN",
+    "Time": "01:22:13"
+  },
+  {
+    "Place": "571",
+    "Number": "963",
+    "Surename": "OVIJAČ",
+    "Name": "KAJA",
+    "Time": "01:22:19"
+  },
+  {
+    "Place": "572",
+    "Number": "265",
+    "Surename": "WISTLICH",
+    "Name": "CHRISTOPHER",
+    "Time": "01:22:21"
+  },
+  {
+    "Place": "573",
+    "Number": "793",
+    "Surename": "SVETEC",
+    "Name": "LUKA",
+    "Time": "01:22:21"
+  },
+  {
+    "Place": "574",
+    "Number": "110",
+    "Surename": "HANŽIČ",
+    "Name": "SIMON",
+    "Time": "01:22:23"
+  },
+  {
+    "Place": "575",
+    "Number": "701",
+    "Surename": "ROJKO",
+    "Name": "GREGA",
+    "Time": "01:22:26"
+  },
+  {
+    "Place": "576",
+    "Number": "612",
+    "Surename": "DROBNIČ",
+    "Name": "VID",
+    "Time": "01:22:27"
+  },
+  {
+    "Place": "577",
+    "Number": "1316",
+    "Surename": "PUŠAVEC",
+    "Name": "DORA",
+    "Time": "01:22:30"
+  },
+  {
+    "Place": "578",
+    "Number": "709",
+    "Surename": "VODAN",
+    "Name": "RIKO",
+    "Time": "01:22:31"
+  },
+  {
+    "Place": "579",
+    "Number": "1380",
+    "Surename": "ORLČNIK",
+    "Name": "VOJKO",
+    "Time": "01:22:40"
+  },
+  {
+    "Place": "580",
+    "Number": "306",
+    "Surename": "VIDMAR",
+    "Name": "JURE",
+    "Time": "01:22:42"
+  },
+  {
+    "Place": "581",
+    "Number": "893",
+    "Surename": "ROPOŠA",
+    "Name": "BORUT",
+    "Time": "01:22:43"
+  },
+  {
+    "Place": "582",
+    "Number": "686",
+    "Surename": "ARH",
+    "Name": "KRISTIJAN",
+    "Time": "01:22:49"
+  },
+  {
+    "Place": "583",
+    "Number": "566",
+    "Surename": "LEKAN",
+    "Name": "BOŠTJAN",
+    "Time": "01:22:50"
+  },
+  {
+    "Place": "584",
+    "Number": "895",
+    "Surename": "SLANA",
+    "Name": "DEJAN",
+    "Time": "01:22:51"
+  },
+  {
+    "Place": "585",
+    "Number": "940",
+    "Surename": "KRIŽANEC",
+    "Name": "LUKA",
+    "Time": "01:22:51"
+  },
+  {
+    "Place": "586",
+    "Number": "1132",
+    "Surename": "MEMIĆ",
+    "Name": "MIRSAD",
+    "Time": "01:22:53"
+  },
+  {
+    "Place": "587",
+    "Number": "667",
+    "Surename": "ROŽIČ",
+    "Name": "BORUT",
+    "Time": "01:22:55"
+  },
+  {
+    "Place": "588",
+    "Number": "143",
+    "Surename": "CAPUDER",
+    "Name": "ANDREJ",
+    "Time": "01:22:57"
+  },
+  {
+    "Place": "589",
+    "Number": "1060",
+    "Surename": "ČEMAŽAR",
+    "Name": "NIKO",
+    "Time": "01:22:57"
+  },
+  {
+    "Place": "590",
+    "Number": "1253",
+    "Surename": "VALENTINČIČ",
+    "Name": "ANDREJ",
+    "Time": "01:22:57"
+  },
+  {
+    "Place": "591",
+    "Number": "752",
+    "Surename": "VALENTI",
+    "Name": "VINKO",
+    "Time": "01:23:03"
+  },
+  {
+    "Place": "592",
+    "Number": "869",
+    "Surename": "AHAČIČ",
+    "Name": "GAŠPER",
+    "Time": "01:23:04"
+  },
+  {
+    "Place": "593",
+    "Number": "1067",
+    "Surename": "SABBADINI",
+    "Name": "CRISTIAN",
+    "Time": "01:23:05"
+  },
+  {
+    "Place": "594",
+    "Number": "593",
+    "Surename": "RETELJ",
+    "Name": "JURE",
+    "Time": "01:23:06"
+  },
+  {
+    "Place": "595",
+    "Number": "482",
+    "Surename": "MOHORKO",
+    "Name": "JAKA",
+    "Time": "01:23:07"
+  },
+  {
+    "Place": "596",
+    "Number": "1227",
+    "Surename": "KUSTERLE",
+    "Name": "CHRISTIAN",
+    "Time": "01:23:10"
+  },
+  {
+    "Place": "597",
+    "Number": "322",
+    "Surename": "DIETRICHSTEINER",
+    "Name": "PETER",
+    "Time": "01:23:12"
+  },
+  {
+    "Place": "598",
+    "Number": "750",
+    "Surename": "SOJKA",
+    "Name": "MICHAL",
+    "Time": "01:23:20"
+  },
+  {
+    "Place": "599",
+    "Number": "756",
+    "Surename": "BERTOLE",
+    "Name": "ALEN",
+    "Time": "01:23:25"
+  },
+  {
+    "Place": "600",
+    "Number": "1321",
+    "Surename": "JURŠIČ",
+    "Name": "BORUT",
+    "Time": "01:23:33"
+  },
+  {
+    "Place": "601",
+    "Number": "807",
+    "Surename": "HORVAT",
+    "Name": "IGOR",
+    "Time": "01:23:34"
+  },
+  {
+    "Place": "602",
+    "Number": "1236",
+    "Surename": "REPOVŽ",
+    "Name": "JAKA",
+    "Time": "01:23:35"
+  },
+  {
+    "Place": "603",
+    "Number": "851",
+    "Surename": "TIŠLER",
+    "Name": "ŽIGA",
+    "Time": "01:23:36"
+  },
+  {
+    "Place": "604",
+    "Number": "734",
+    "Surename": "SLEMENŠEK",
+    "Name": "ROBERT",
+    "Time": "01:23:37"
+  },
+  {
+    "Place": "605",
+    "Number": "1261",
+    "Surename": "SILOVŠEK",
+    "Name": "CIRIL",
+    "Time": "01:23:38"
+  },
+  {
+    "Place": "606",
+    "Number": "481",
+    "Surename": "BURNIK",
+    "Name": "IZA",
+    "Time": "01:23:39"
+  },
+  {
+    "Place": "607",
+    "Number": "1452",
+    "Surename": "VOGRINEC",
+    "Name": "KRISTIJAN",
+    "Time": "01:23:41"
+  },
+  {
+    "Place": "608",
+    "Number": "155",
+    "Surename": "LEGAN",
+    "Name": "ROK",
+    "Time": "01:23:42"
+  },
+  {
+    "Place": "609",
+    "Number": "523",
+    "Surename": "SOLDAT",
+    "Name": "TIMOTEJ",
+    "Time": "01:23:43"
+  },
+  {
+    "Place": "610",
+    "Number": "520",
+    "Surename": "BEVK",
+    "Name": "LUKA",
+    "Time": "01:23:48"
+  },
+  {
+    "Place": "611",
+    "Number": "1256",
+    "Surename": "TOMAZIN",
+    "Name": "ROK",
+    "Time": "01:23:50"
+  },
+  {
+    "Place": "612",
+    "Number": "582",
+    "Surename": "HOLZMANN",
+    "Name": "JOACHIM",
+    "Time": "01:23:51"
+  },
+  {
+    "Place": "613",
+    "Number": "189",
+    "Surename": "DI GAETANO",
+    "Name": "YARI",
+    "Time": "01:23:51"
+  },
+  {
+    "Place": "614",
+    "Number": "107",
+    "Surename": "BIZJAK",
+    "Name": "TATJANA",
+    "Time": "01:23:53"
+  },
+  {
+    "Place": "615",
+    "Number": "1225",
+    "Surename": "STREICHER",
+    "Name": "WOLFGANG",
+    "Time": "01:23:59"
+  },
+  {
+    "Place": "616",
+    "Number": "381",
+    "Surename": "ROSSONE",
+    "Name": "ALEX",
+    "Time": "01:24:05"
+  },
+  {
+    "Place": "617",
+    "Number": "897",
+    "Surename": "ŽIBERT",
+    "Name": "MARKO",
+    "Time": "01:24:07"
+  },
+  {
+    "Place": "618",
+    "Number": "586",
+    "Surename": "WERNIG",
+    "Name": "SIGI",
+    "Time": "01:24:08"
+  },
+  {
+    "Place": "619",
+    "Number": "284",
+    "Surename": "GROSEK",
+    "Name": "KLEMEN",
+    "Time": "01:24:12"
+  },
+  {
+    "Place": "620",
+    "Number": "1021",
+    "Surename": "ČERMELJ",
+    "Name": "GREGOR",
+    "Time": "01:24:16"
+  },
+  {
+    "Place": "621",
+    "Number": "828",
+    "Surename": "TERTINEK",
+    "Name": "UROŠ",
+    "Time": "01:24:16"
+  },
+  {
+    "Place": "622",
+    "Number": "1331",
+    "Surename": "FICKO",
+    "Name": "KRISTJAN",
+    "Time": "01:24:20"
+  },
+  {
+    "Place": "623",
+    "Number": "1056",
+    "Surename": "LUŽAR",
+    "Name": "MATIC",
+    "Time": "01:24:23"
+  },
+  {
+    "Place": "624",
+    "Number": "1013",
+    "Surename": "ŠTER",
+    "Name": "MAJA",
+    "Time": "01:24:26"
+  },
+  {
+    "Place": "625",
+    "Number": "1288",
+    "Surename": "MARTINCIC",
+    "Name": "MATEVZ",
+    "Time": "01:24:27"
+  },
+  {
+    "Place": "626",
+    "Number": "317",
+    "Surename": "FRIEßENBICHLER",
+    "Name": "MELINA",
+    "Time": "01:24:29"
+  },
+  {
+    "Place": "627",
+    "Number": "814",
+    "Surename": "WAGNER",
+    "Name": "MONIKA",
+    "Time": "01:24:30"
+  },
+  {
+    "Place": "628",
+    "Number": "341",
+    "Surename": "TERSEK",
+    "Name": "GREGA",
+    "Time": "01:24:33"
+  },
+  {
+    "Place": "629",
+    "Number": "1442",
+    "Surename": "RAJK",
+    "Name": "JURE",
+    "Time": "01:24:35"
+  },
+  {
+    "Place": "630",
+    "Number": "1121",
+    "Surename": "JANKOVIČ",
+    "Name": "PETRA",
+    "Time": "01:24:35"
+  },
+  {
+    "Place": "631",
+    "Number": "153",
+    "Surename": "KASTELIC",
+    "Name": "KLEMEN",
+    "Time": "01:24:36"
+  },
+  {
+    "Place": "632",
+    "Number": "472",
+    "Surename": "KOS",
+    "Name": "TOMAZ",
+    "Time": "01:24:36"
+  },
+  {
+    "Place": "633",
+    "Number": "314",
+    "Surename": "OGORELC",
+    "Name": "MATJAŽ",
+    "Time": "01:24:37"
+  },
+  {
+    "Place": "634",
+    "Number": "1403",
+    "Surename": "MEŠKO",
+    "Name": "JAKOB",
+    "Time": "01:24:37"
+  },
+  {
+    "Place": "635",
+    "Number": "1035",
+    "Surename": "STOJANOVIČ",
+    "Name": "NEJC",
+    "Time": "01:24:39"
+  },
+  {
+    "Place": "636",
+    "Number": "397",
+    "Surename": "LEVPUŠČEK",
+    "Name": "IZTOK",
+    "Time": "01:24:43"
+  },
+  {
+    "Place": "637",
+    "Number": "973",
+    "Surename": "KUKOVIČIČ",
+    "Name": "BOŠTJAN",
+    "Time": "01:24:45"
+  },
+  {
+    "Place": "638",
+    "Number": "1304",
+    "Surename": "DOLHAR",
+    "Name": "DAVID",
+    "Time": "01:24:48"
+  },
+  {
+    "Place": "639",
+    "Number": "1353",
+    "Surename": "GORIŠEK",
+    "Name": "JAKA",
+    "Time": "01:24:48"
+  },
+  {
+    "Place": "640",
+    "Number": "485",
+    "Surename": "KOLAR",
+    "Name": "NIKO",
+    "Time": "01:24:48"
+  },
+  {
+    "Place": "641",
+    "Number": "351",
+    "Surename": "BRANISELJ",
+    "Name": "ANEJ",
+    "Time": "01:24:49"
+  },
+  {
+    "Place": "642",
+    "Number": "43",
+    "Surename": "GLAVIČ",
+    "Name": "BOŠTJAN",
+    "Time": "01:24:50"
+  },
+  {
+    "Place": "643",
+    "Number": "480",
+    "Surename": "NOVAK",
+    "Name": "MATEJ",
+    "Time": "01:24:50"
+  },
+  {
+    "Place": "644",
+    "Number": "1361",
+    "Surename": "HORVAT",
+    "Name": "JAN",
+    "Time": "01:24:50"
+  },
+  {
+    "Place": "645",
+    "Number": "1437",
+    "Surename": "GORJANC",
+    "Name": "BLAŽ",
+    "Time": "01:24:51"
+  },
+  {
+    "Place": "646",
+    "Number": "809",
+    "Surename": "ODAR",
+    "Name": "TOMO",
+    "Time": "01:24:53"
+  },
+  {
+    "Place": "647",
+    "Number": "583",
+    "Surename": "MAROVT",
+    "Name": "MARKO",
+    "Time": "01:24:53"
+  },
+  {
+    "Place": "648",
+    "Number": "540",
+    "Surename": "SLUGA",
+    "Name": "BOSTJAN",
+    "Time": "01:24:54"
+  },
+  {
+    "Place": "649",
+    "Number": "725",
+    "Surename": "PERKO",
+    "Name": "NEJC",
+    "Time": "01:24:54"
+  },
+  {
+    "Place": "650",
+    "Number": "248",
+    "Surename": "NOSE",
+    "Name": "FILIP",
+    "Time": "01:24:55"
+  },
+  {
+    "Place": "651",
+    "Number": "52",
+    "Surename": "VIRANT",
+    "Name": "PETRA",
+    "Time": "01:24:55"
+  },
+  {
+    "Place": "652",
+    "Number": "1392",
+    "Surename": "BONCELJ",
+    "Name": "PETRA",
+    "Time": "01:24:58"
+  },
+  {
+    "Place": "653",
+    "Number": "970",
+    "Surename": "TOMAŽIČ",
+    "Name": "GREGOR",
+    "Time": "01:25:04"
+  },
+  {
+    "Place": "654",
+    "Number": "39",
+    "Surename": "TOMAŽIČ",
+    "Name": "ANDREJ",
+    "Time": "01:25:09"
+  },
+  {
+    "Place": "655",
+    "Number": "159",
+    "Surename": "VUGREK",
+    "Name": "MARIO",
+    "Time": "01:25:09"
+  },
+  {
+    "Place": "656",
+    "Number": "1194",
+    "Surename": "DOLINŠEK",
+    "Name": "JON",
+    "Time": "01:25:15"
+  },
+  {
+    "Place": "657",
+    "Number": "366",
+    "Surename": "DREVENŠEK",
+    "Name": "MARKO",
+    "Time": "01:25:16"
+  },
+  {
+    "Place": "658",
+    "Number": "879",
+    "Surename": "SOLAR",
+    "Name": "MIRAN",
+    "Time": "01:25:18"
+  },
+  {
+    "Place": "659",
+    "Number": "488",
+    "Surename": "DRAME",
+    "Name": "KATARINA",
+    "Time": "01:25:19"
+  },
+  {
+    "Place": "660",
+    "Number": "1051",
+    "Surename": "GOSTIŠA",
+    "Name": "URBAN",
+    "Time": "01:25:20"
+  },
+  {
+    "Place": "661",
+    "Number": "535",
+    "Surename": "VILAGOŠ",
+    "Name": "SILVIO",
+    "Time": "01:25:24"
+  },
+  {
+    "Place": "662",
+    "Number": "1197",
+    "Surename": "PETAN",
+    "Name": "BLAŽ",
+    "Time": "01:25:25"
+  },
+  {
+    "Place": "663",
+    "Number": "875",
+    "Surename": "ŠAVEL KOS",
+    "Name": "MATEJA",
+    "Time": "01:25:27"
+  },
+  {
+    "Place": "664",
+    "Number": "356",
+    "Surename": "BOUZAS",
+    "Name": "STAVROS",
+    "Time": "01:25:29"
+  },
+  {
+    "Place": "665",
+    "Number": "1167",
+    "Surename": "SAGAJ",
+    "Name": "BORIS",
+    "Time": "01:25:31"
+  },
+  {
+    "Place": "666",
+    "Number": "664",
+    "Surename": "SARVARI",
+    "Name": "MATYAS",
+    "Time": "01:25:32"
+  },
+  {
+    "Place": "667",
+    "Number": "399",
+    "Surename": "SOKLIČ",
+    "Name": "JOŠT",
+    "Time": "01:25:35"
+  },
+  {
+    "Place": "668",
+    "Number": "747",
+    "Surename": "ŠARKANJ",
+    "Name": "ANDREJ",
+    "Time": "01:25:36"
+  },
+  {
+    "Place": "669",
+    "Number": "574",
+    "Surename": "JERMAN",
+    "Name": "NATAŠA",
+    "Time": "01:25:37"
+  },
+  {
+    "Place": "670",
+    "Number": "1456",
+    "Surename": "ROZMAN",
+    "Name": "PRIMOZ",
+    "Time": "01:25:38"
+  },
+  {
+    "Place": "671",
+    "Number": "872",
+    "Surename": "COLOMBIN",
+    "Name": "ALESSIO",
+    "Time": "01:25:40"
+  },
+  {
+    "Place": "672",
+    "Number": "285",
+    "Surename": "POGAČAR",
+    "Name": "JANEZ",
+    "Time": "01:25:40"
+  },
+  {
+    "Place": "673",
+    "Number": "991",
+    "Surename": "KOS",
+    "Name": "MATJAŽ",
+    "Time": "01:25:48"
+  },
+  {
+    "Place": "674",
+    "Number": "385",
+    "Surename": "KNEŽEVIĆ",
+    "Name": "DUŠKO",
+    "Time": "01:25:50"
+  },
+  {
+    "Place": "675",
+    "Number": "1047",
+    "Surename": "HRIBERNIK",
+    "Name": "TOMAŽ",
+    "Time": "01:25:53"
+  },
+  {
+    "Place": "676",
+    "Number": "619",
+    "Surename": "MULLE",
+    "Name": "ANDREA",
+    "Time": "01:25:57"
+  },
+  {
+    "Place": "677",
+    "Number": "309",
+    "Surename": "BENCIK",
+    "Name": "ALJOSA",
+    "Time": "01:25:58"
+  },
+  {
+    "Place": "678",
+    "Number": "1028",
+    "Surename": "ZALOKAR",
+    "Name": "KLEMEN",
+    "Time": "01:26:06"
+  },
+  {
+    "Place": "679",
+    "Number": "763",
+    "Surename": "VRTAČ",
+    "Name": "LUKA",
+    "Time": "01:26:14"
+  },
+  {
+    "Place": "680",
+    "Number": "978",
+    "Surename": "POVŠE",
+    "Name": "ALEKSANDER",
+    "Time": "01:26:16"
+  },
+  {
+    "Place": "681",
+    "Number": "839",
+    "Surename": "DERNULC",
+    "Name": "ANDREJ",
+    "Time": "01:26:17"
+  },
+  {
+    "Place": "682",
+    "Number": "152",
+    "Surename": "UDOVČ",
+    "Name": "JAN",
+    "Time": "01:26:17"
+  },
+  {
+    "Place": "683",
+    "Number": "655",
+    "Surename": "IVANC",
+    "Name": "KLEMEN",
+    "Time": "01:26:18"
+  },
+  {
+    "Place": "684",
+    "Number": "529",
+    "Surename": "PERKO",
+    "Name": "JAKOB",
+    "Time": "01:26:18"
+  },
+  {
+    "Place": "685",
+    "Number": "441",
+    "Surename": "JARC",
+    "Name": "PRIMOŽ",
+    "Time": "01:26:18"
+  },
+  {
+    "Place": "686",
+    "Number": "796",
+    "Surename": "ŠILAK",
+    "Name": "JERNEJ",
+    "Time": "01:26:20"
+  },
+  {
+    "Place": "687",
+    "Number": "1063",
+    "Surename": "VRABIC",
+    "Name": "KLEMEN",
+    "Time": "01:26:21"
+  },
+  {
+    "Place": "688",
+    "Number": "219",
+    "Surename": "ČURMAN",
+    "Name": "DENIS",
+    "Time": "01:26:21"
+  },
+  {
+    "Place": "689",
+    "Number": "878",
+    "Surename": "MARTINČIČ",
+    "Name": "DEJAN",
+    "Time": "01:26:22"
+  },
+  {
+    "Place": "690",
+    "Number": "1359",
+    "Surename": "WITTMANNN",
+    "Name": "HUBERT",
+    "Time": "01:26:23"
+  },
+  {
+    "Place": "691",
+    "Number": "1210",
+    "Surename": "IVANOVIČ",
+    "Name": "MATIC",
+    "Time": "01:26:25"
+  },
+  {
+    "Place": "692",
+    "Number": "49",
+    "Surename": "KOMAC",
+    "Name": "SIMONA",
+    "Time": "01:26:25"
+  },
+  {
+    "Place": "693",
+    "Number": "1335",
+    "Surename": "BELVONČÍK",
+    "Name": "ŠTEFAN",
+    "Time": "01:26:29"
+  },
+  {
+    "Place": "694",
+    "Number": "860",
+    "Surename": "HROVAT",
+    "Name": "MATEJ",
+    "Time": "01:26:32"
+  },
+  {
+    "Place": "695",
+    "Number": "1470",
+    "Surename": "LUKMAN",
+    "Name": "VID",
+    "Time": "01:26:32"
+  },
+  {
+    "Place": "696",
+    "Number": "909",
+    "Surename": "DOBNIK",
+    "Name": "ANDREJ",
+    "Time": "01:26:35"
+  },
+  {
+    "Place": "697",
+    "Number": "914",
+    "Surename": "ZORE",
+    "Name": "TILEN",
+    "Time": "01:26:38"
+  },
+  {
+    "Place": "698",
+    "Number": "1059",
+    "Surename": "LUNAR",
+    "Name": "ŽAN",
+    "Time": "01:26:39"
+  },
+  {
+    "Place": "699",
+    "Number": "2",
+    "Surename": "KRAŠEVEC",
+    "Name": "ANDREJ",
+    "Time": "01:26:39"
+  },
+  {
+    "Place": "700",
+    "Number": "97",
+    "Surename": "CENCELJ",
+    "Name": "GORDANA",
+    "Time": "01:26:41"
+  },
+  {
+    "Place": "701",
+    "Number": "904",
+    "Surename": "MAYER",
+    "Name": "MAXIMILIAN",
+    "Time": "01:26:46"
+  },
+  {
+    "Place": "702",
+    "Number": "902",
+    "Surename": "EICHER",
+    "Name": "HUBERT",
+    "Time": "01:26:47"
+  },
+  {
+    "Place": "703",
+    "Number": "681",
+    "Surename": "TAVČAR",
+    "Name": "MATEJ",
+    "Time": "01:26:49"
+  },
+  {
+    "Place": "704",
+    "Number": "185",
+    "Surename": "MARN",
+    "Name": "KLARA",
+    "Time": "01:26:51"
+  },
+  {
+    "Place": "705",
+    "Number": "1418",
+    "Surename": "GASPIRC",
+    "Name": "PRIMOZ",
+    "Time": "01:26:54"
+  },
+  {
+    "Place": "706",
+    "Number": "396",
+    "Surename": "MANFREDA",
+    "Name": "DAVID",
+    "Time": "01:26:55"
+  },
+  {
+    "Place": "707",
+    "Number": "913",
+    "Surename": "HROVATIČ",
+    "Name": "KLEMEN",
+    "Time": "01:26:59"
+  },
+  {
+    "Place": "708",
+    "Number": "911",
+    "Surename": "KLEMENČIČ",
+    "Name": "DEJAN",
+    "Time": "01:27:04"
+  },
+  {
+    "Place": "709",
+    "Number": "1465",
+    "Surename": "ŽIGON",
+    "Name": "DOMINIK",
+    "Time": "01:27:04"
+  },
+  {
+    "Place": "710",
+    "Number": "916",
+    "Surename": "ABRAM",
+    "Name": "BENJAMIN",
+    "Time": "01:27:06"
+  },
+  {
+    "Place": "711",
+    "Number": "641",
+    "Surename": "FRANK",
+    "Name": "DAVID",
+    "Time": "01:27:08"
+  },
+  {
+    "Place": "712",
+    "Number": "917",
+    "Surename": "MURŠIČ",
+    "Name": "ŽAN",
+    "Time": "01:27:09"
+  },
+  {
+    "Place": "713",
+    "Number": "148",
+    "Surename": "ORAŽEM",
+    "Name": "TOMAŽ",
+    "Time": "01:27:10"
+  },
+  {
+    "Place": "714",
+    "Number": "236",
+    "Surename": "BAJEC",
+    "Name": "MATJAŽ",
+    "Time": "01:27:13"
+  },
+  {
+    "Place": "715",
+    "Number": "1301",
+    "Surename": "VIDMAR",
+    "Name": "ALEŠ",
+    "Time": "01:27:24"
+  },
+  {
+    "Place": "716",
+    "Number": "576",
+    "Surename": "DRAB",
+    "Name": "ALEN",
+    "Time": "01:27:26"
+  },
+  {
+    "Place": "717",
+    "Number": "1293",
+    "Surename": "SLAK",
+    "Name": "VITA",
+    "Time": "01:27:27"
+  },
+  {
+    "Place": "718",
+    "Number": "64",
+    "Surename": "IVANJKO",
+    "Name": "VLADIMIR",
+    "Time": "01:27:33"
+  },
+  {
+    "Place": "719",
+    "Number": "649",
+    "Surename": "MATIĆ",
+    "Name": "GORAZD",
+    "Time": "01:27:40"
+  },
+  {
+    "Place": "720",
+    "Number": "580",
+    "Surename": "NOVAK",
+    "Name": "ALEŠ",
+    "Time": "01:27:43"
+  },
+  {
+    "Place": "721",
+    "Number": "910",
+    "Surename": "PRAZNIK",
+    "Name": "MIHA",
+    "Time": "01:27:44"
+  },
+  {
+    "Place": "722",
+    "Number": "393",
+    "Surename": "BERNIK",
+    "Name": "BOŠTJAN",
+    "Time": "01:27:45"
+  },
+  {
+    "Place": "723",
+    "Number": "125",
+    "Surename": "KONCILJA",
+    "Name": "KRISTINA",
+    "Time": "01:27:47"
+  },
+  {
+    "Place": "724",
+    "Number": "634",
+    "Surename": "ARZENŠEK",
+    "Name": "URH",
+    "Time": "01:27:48"
+  },
+  {
+    "Place": "725",
+    "Number": "1450",
+    "Surename": "ŠKRJANEC",
+    "Name": "KLEMEN",
+    "Time": "01:27:50"
+  },
+  {
+    "Place": "726",
+    "Number": "62",
+    "Surename": "MIKULAN",
+    "Name": "ŽIGA",
+    "Time": "01:27:51"
+  },
+  {
+    "Place": "727",
+    "Number": "921",
+    "Surename": "ŠKRK",
+    "Name": "VASJA",
+    "Time": "01:27:52"
+  },
+  {
+    "Place": "728",
+    "Number": "1139",
+    "Surename": "MASTNAK",
+    "Name": "MIHA",
+    "Time": "01:27:57"
+  },
+  {
+    "Place": "729",
+    "Number": "974",
+    "Surename": "LUGARIČ",
+    "Name": "ALEKSANDER",
+    "Time": "01:28:02"
+  },
+  {
+    "Place": "730",
+    "Number": "928",
+    "Surename": "CVELBAR",
+    "Name": "ROK",
+    "Time": "01:28:03"
+  },
+  {
+    "Place": "731",
+    "Number": "1148",
+    "Surename": "PODRECCA",
+    "Name": "MATTEO",
+    "Time": "01:28:03"
+  },
+  {
+    "Place": "732",
+    "Number": "1037",
+    "Surename": "POKLAR",
+    "Name": "NIK",
+    "Time": "01:28:14"
+  },
+  {
+    "Place": "733",
+    "Number": "1058",
+    "Surename": "ŠTRUKELJ",
+    "Name": "TOMISLAV",
+    "Time": "01:28:17"
+  },
+  {
+    "Place": "734",
+    "Number": "1092",
+    "Surename": "ILNIKAR",
+    "Name": "JAN",
+    "Time": "01:28:22"
+  },
+  {
+    "Place": "735",
+    "Number": "127",
+    "Surename": "ŠINKOVEC",
+    "Name": "JURE",
+    "Time": "01:28:25"
+  },
+  {
+    "Place": "736",
+    "Number": "162",
+    "Surename": "RAČIČ",
+    "Name": "MATEVŽ",
+    "Time": "01:28:25"
+  },
+  {
+    "Place": "737",
+    "Number": "89",
+    "Surename": "MUHOVIC",
+    "Name": "MITJA",
+    "Time": "01:28:28"
+  },
+  {
+    "Place": "738",
+    "Number": "245",
+    "Surename": "POLJANŠEK",
+    "Name": "ANDRAŽ",
+    "Time": "01:28:30"
+  },
+  {
+    "Place": "739",
+    "Number": "90",
+    "Surename": "JOVANOVIĆ",
+    "Name": "BOJAN",
+    "Time": "01:28:35"
+  },
+  {
+    "Place": "740",
+    "Number": "1262",
+    "Surename": "DOMITROVIČ",
+    "Name": "CVETKA",
+    "Time": "01:28:39"
+  },
+  {
+    "Place": "741",
+    "Number": "918",
+    "Surename": "RETUZNIK",
+    "Name": "MARUŠA",
+    "Time": "01:28:42"
+  },
+  {
+    "Place": "742",
+    "Number": "659",
+    "Surename": "SMOLČIĆ",
+    "Name": "TOMISLAV",
+    "Time": "01:28:44"
+  },
+  {
+    "Place": "743",
+    "Number": "150",
+    "Surename": "PODLESNIKAR",
+    "Name": "TOMAŽ",
+    "Time": "01:28:48"
+  },
+  {
+    "Place": "744",
+    "Number": "683",
+    "Surename": "PAP",
+    "Name": "MARIJAN",
+    "Time": "01:28:50"
+  },
+  {
+    "Place": "745",
+    "Number": "676",
+    "Surename": "BARBIČ",
+    "Name": "PRIMOŽ",
+    "Time": "01:28:54"
+  },
+  {
+    "Place": "746",
+    "Number": "72",
+    "Surename": "ŠPENDAL",
+    "Name": "JURIJ",
+    "Time": "01:28:55"
+  },
+  {
+    "Place": "747",
+    "Number": "1117",
+    "Surename": "ČREŠNOVAR",
+    "Name": "FRANCI",
+    "Time": "01:28:55"
+  },
+  {
+    "Place": "748",
+    "Number": "666",
+    "Surename": "GOVEKAR",
+    "Name": "ŽAN",
+    "Time": "01:28:56"
+  },
+  {
+    "Place": "749",
+    "Number": "528",
+    "Surename": "PERKO",
+    "Name": "FRAN",
+    "Time": "01:28:57"
+  },
+  {
+    "Place": "750",
+    "Number": "100",
+    "Surename": "ŠUBER",
+    "Name": "MATJAŽ",
+    "Time": "01:28:58"
+  },
+  {
+    "Place": "751",
+    "Number": "1308",
+    "Surename": "KUNAVAR",
+    "Name": "DAVID",
+    "Time": "01:29:03"
+  },
+  {
+    "Place": "752",
+    "Number": "1137",
+    "Surename": "BUBNIČ",
+    "Name": "PRIMOŽ",
+    "Time": "01:29:05"
+  },
+  {
+    "Place": "753",
+    "Number": "1211",
+    "Surename": "KAPŠ",
+    "Name": "ŠPELA",
+    "Time": "01:29:07"
+  },
+  {
+    "Place": "754",
+    "Number": "1103",
+    "Surename": "ROT",
+    "Name": "ANDREJ",
+    "Time": "01:29:11"
+  },
+  {
+    "Place": "755",
+    "Number": "1461",
+    "Surename": "FIRM",
+    "Name": "ZVONKO",
+    "Time": "01:29:14"
+  },
+  {
+    "Place": "756",
+    "Number": "81",
+    "Surename": "ŠEMROV",
+    "Name": "GREGOR",
+    "Time": "01:29:17"
+  },
+  {
+    "Place": "757",
+    "Number": "12",
+    "Surename": "JURMAN",
+    "Name": "DENIS",
+    "Time": "01:29:18"
+  },
+  {
+    "Place": "758",
+    "Number": "618",
+    "Surename": "HIPP",
+    "Name": "BARBARA",
+    "Time": "01:29:18"
+  },
+  {
+    "Place": "759",
+    "Number": "1100",
+    "Surename": "KUMER BIZJAK",
+    "Name": "REBEKA",
+    "Time": "01:29:19"
+  },
+  {
+    "Place": "760",
+    "Number": "836",
+    "Surename": "PERIN",
+    "Name": "CHRISTIANO",
+    "Time": "01:29:21"
+  },
+  {
+    "Place": "761",
+    "Number": "762",
+    "Surename": "ŠPENKO",
+    "Name": "ANŽE",
+    "Time": "01:29:25"
+  },
+  {
+    "Place": "762",
+    "Number": "474",
+    "Surename": "BAŠ",
+    "Name": "ANŽE",
+    "Time": "01:29:26"
+  },
+  {
+    "Place": "763",
+    "Number": "522",
+    "Surename": "HAFNER",
+    "Name": "ZAN",
+    "Time": "01:29:27"
+  },
+  {
+    "Place": "764",
+    "Number": "660",
+    "Surename": "DRAKULA",
+    "Name": "VLADIMIR",
+    "Time": "01:29:27"
+  },
+  {
+    "Place": "765",
+    "Number": "1455",
+    "Surename": "DEUTSCHMANN",
+    "Name": "JAKOB",
+    "Time": "01:29:27"
+  },
+  {
+    "Place": "766",
+    "Number": "326",
+    "Surename": "MULEJ",
+    "Name": "MARCEL",
+    "Time": "01:29:28"
+  },
+  {
+    "Place": "767",
+    "Number": "224",
+    "Surename": "BALAŠKO",
+    "Name": "DOMINIK",
+    "Time": "01:29:30"
+  },
+  {
+    "Place": "768",
+    "Number": "801",
+    "Surename": "KOLARIĆ",
+    "Name": "ZORAN",
+    "Time": "01:29:34"
+  },
+  {
+    "Place": "769",
+    "Number": "1309",
+    "Surename": "MEDICA",
+    "Name": "NIK",
+    "Time": "01:29:34"
+  },
+  {
+    "Place": "770",
+    "Number": "1377",
+    "Surename": "HRIBAR",
+    "Name": "JASMINA",
+    "Time": "01:29:34"
+  },
+  {
+    "Place": "771",
+    "Number": "71",
+    "Surename": "LEVIČAR",
+    "Name": "DOMEN",
+    "Time": "01:29:37"
+  },
+  {
+    "Place": "772",
+    "Number": "1113",
+    "Surename": "JEREB",
+    "Name": "SUZANA",
+    "Time": "01:29:37"
+  },
+  {
+    "Place": "773",
+    "Number": "105",
+    "Surename": "IKIĆ",
+    "Name": "DENIS",
+    "Time": "01:29:40"
+  },
+  {
+    "Place": "774",
+    "Number": "781",
+    "Surename": "ZUPANCIC",
+    "Name": "MARKO",
+    "Time": "01:29:47"
+  },
+  {
+    "Place": "775",
+    "Number": "1084",
+    "Surename": "TRATNIK",
+    "Name": "ANDREJ",
+    "Time": "01:29:50"
+  },
+  {
+    "Place": "776",
+    "Number": "518",
+    "Surename": "KOPUŠAR",
+    "Name": "ŽAN",
+    "Time": "01:29:51"
+  },
+  {
+    "Place": "777",
+    "Number": "73",
+    "Surename": "SIMONČIČ",
+    "Name": "JAKA",
+    "Time": "01:29:53"
+  },
+  {
+    "Place": "778",
+    "Number": "438",
+    "Surename": "KUMERDEJ",
+    "Name": "GREGA",
+    "Time": "01:29:54"
+  },
+  {
+    "Place": "779",
+    "Number": "124",
+    "Surename": "KONCILJA",
+    "Name": "TADEJ",
+    "Time": "01:29:57"
+  },
+  {
+    "Place": "780",
+    "Number": "1412",
+    "Surename": "GORIŠEK",
+    "Name": "MATEJ",
+    "Time": "01:29:57"
+  },
+  {
+    "Place": "781",
+    "Number": "118",
+    "Surename": "ŠOŠTARIČ",
+    "Name": "ŽIGA",
+    "Time": "01:29:58"
+  },
+  {
+    "Place": "782",
+    "Number": "647",
+    "Surename": "KLEINVELF",
+    "Name": "BARBARA",
+    "Time": "01:29:59"
+  },
+  {
+    "Place": "783",
+    "Number": "760",
+    "Surename": "ZALETELJ",
+    "Name": "UROŠ",
+    "Time": "01:30:00"
+  },
+  {
+    "Place": "784",
+    "Number": "359",
+    "Surename": "BALANT",
+    "Name": "BLAŽ",
+    "Time": "01:30:03"
+  },
+  {
+    "Place": "785",
+    "Number": "802",
+    "Surename": "JAMNIK",
+    "Name": "ANŽE",
+    "Time": "01:30:04"
+  },
+  {
+    "Place": "786",
+    "Number": "1404",
+    "Surename": "PUŠAVEC",
+    "Name": "MIHA",
+    "Time": "01:30:05"
+  },
+  {
+    "Place": "787",
+    "Number": "312",
+    "Surename": "S. ČERNJAK",
+    "Name": "DOMINIK",
+    "Time": "01:30:11"
+  },
+  {
+    "Place": "788",
+    "Number": "363",
+    "Surename": "JUS",
+    "Name": "JAŠA",
+    "Time": "01:30:12"
+  },
+  {
+    "Place": "789",
+    "Number": "1069",
+    "Surename": "BERNARDINI",
+    "Name": "FRANCESCO",
+    "Time": "01:30:12"
+  },
+  {
+    "Place": "790",
+    "Number": "133",
+    "Surename": "PAVŠEK",
+    "Name": "ŽAN",
+    "Time": "01:30:13"
+  },
+  {
+    "Place": "791",
+    "Number": "642",
+    "Surename": "HELLWEG",
+    "Name": "SVEN",
+    "Time": "01:30:17"
+  },
+  {
+    "Place": "792",
+    "Number": "1122",
+    "Surename": "BOŠTJANČIČ",
+    "Name": "ALJA",
+    "Time": "01:30:20"
+  },
+  {
+    "Place": "793",
+    "Number": "1123",
+    "Surename": "PAULINI",
+    "Name": "EVA",
+    "Time": "01:30:20"
+  },
+  {
+    "Place": "794",
+    "Number": "623",
+    "Surename": "ARKO",
+    "Name": "JALEN",
+    "Time": "01:30:22"
+  },
+  {
+    "Place": "795",
+    "Number": "1094",
+    "Surename": "UŠLAKAR",
+    "Name": "PIA",
+    "Time": "01:30:23"
+  },
+  {
+    "Place": "796",
+    "Number": "788",
+    "Surename": "LENKIČ",
+    "Name": "UROŠ",
+    "Time": "01:30:24"
+  },
+  {
+    "Place": "797",
+    "Number": "1458",
+    "Surename": "BREGAR",
+    "Name": "ANDREJ",
+    "Time": "01:30:24"
+  },
+  {
+    "Place": "798",
+    "Number": "1349",
+    "Surename": "UDOVČ",
+    "Name": "MATEJ",
+    "Time": "01:30:26"
+  },
+  {
+    "Place": "799",
+    "Number": "126",
+    "Surename": "KONCILJA",
+    "Name": "MARKO",
+    "Time": "01:30:26"
+  },
+  {
+    "Place": "800",
+    "Number": "85",
+    "Surename": "BERLIC",
+    "Name": "NIKA",
+    "Time": "01:30:31"
+  },
+  {
+    "Place": "801",
+    "Number": "773",
+    "Surename": "ZORKO",
+    "Name": "GREGOR",
+    "Time": "01:30:35"
+  },
+  {
+    "Place": "802",
+    "Number": "188",
+    "Surename": "FIORA_",
+    "Name": "MASSIMILIANO",
+    "Time": "01:30:36"
+  },
+  {
+    "Place": "803",
+    "Number": "114",
+    "Surename": "TROJER",
+    "Name": "JONAS",
+    "Time": "01:30:37"
+  },
+  {
+    "Place": "804",
+    "Number": "1283",
+    "Surename": "FERNANDEZ VEGA",
+    "Name": "MIGUEL",
+    "Time": "01:30:38"
+  },
+  {
+    "Place": "805",
+    "Number": "197",
+    "Surename": "KRAŠOVEC",
+    "Name": "TONE",
+    "Time": "01:30:49"
+  },
+  {
+    "Place": "806",
+    "Number": "167",
+    "Surename": "PINERI",
+    "Name": "EDDIE",
+    "Time": "01:30:50"
+  },
+  {
+    "Place": "807",
+    "Number": "168",
+    "Surename": "LUIGI CAVEZZALE",
+    "Name": "OSCAR",
+    "Time": "01:30:50"
+  },
+  {
+    "Place": "808",
+    "Number": "183",
+    "Surename": "MLINARIČ",
+    "Name": "TINA",
+    "Time": "01:30:56"
+  },
+  {
+    "Place": "809",
+    "Number": "346",
+    "Surename": "KUMER",
+    "Name": "UROŠ",
+    "Time": "01:31:00"
+  },
+  {
+    "Place": "810",
+    "Number": "825",
+    "Surename": "GORIČAN",
+    "Name": "LIDIJA",
+    "Time": "01:31:00"
+  },
+  {
+    "Place": "811",
+    "Number": "764",
+    "Surename": "REBERŠAK",
+    "Name": "MIHA",
+    "Time": "01:31:01"
+  },
+  {
+    "Place": "812",
+    "Number": "677",
+    "Surename": "MELNIK",
+    "Name": "EMIL",
+    "Time": "01:31:02"
+  },
+  {
+    "Place": "813",
+    "Number": "1430",
+    "Surename": "ŠIBERLE",
+    "Name": "KAJA",
+    "Time": "01:31:02"
+  },
+  {
+    "Place": "814",
+    "Number": "808",
+    "Surename": "POTOČNIK",
+    "Name": "MARIJAN",
+    "Time": "01:31:06"
+  },
+  {
+    "Place": "815",
+    "Number": "797",
+    "Surename": "POGAČAR",
+    "Name": "BOŠTJAN",
+    "Time": "01:31:07"
+  },
+  {
+    "Place": "816",
+    "Number": "645",
+    "Surename": "KENDA",
+    "Name": "MARTIN",
+    "Time": "01:31:07"
+  },
+  {
+    "Place": "817",
+    "Number": "1364",
+    "Surename": "AVBELJ",
+    "Name": "BLAŽ",
+    "Time": "01:31:08"
+  },
+  {
+    "Place": "818",
+    "Number": "293",
+    "Surename": "VEBER",
+    "Name": "DAMJAN",
+    "Time": "01:31:09"
+  },
+  {
+    "Place": "819",
+    "Number": "1429",
+    "Surename": "MASNEC",
+    "Name": "GAŠPER",
+    "Time": "01:31:09"
+  },
+  {
+    "Place": "820",
+    "Number": "486",
+    "Surename": "JUG",
+    "Name": "MILOŠ",
+    "Time": "01:31:10"
+  },
+  {
+    "Place": "821",
+    "Number": "800",
+    "Surename": "JURKOVIČ",
+    "Name": "NEJC",
+    "Time": "01:31:10"
+  },
+  {
+    "Place": "822",
+    "Number": "1289",
+    "Surename": "JANŽEVEC",
+    "Name": "LUKA",
+    "Time": "01:31:15"
+  },
+  {
+    "Place": "823",
+    "Number": "115",
+    "Surename": "ŽERAK",
+    "Name": "JERNEJA",
+    "Time": "01:31:15"
+  },
+  {
+    "Place": "824",
+    "Number": "1068",
+    "Surename": "ČEBAŠEK",
+    "Name": "AMBROŽ",
+    "Time": "01:31:16"
+  },
+  {
+    "Place": "825",
+    "Number": "54",
+    "Surename": "ŠMID",
+    "Name": "ROBERT",
+    "Time": "01:31:17"
+  },
+  {
+    "Place": "826",
+    "Number": "113",
+    "Surename": "MESARIČ",
+    "Name": "JOŽICA",
+    "Time": "01:31:17"
+  },
+  {
+    "Place": "827",
+    "Number": "374",
+    "Surename": "FABIJAN",
+    "Name": "MATEJ",
+    "Time": "01:31:18"
+  },
+  {
+    "Place": "828",
+    "Number": "1177",
+    "Surename": "MLAKAR",
+    "Name": "ŽIGA",
+    "Time": "01:31:19"
+  },
+  {
+    "Place": "829",
+    "Number": "476",
+    "Surename": "MOLJK",
+    "Name": "JERNEJ",
+    "Time": "01:31:26"
+  },
+  {
+    "Place": "830",
+    "Number": "69",
+    "Surename": "DE LA FUENTE REY",
+    "Name": "ALFONSO",
+    "Time": "01:31:26"
+  },
+  {
+    "Place": "831",
+    "Number": "94",
+    "Surename": "LEKŠE",
+    "Name": "MATJAZ",
+    "Time": "01:31:27"
+  },
+  {
+    "Place": "832",
+    "Number": "1179",
+    "Surename": "MIRT",
+    "Name": "MATIC",
+    "Time": "01:31:27"
+  },
+  {
+    "Place": "833",
+    "Number": "260",
+    "Surename": "GREGORAS",
+    "Name": "DAVID",
+    "Time": "01:31:29"
+  },
+  {
+    "Place": "834",
+    "Number": "1143",
+    "Surename": "BREZOVNIK",
+    "Name": "JANJA",
+    "Time": "01:31:31"
+  },
+  {
+    "Place": "835",
+    "Number": "516",
+    "Surename": "ABL",
+    "Name": "PETRA",
+    "Time": "01:31:35"
+  },
+  {
+    "Place": "836",
+    "Number": "119",
+    "Surename": "KANCLER",
+    "Name": "JAKA",
+    "Time": "01:31:41"
+  },
+  {
+    "Place": "837",
+    "Number": "1255",
+    "Surename": "DOLENC",
+    "Name": "DAMJAN",
+    "Time": "01:31:47"
+  },
+  {
+    "Place": "838",
+    "Number": "931",
+    "Surename": "MIKLAVŽIN",
+    "Name": "KLEMEN",
+    "Time": "01:31:50"
+  },
+  {
+    "Place": "839",
+    "Number": "1358",
+    "Surename": "DOPPLER",
+    "Name": "MARKUS",
+    "Time": "01:31:52"
+  },
+  {
+    "Place": "840",
+    "Number": "11",
+    "Surename": "SLABE",
+    "Name": "ANA",
+    "Time": "01:31:53"
+  },
+  {
+    "Place": "841",
+    "Number": "358",
+    "Surename": "JERAJ",
+    "Name": "ALEKSANDRA",
+    "Time": "01:31:54"
+  },
+  {
+    "Place": "842",
+    "Number": "555",
+    "Surename": "MEGLIC",
+    "Name": "NIKA",
+    "Time": "01:31:57"
+  },
+  {
+    "Place": "843",
+    "Number": "19",
+    "Surename": "ARZENŠEK",
+    "Name": "ANA",
+    "Time": "01:31:58"
+  },
+  {
+    "Place": "844",
+    "Number": "936",
+    "Surename": "DORMIŠ",
+    "Name": "MATEJ",
+    "Time": "01:32:03"
+  },
+  {
+    "Place": "845",
+    "Number": "999",
+    "Surename": "KOTOUČ",
+    "Name": "MARTIN",
+    "Time": "01:32:04"
+  },
+  {
+    "Place": "846",
+    "Number": "1020",
+    "Surename": "JEVŠČEK",
+    "Name": "TINA",
+    "Time": "01:32:11"
+  },
+  {
+    "Place": "847",
+    "Number": "710",
+    "Surename": "JENISCH",
+    "Name": "STEPHAN",
+    "Time": "01:32:13"
+  },
+  {
+    "Place": "848",
+    "Number": "1138",
+    "Surename": "JECL",
+    "Name": "KATJA",
+    "Time": "01:32:16"
+  },
+  {
+    "Place": "849",
+    "Number": "761",
+    "Surename": "KOSMAC",
+    "Name": "MATIJA",
+    "Time": "01:32:19"
+  },
+  {
+    "Place": "850",
+    "Number": "80",
+    "Surename": "BOGATAJ",
+    "Name": "MIHA",
+    "Time": "01:32:21"
+  },
+  {
+    "Place": "851",
+    "Number": "1077",
+    "Surename": "PRPIĆ",
+    "Name": "MARIN",
+    "Time": "01:32:24"
+  },
+  {
+    "Place": "852",
+    "Number": "283",
+    "Surename": "PLEH",
+    "Name": "MATJAŽ",
+    "Time": "01:32:28"
+  },
+  {
+    "Place": "853",
+    "Number": "282",
+    "Surename": "ŠKET",
+    "Name": "TADEJA",
+    "Time": "01:32:28"
+  },
+  {
+    "Place": "854",
+    "Number": "1368",
+    "Surename": "SLAK",
+    "Name": "JAN",
+    "Time": "01:32:29"
+  },
+  {
+    "Place": "855",
+    "Number": "145",
+    "Surename": "KASTNER",
+    "Name": "DOMEN",
+    "Time": "01:32:30"
+  },
+  {
+    "Place": "856",
+    "Number": "794",
+    "Surename": "OCEPEK",
+    "Name": "ALEKSANDER",
+    "Time": "01:32:33"
+  },
+  {
+    "Place": "857",
+    "Number": "1356",
+    "Surename": "SCHWARZBAUER",
+    "Name": "DANIEL",
+    "Time": "01:32:34"
+  },
+  {
+    "Place": "858",
+    "Number": "774",
+    "Surename": "ZORKO",
+    "Name": "KAJA",
+    "Time": "01:32:34"
+  },
+  {
+    "Place": "859",
+    "Number": "169",
+    "Surename": "ANTOLIN",
+    "Name": "DENIS",
+    "Time": "01:32:35"
+  },
+  {
+    "Place": "860",
+    "Number": "924",
+    "Surename": "ČIBEJ",
+    "Name": "METKA",
+    "Time": "01:32:35"
+  },
+  {
+    "Place": "861",
+    "Number": "123",
+    "Surename": "KENDA",
+    "Name": "NEJA",
+    "Time": "01:32:37"
+  },
+  {
+    "Place": "862",
+    "Number": "1014",
+    "Surename": "JURCA",
+    "Name": "SARA",
+    "Time": "01:32:38"
+  },
+  {
+    "Place": "863",
+    "Number": "1015",
+    "Surename": "KAURIN",
+    "Name": "GORAN",
+    "Time": "01:32:39"
+  },
+  {
+    "Place": "864",
+    "Number": "296",
+    "Surename": "PIKOVNIK ZAMAN",
+    "Name": "LEA",
+    "Time": "01:32:39"
+  },
+  {
+    "Place": "865",
+    "Number": "637",
+    "Surename": "ADAMI",
+    "Name": "PATRIZIA",
+    "Time": "01:32:44"
+  },
+  {
+    "Place": "866",
+    "Number": "636",
+    "Surename": "LEITNER",
+    "Name": "STEPHAN",
+    "Time": "01:32:48"
+  },
+  {
+    "Place": "867",
+    "Number": "1071",
+    "Surename": "UKALOVIĆ",
+    "Name": "LUKA",
+    "Time": "01:32:50"
+  },
+  {
+    "Place": "868",
+    "Number": "1332",
+    "Surename": "PAVLIN",
+    "Name": "GAŠPER",
+    "Time": "01:32:57"
+  },
+  {
+    "Place": "869",
+    "Number": "874",
+    "Surename": "ŠAJHER",
+    "Name": "LUKA",
+    "Time": "01:32:58"
+  },
+  {
+    "Place": "870",
+    "Number": "1265",
+    "Surename": "MAROLT",
+    "Name": "URBAN",
+    "Time": "01:32:59"
+  },
+  {
+    "Place": "871",
+    "Number": "1266",
+    "Surename": "SUHADOLC",
+    "Name": "JERNEJ",
+    "Time": "01:32:59"
+  },
+  {
+    "Place": "872",
+    "Number": "1357",
+    "Surename": "OBERMAIR",
+    "Name": "MANUEL",
+    "Time": "01:33:00"
+  },
+  {
+    "Place": "873",
+    "Number": "131",
+    "Surename": "PETERNEL",
+    "Name": "ANJA",
+    "Time": "01:33:11"
+  },
+  {
+    "Place": "874",
+    "Number": "1074",
+    "Surename": "JEREB",
+    "Name": "ROBERT",
+    "Time": "01:33:14"
+  },
+  {
+    "Place": "875",
+    "Number": "723",
+    "Surename": "VARDIJAN",
+    "Name": "BOJAN",
+    "Time": "01:33:22"
+  },
+  {
+    "Place": "876",
+    "Number": "1018",
+    "Surename": "SLAK",
+    "Name": "FRANCI",
+    "Time": "01:33:24"
+  },
+  {
+    "Place": "877",
+    "Number": "1448",
+    "Surename": "KASTELIC",
+    "Name": "NUSA",
+    "Time": "01:33:24"
+  },
+  {
+    "Place": "878",
+    "Number": "852",
+    "Surename": "JEVŠOVAR",
+    "Name": "JERNEJ",
+    "Time": "01:33:26"
+  },
+  {
+    "Place": "879",
+    "Number": "590",
+    "Surename": "TESTEN KOS",
+    "Name": "NEJC",
+    "Time": "01:33:26"
+  },
+  {
+    "Place": "880",
+    "Number": "993",
+    "Surename": "SVETLIN",
+    "Name": "PRIMOŽ",
+    "Time": "01:33:28"
+  },
+  {
+    "Place": "881",
+    "Number": "170",
+    "Surename": "KOROŠEC",
+    "Name": "TONI",
+    "Time": "01:33:35"
+  },
+  {
+    "Place": "882",
+    "Number": "1449",
+    "Surename": "MILEK",
+    "Name": "LEON",
+    "Time": "01:33:36"
+  },
+  {
+    "Place": "883",
+    "Number": "427",
+    "Surename": "STOPAR",
+    "Name": "ALJAŽ",
+    "Time": "01:33:37"
+  },
+  {
+    "Place": "884",
+    "Number": "428",
+    "Surename": "STOPAR",
+    "Name": "GAŠPER",
+    "Time": "01:33:37"
+  },
+  {
+    "Place": "885",
+    "Number": "1219",
+    "Surename": "TENGG",
+    "Name": "NICOLE",
+    "Time": "01:33:38"
+  },
+  {
+    "Place": "886",
+    "Number": "1010",
+    "Surename": "PAVLOVEC",
+    "Name": "MARTIN",
+    "Time": "01:33:41"
+  },
+  {
+    "Place": "887",
+    "Number": "1407",
+    "Surename": "BAČOVNIK",
+    "Name": "JURE",
+    "Time": "01:33:43"
+  },
+  {
+    "Place": "888",
+    "Number": "171",
+    "Surename": "KOROŠEC",
+    "Name": "TIM",
+    "Time": "01:33:48"
+  },
+  {
+    "Place": "889",
+    "Number": "229",
+    "Surename": "POGAČAR",
+    "Name": "MIHA",
+    "Time": "01:33:48"
+  },
+  {
+    "Place": "890",
+    "Number": "587",
+    "Surename": "WERNIG",
+    "Name": "HERMI",
+    "Time": "01:33:49"
+  },
+  {
+    "Place": "891",
+    "Number": "1291",
+    "Surename": "JAZBEC",
+    "Name": "TOMAŽ",
+    "Time": "01:33:53"
+  },
+  {
+    "Place": "892",
+    "Number": "538",
+    "Surename": "STRAUSS",
+    "Name": "ALICE",
+    "Time": "01:33:56"
+  },
+  {
+    "Place": "893",
+    "Number": "695",
+    "Surename": "RAJH",
+    "Name": "TINEJ",
+    "Time": "01:33:59"
+  },
+  {
+    "Place": "894",
+    "Number": "525",
+    "Surename": "ČETKOVIĆ",
+    "Name": "TADEJA",
+    "Time": "01:34:00"
+  },
+  {
+    "Place": "895",
+    "Number": "922",
+    "Surename": "REBERNAK",
+    "Name": "MATEVŽ",
+    "Time": "01:34:04"
+  },
+  {
+    "Place": "896",
+    "Number": "1338",
+    "Surename": "ŠTURM",
+    "Name": "TINA",
+    "Time": "01:34:05"
+  },
+  {
+    "Place": "897",
+    "Number": "1000",
+    "Surename": "RUS",
+    "Name": "ANEJ",
+    "Time": "01:34:07"
+  },
+  {
+    "Place": "898",
+    "Number": "1431",
+    "Surename": "CERAR",
+    "Name": "ALEN",
+    "Time": "01:34:08"
+  },
+  {
+    "Place": "899",
+    "Number": "1371",
+    "Surename": "KLOBUČAR",
+    "Name": "TIM",
+    "Time": "01:34:10"
+  },
+  {
+    "Place": "900",
+    "Number": "458",
+    "Surename": "ČOTAR",
+    "Name": "LUKA",
+    "Time": "01:34:10"
+  },
+  {
+    "Place": "901",
+    "Number": "457",
+    "Surename": "STUBELJ",
+    "Name": "JURE",
+    "Time": "01:34:14"
+  },
+  {
+    "Place": "902",
+    "Number": "213",
+    "Surename": "SMOLEJ",
+    "Name": "ROBERT",
+    "Time": "01:34:17"
+  },
+  {
+    "Place": "903",
+    "Number": "1073",
+    "Surename": "JEREB",
+    "Name": "TANJA",
+    "Time": "01:34:22"
+  },
+  {
+    "Place": "904",
+    "Number": "939",
+    "Surename": "REČNIK",
+    "Name": "NEJA",
+    "Time": "01:34:22"
+  },
+  {
+    "Place": "905",
+    "Number": "689",
+    "Surename": "PERNUS",
+    "Name": "JANEZ",
+    "Time": "01:34:23"
+  },
+  {
+    "Place": "906",
+    "Number": "1363",
+    "Surename": "CERAR",
+    "Name": "BINE",
+    "Time": "01:34:24"
+  },
+  {
+    "Place": "907",
+    "Number": "1171",
+    "Surename": "ŠČAVNIČAR",
+    "Name": "JANI",
+    "Time": "01:34:27"
+  },
+  {
+    "Place": "908",
+    "Number": "422",
+    "Surename": "CERKOVNIK",
+    "Name": "MARTIN",
+    "Time": "01:34:27"
+  },
+  {
+    "Place": "909",
+    "Number": "1006",
+    "Surename": "CANZUTTI",
+    "Name": "LORENZO",
+    "Time": "01:34:30"
+  },
+  {
+    "Place": "910",
+    "Number": "292",
+    "Surename": "MACEK",
+    "Name": "DANIEL",
+    "Time": "01:34:31"
+  },
+  {
+    "Place": "911",
+    "Number": "1221",
+    "Surename": "VRISK",
+    "Name": "BOŠTJAN",
+    "Time": "01:34:37"
+  },
+  {
+    "Place": "912",
+    "Number": "475",
+    "Surename": "KMETIC",
+    "Name": "ROK",
+    "Time": "01:34:44"
+  },
+  {
+    "Place": "913",
+    "Number": "484",
+    "Surename": "JERMAN",
+    "Name": "LUKA",
+    "Time": "01:34:46"
+  },
+  {
+    "Place": "914",
+    "Number": "501",
+    "Surename": "HOLEŠEK",
+    "Name": "JURE",
+    "Time": "01:34:48"
+  },
+  {
+    "Place": "915",
+    "Number": "315",
+    "Surename": "RUTAR",
+    "Name": "SONJA",
+    "Time": "01:34:49"
+  },
+  {
+    "Place": "916",
+    "Number": "313",
+    "Surename": "KRAMAR",
+    "Name": "MIRAN",
+    "Time": "01:34:53"
+  },
+  {
+    "Place": "917",
+    "Number": "238",
+    "Surename": "KERN PIRNAT",
+    "Name": "KATARINA",
+    "Time": "01:34:55"
+  },
+  {
+    "Place": "918",
+    "Number": "400",
+    "Surename": "GUZAJ",
+    "Name": "LUCIJA",
+    "Time": "01:34:55"
+  },
+  {
+    "Place": "919",
+    "Number": "646",
+    "Surename": "BRULC",
+    "Name": "LUKA",
+    "Time": "01:34:58"
+  },
+  {
+    "Place": "920",
+    "Number": "678",
+    "Surename": "NOBIS",
+    "Name": "LEON",
+    "Time": "01:35:00"
+  },
+  {
+    "Place": "921",
+    "Number": "603",
+    "Surename": "VLAŠIĆ",
+    "Name": "DENIS",
+    "Time": "01:35:04"
+  },
+  {
+    "Place": "922",
+    "Number": "1019",
+    "Surename": "PECOLER",
+    "Name": "PRIMOZ",
+    "Time": "01:35:05"
+  },
+  {
+    "Place": "923",
+    "Number": "806",
+    "Surename": "HORVAT",
+    "Name": "GORAN",
+    "Time": "01:35:06"
+  },
+  {
+    "Place": "924",
+    "Number": "361",
+    "Surename": "SAVIO",
+    "Name": "DENIS",
+    "Time": "01:35:07"
+  },
+  {
+    "Place": "925",
+    "Number": "1212",
+    "Surename": "PERKO",
+    "Name": "ŠTEFAN",
+    "Time": "01:35:08"
+  },
+  {
+    "Place": "926",
+    "Number": "962",
+    "Surename": "KRAMAR",
+    "Name": "POLONA",
+    "Time": "01:35:08"
+  },
+  {
+    "Place": "927",
+    "Number": "1427",
+    "Surename": "",
+    "Name": "",
+    "Time": "01:35:09"
+  },
+  {
+    "Place": "928",
+    "Number": "1142",
+    "Surename": "HUDOURNIK",
+    "Name": "NEŽA",
+    "Time": "01:35:17"
+  },
+  {
+    "Place": "929",
+    "Number": "36",
+    "Surename": "GRILC",
+    "Name": "JURE",
+    "Time": "01:35:24"
+  },
+  {
+    "Place": "930",
+    "Number": "48",
+    "Surename": "URH",
+    "Name": "PRIMOŽ",
+    "Time": "01:35:26"
+  },
+  {
+    "Place": "931",
+    "Number": "1217",
+    "Surename": "",
+    "Name": "",
+    "Time": "01:35:31"
+  },
+  {
+    "Place": "932",
+    "Number": "340",
+    "Surename": "KRANJC",
+    "Name": "GREGA",
+    "Time": "01:35:33"
+  },
+  {
+    "Place": "933",
+    "Number": "1462",
+    "Surename": "VENTORINI",
+    "Name": "PIER ANGELO",
+    "Time": "01:35:37"
+  },
+  {
+    "Place": "934",
+    "Number": "596",
+    "Surename": "LUČIĆ",
+    "Name": "HRVOJE",
+    "Time": "01:35:44"
+  },
+  {
+    "Place": "935",
+    "Number": "1216",
+    "Surename": "JUCH",
+    "Name": "ALEXANDER",
+    "Time": "01:35:44"
+  },
+  {
+    "Place": "936",
+    "Number": "1506",
+    "Surename": "MISKOVIC",
+    "Name": "OSTOJA",
+    "Time": "01:35:47"
+  },
+  {
+    "Place": "937",
+    "Number": "318",
+    "Surename": "URABEL",
+    "Name": "PAUL",
+    "Time": "01:35:48"
+  },
+  {
+    "Place": "938",
+    "Number": "1305",
+    "Surename": "STARE",
+    "Name": "MATEVŽ",
+    "Time": "01:35:51"
+  },
+  {
+    "Place": "939",
+    "Number": "199",
+    "Surename": "ČATAK",
+    "Name": "DARE",
+    "Time": "01:35:52"
+  },
+  {
+    "Place": "940",
+    "Number": "1026",
+    "Surename": "KERT",
+    "Name": "LUKA",
+    "Time": "01:36:03"
+  },
+  {
+    "Place": "941",
+    "Number": "216",
+    "Surename": "ZEL",
+    "Name": "JERNEJA",
+    "Time": "01:36:03"
+  },
+  {
+    "Place": "942",
+    "Number": "727",
+    "Surename": "KAJTNA",
+    "Name": "DARKO",
+    "Time": "01:36:07"
+  },
+  {
+    "Place": "943",
+    "Number": "207",
+    "Surename": "KRAIGHER",
+    "Name": "MARTIN",
+    "Time": "01:36:13"
+  },
+  {
+    "Place": "944",
+    "Number": "1032",
+    "Surename": "ZABRET",
+    "Name": "MATIJA",
+    "Time": "01:36:15"
+  },
+  {
+    "Place": "945",
+    "Number": "1267",
+    "Surename": "VIDMAR",
+    "Name": "MATJAŽ",
+    "Time": "01:36:21"
+  },
+  {
+    "Place": "946",
+    "Number": "1432",
+    "Surename": "OSOLNIK",
+    "Name": "MARKO",
+    "Time": "01:36:21"
+  },
+  {
+    "Place": "947",
+    "Number": "357",
+    "Surename": "BLAZEK",
+    "Name": "SIMON",
+    "Time": "01:36:22"
+  },
+  {
+    "Place": "948",
+    "Number": "57",
+    "Surename": "ČEPIN",
+    "Name": "LUKA",
+    "Time": "01:36:24"
+  },
+  {
+    "Place": "949",
+    "Number": "1116",
+    "Surename": "ŠTEFE",
+    "Name": "DRAGO",
+    "Time": "01:36:25"
+  },
+  {
+    "Place": "950",
+    "Number": "58",
+    "Surename": "PIRIH",
+    "Name": "LARA",
+    "Time": "01:36:25"
+  },
+  {
+    "Place": "951",
+    "Number": "810",
+    "Surename": "LOVENJAK",
+    "Name": "PETER",
+    "Time": "01:36:27"
+  },
+  {
+    "Place": "952",
+    "Number": "413",
+    "Surename": "KOŽAR",
+    "Name": "MIHA",
+    "Time": "01:36:27"
+  },
+  {
+    "Place": "953",
+    "Number": "571",
+    "Surename": "BELOGLAVC",
+    "Name": "ŽAN",
+    "Time": "01:36:30"
+  },
+  {
+    "Place": "954",
+    "Number": "128",
+    "Surename": "ČERMELJ",
+    "Name": "PATRIK",
+    "Time": "01:36:32"
+  },
+  {
+    "Place": "955",
+    "Number": "1220",
+    "Surename": "GARTNAR",
+    "Name": "TOMAŽ",
+    "Time": "01:36:34"
+  },
+  {
+    "Place": "956",
+    "Number": "1317",
+    "Surename": "GREGORC",
+    "Name": "MIRKO",
+    "Time": "01:36:37"
+  },
+  {
+    "Place": "957",
+    "Number": "1044",
+    "Surename": "LUZAR",
+    "Name": "JAN",
+    "Time": "01:36:38"
+  },
+  {
+    "Place": "958",
+    "Number": "1379",
+    "Surename": "FISTRIČ",
+    "Name": "ŽAN",
+    "Time": "01:36:38"
+  },
+  {
+    "Place": "959",
+    "Number": "982",
+    "Surename": "KURIDŽA",
+    "Name": "IGOR",
+    "Time": "01:36:39"
+  },
+  {
+    "Place": "960",
+    "Number": "611",
+    "Surename": "DOLENEC",
+    "Name": "BLAŽ",
+    "Time": "01:36:39"
+  },
+  {
+    "Place": "961",
+    "Number": "342",
+    "Surename": "LAZAR",
+    "Name": "BENJAMIN",
+    "Time": "01:36:41"
+  },
+  {
+    "Place": "962",
+    "Number": "631",
+    "Surename": "SLEJKO",
+    "Name": "LUKA",
+    "Time": "01:36:46"
+  },
+  {
+    "Place": "963",
+    "Number": "456",
+    "Surename": "TOMAŽIČ",
+    "Name": "MATEJ",
+    "Time": "01:36:46"
+  },
+  {
+    "Place": "964",
+    "Number": "1160",
+    "Surename": "ŽNIDAR",
+    "Name": "MATJAŽ",
+    "Time": "01:36:47"
+  },
+  {
+    "Place": "965",
+    "Number": "1340",
+    "Surename": "KLEMENČIČ",
+    "Name": "DOMINIK",
+    "Time": "01:36:53"
+  },
+  {
+    "Place": "966",
+    "Number": "943",
+    "Surename": "MERHAR",
+    "Name": "GREGA",
+    "Time": "01:36:59"
+  },
+  {
+    "Place": "967",
+    "Number": "945",
+    "Surename": "MERHAR",
+    "Name": "PRIMOŽ",
+    "Time": "01:37:01"
+  },
+  {
+    "Place": "968",
+    "Number": "1273",
+    "Surename": "DORKO",
+    "Name": "KRISZTIAN",
+    "Time": "01:37:07"
+  },
+  {
+    "Place": "969",
+    "Number": "718",
+    "Surename": "BERTALANIČ",
+    "Name": "ROBERT",
+    "Time": "01:37:08"
+  },
+  {
+    "Place": "970",
+    "Number": "707",
+    "Surename": "HENNIG",
+    "Name": "UTA",
+    "Time": "01:37:09"
+  },
+  {
+    "Place": "971",
+    "Number": "770",
+    "Surename": "KOUTECKÁ",
+    "Name": "KLÁRA",
+    "Time": "01:37:09"
+  },
+  {
+    "Place": "972",
+    "Number": "708",
+    "Surename": "MÜHLBAUER",
+    "Name": "REINER",
+    "Time": "01:37:10"
+  },
+  {
+    "Place": "973",
+    "Number": "355",
+    "Surename": "BETSWORTH",
+    "Name": "LLOYD",
+    "Time": "01:37:14"
+  },
+  {
+    "Place": "974",
+    "Number": "521",
+    "Surename": "GOVEKAR",
+    "Name": "TILEN",
+    "Time": "01:37:15"
+  },
+  {
+    "Place": "975",
+    "Number": "1310",
+    "Surename": "PELHAN",
+    "Name": "MATIJA",
+    "Time": "01:37:15"
+  },
+  {
+    "Place": "976",
+    "Number": "446",
+    "Surename": "ROŽIČ",
+    "Name": "ROBERT",
+    "Time": "01:37:18"
+  },
+  {
+    "Place": "977",
+    "Number": "598",
+    "Surename": "ŠEGULJA",
+    "Name": "ANTONIO",
+    "Time": "01:37:18"
+  },
+  {
+    "Place": "978",
+    "Number": "47",
+    "Surename": "LAVRENČIČ",
+    "Name": "BORUT",
+    "Time": "01:37:18"
+  },
+  {
+    "Place": "979",
+    "Number": "665",
+    "Surename": "POZSGAI",
+    "Name": "DAVID",
+    "Time": "01:37:20"
+  },
+  {
+    "Place": "980",
+    "Number": "1393",
+    "Surename": "ČEMAŽAR",
+    "Name": "LUKA",
+    "Time": "01:37:24"
+  },
+  {
+    "Place": "981",
+    "Number": "1438",
+    "Surename": "ROJEC",
+    "Name": "JAN",
+    "Time": "01:37:28"
+  },
+  {
+    "Place": "982",
+    "Number": "459",
+    "Surename": "KVASNIK",
+    "Name": "MARKO",
+    "Time": "01:37:29"
+  },
+  {
+    "Place": "983",
+    "Number": "597",
+    "Surename": "ČORAK",
+    "Name": "MATE",
+    "Time": "01:37:35"
+  },
+  {
+    "Place": "984",
+    "Number": "1075",
+    "Surename": "DŽAKULIN",
+    "Name": "MARKO",
+    "Time": "01:37:37"
+  },
+  {
+    "Place": "985",
+    "Number": "1424",
+    "Surename": "KLEMENCIC",
+    "Name": "IGOR",
+    "Time": "01:37:37"
+  },
+  {
+    "Place": "986",
+    "Number": "1209",
+    "Surename": "LULIK",
+    "Name": "ANA",
+    "Time": "01:37:39"
+  },
+  {
+    "Place": "987",
+    "Number": "492",
+    "Surename": "DEDIĆ",
+    "Name": "EDIS",
+    "Time": "01:37:40"
+  },
+  {
+    "Place": "988",
+    "Number": "205",
+    "Surename": "TRATNIK",
+    "Name": "MATIC",
+    "Time": "01:37:41"
+  },
+  {
+    "Place": "989",
+    "Number": "34",
+    "Surename": "ZAKRAJŠEK",
+    "Name": "MATEVŽ",
+    "Time": "01:37:43"
+  },
+  {
+    "Place": "990",
+    "Number": "581",
+    "Surename": "JEVŠNIK",
+    "Name": "ŽAN",
+    "Time": "01:37:43"
+  },
+  {
+    "Place": "991",
+    "Number": "1342",
+    "Surename": "BRUS",
+    "Name": "BOJAN",
+    "Time": "01:37:45"
+  },
+  {
+    "Place": "992",
+    "Number": "1161",
+    "Surename": "MIKLIČ",
+    "Name": "MANUEL",
+    "Time": "01:37:46"
+  },
+  {
+    "Place": "993",
+    "Number": "543",
+    "Surename": "POLJANŠEK",
+    "Name": "DOMEN",
+    "Time": "01:37:46"
+  },
+  {
+    "Place": "994",
+    "Number": "657",
+    "Surename": "KLANČAR",
+    "Name": "MATJAŽ",
+    "Time": "01:37:47"
+  },
+  {
+    "Place": "995",
+    "Number": "1354",
+    "Surename": "ZUPAN",
+    "Name": "URBAN",
+    "Time": "01:37:49"
+  },
+  {
+    "Place": "996",
+    "Number": "1155",
+    "Surename": "BOŽIČIĆ",
+    "Name": "DEJAN",
+    "Time": "01:37:53"
+  },
+  {
+    "Place": "997",
+    "Number": "716",
+    "Surename": "MARC",
+    "Name": "JAN",
+    "Time": "01:37:54"
+  },
+  {
+    "Place": "998",
+    "Number": "510",
+    "Surename": "POVŠE",
+    "Name": "BOSTJAN",
+    "Time": "01:37:59"
+  },
+  {
+    "Place": "999",
+    "Number": "499",
+    "Surename": "ŽARN",
+    "Name": "KLAVDIJA",
+    "Time": "01:37:59"
+  },
+  {
+    "Place": "1000",
+    "Number": "498",
+    "Surename": "ŽARN",
+    "Name": "TONI",
+    "Time": "01:38:01"
+  },
+  {
+    "Place": "1001",
+    "Number": "204",
+    "Surename": "KRAMPL",
+    "Name": "EVA",
+    "Time": "01:38:02"
+  },
+  {
+    "Place": "1002",
+    "Number": "1471",
+    "Surename": "LUKANČIČ",
+    "Name": "MATEVŽ",
+    "Time": "01:38:03"
+  },
+  {
+    "Place": "1003",
+    "Number": "1405",
+    "Surename": "ŽIČKAR",
+    "Name": "BORUT",
+    "Time": "01:38:08"
+  },
+  {
+    "Place": "1004",
+    "Number": "352",
+    "Surename": "RUPAR",
+    "Name": "LOVRO",
+    "Time": "01:38:08"
+  },
+  {
+    "Place": "1005",
+    "Number": "715",
+    "Surename": "VIDMAR",
+    "Name": "JAKA",
+    "Time": "01:38:08"
+  },
+  {
+    "Place": "1006",
+    "Number": "746",
+    "Surename": "DERŽANIČ",
+    "Name": "MARTIN",
+    "Time": "01:38:09"
+  },
+  {
+    "Place": "1007",
+    "Number": "559",
+    "Surename": "KARNET",
+    "Name": "JAN",
+    "Time": "01:38:15"
+  },
+  {
+    "Place": "1008",
+    "Number": "692",
+    "Surename": "SELJAK",
+    "Name": "ROK",
+    "Time": "01:38:21"
+  },
+  {
+    "Place": "1009",
+    "Number": "478",
+    "Surename": "BAŠ",
+    "Name": "URBAN",
+    "Time": "01:38:27"
+  },
+  {
+    "Place": "1010",
+    "Number": "562",
+    "Surename": "KRALJEVIĆ",
+    "Name": "ANTE",
+    "Time": "01:38:33"
+  },
+  {
+    "Place": "1011",
+    "Number": "1439",
+    "Surename": "ZAJC",
+    "Name": "GAŠPER",
+    "Time": "01:38:35"
+  },
+  {
+    "Place": "1012",
+    "Number": "289",
+    "Surename": "",
+    "Name": "",
+    "Time": "01:38:37"
+  },
+  {
+    "Place": "1013",
+    "Number": "564",
+    "Surename": "LJUBOTINA",
+    "Name": "LEONID",
+    "Time": "01:38:38"
+  },
+  {
+    "Place": "1014",
+    "Number": "1460",
+    "Surename": "KOTAR",
+    "Name": "VIKI",
+    "Time": "01:38:42"
+  },
+  {
+    "Place": "1015",
+    "Number": "1208",
+    "Surename": "LULIK",
+    "Name": "DIMITRIJ",
+    "Time": "01:38:43"
+  },
+  {
+    "Place": "1016",
+    "Number": "1269",
+    "Surename": "DOLENC",
+    "Name": "ŽAN",
+    "Time": "01:39:01"
+  },
+  {
+    "Place": "1017",
+    "Number": "235",
+    "Surename": "LESKOVAR",
+    "Name": "ŽIGA",
+    "Time": "01:39:01"
+  },
+  {
+    "Place": "1018",
+    "Number": "108",
+    "Surename": "SEHER KLAVORA",
+    "Name": "TINA",
+    "Time": "01:39:02"
+  },
+  {
+    "Place": "1019",
+    "Number": "142",
+    "Surename": "REJEC",
+    "Name": "KSENIJA",
+    "Time": "01:39:03"
+  },
+  {
+    "Place": "1020",
+    "Number": "261",
+    "Surename": "KIDRIC",
+    "Name": "JAKOB",
+    "Time": "01:39:05"
+  },
+  {
+    "Place": "1021",
+    "Number": "694",
+    "Surename": "MERTÜK",
+    "Name": "LUKA",
+    "Time": "01:39:06"
+  },
+  {
+    "Place": "1022",
+    "Number": "1076",
+    "Surename": "LAVBIC",
+    "Name": "URBAN",
+    "Time": "01:39:07"
+  },
+  {
+    "Place": "1023",
+    "Number": "1106",
+    "Surename": "PALEŽNICA",
+    "Name": "PREDRAG",
+    "Time": "01:39:15"
+  },
+  {
+    "Place": "1024",
+    "Number": "211",
+    "Surename": "FUCHS",
+    "Name": "DAMJAN",
+    "Time": "01:39:15"
+  },
+  {
+    "Place": "1025",
+    "Number": "530",
+    "Surename": "MIKLAVČIČ",
+    "Name": "JURE",
+    "Time": "01:39:17"
+  },
+  {
+    "Place": "1026",
+    "Number": "1105",
+    "Surename": "KOZUL",
+    "Name": "MARINKO",
+    "Time": "01:39:19"
+  },
+  {
+    "Place": "1027",
+    "Number": "55",
+    "Surename": "KALISNIK",
+    "Name": "MAJA",
+    "Time": "01:39:19"
+  },
+  {
+    "Place": "1028",
+    "Number": "1165",
+    "Surename": "PUČKO",
+    "Name": "SABRINA",
+    "Time": "01:39:21"
+  },
+  {
+    "Place": "1029",
+    "Number": "1250",
+    "Surename": "RAVNIK",
+    "Name": "TINKA",
+    "Time": "01:39:23"
+  },
+  {
+    "Place": "1030",
+    "Number": "1387",
+    "Surename": "KRMELJ",
+    "Name": "JAKA",
+    "Time": "01:39:24"
+  },
+  {
+    "Place": "1031",
+    "Number": "41",
+    "Surename": "KONDA",
+    "Name": "SIMON",
+    "Time": "01:39:25"
+  },
+  {
+    "Place": "1032",
+    "Number": "294",
+    "Surename": "KRANJEC",
+    "Name": "ROBERT",
+    "Time": "01:39:29"
+  },
+  {
+    "Place": "1033",
+    "Number": "424",
+    "Surename": "KOLARIĆ",
+    "Name": "MARINA",
+    "Time": "01:39:29"
+  },
+  {
+    "Place": "1034",
+    "Number": "1049",
+    "Surename": "SCHNEDL",
+    "Name": "CHRISTIAN",
+    "Time": "01:39:30"
+  },
+  {
+    "Place": "1035",
+    "Number": "1045",
+    "Surename": "NESTLER",
+    "Name": "THOMAS",
+    "Time": "01:39:38"
+  },
+  {
+    "Place": "1036",
+    "Number": "625",
+    "Surename": "KOMPA",
+    "Name": "ANDREAS",
+    "Time": "01:39:39"
+  },
+  {
+    "Place": "1037",
+    "Number": "819",
+    "Surename": "ZAMAN",
+    "Name": "VESNA",
+    "Time": "01:39:44"
+  },
+  {
+    "Place": "1038",
+    "Number": "1048",
+    "Surename": "PETZ",
+    "Name": "HANNES",
+    "Time": "01:39:46"
+  },
+  {
+    "Place": "1039",
+    "Number": "388",
+    "Surename": "OFFENBACHER",
+    "Name": "STEFAN",
+    "Time": "01:39:47"
+  },
+  {
+    "Place": "1040",
+    "Number": "1409",
+    "Surename": "MOTORE",
+    "Name": "JAKA",
+    "Time": "01:39:48"
+  },
+  {
+    "Place": "1041",
+    "Number": "269",
+    "Surename": "MEHLE",
+    "Name": "ZAN",
+    "Time": "01:39:50"
+  },
+  {
+    "Place": "1042",
+    "Number": "116",
+    "Surename": "HORVAT",
+    "Name": "JAN",
+    "Time": "01:39:50"
+  },
+  {
+    "Place": "1043",
+    "Number": "853",
+    "Surename": "GABROVEC",
+    "Name": "ALES",
+    "Time": "01:39:53"
+  },
+  {
+    "Place": "1044",
+    "Number": "579",
+    "Surename": "TAŠNER",
+    "Name": "GORAZD",
+    "Time": "01:39:57"
+  },
+  {
+    "Place": "1045",
+    "Number": "473",
+    "Surename": "LAPI",
+    "Name": "PRIMOŽ",
+    "Time": "01:40:00"
+  },
+  {
+    "Place": "1046",
+    "Number": "640",
+    "Surename": "BLÜM",
+    "Name": "STEFAN",
+    "Time": "01:40:04"
+  },
+  {
+    "Place": "1047",
+    "Number": "946",
+    "Surename": "ZVER",
+    "Name": "DAMIR",
+    "Time": "01:40:04"
+  },
+  {
+    "Place": "1048",
+    "Number": "1366",
+    "Surename": "PUCHER",
+    "Name": "KARIN",
+    "Time": "01:40:05"
+  },
+  {
+    "Place": "1049",
+    "Number": "1104",
+    "Surename": "DROLE",
+    "Name": "BLAŽKA",
+    "Time": "01:40:12"
+  },
+  {
+    "Place": "1050",
+    "Number": "1066",
+    "Surename": "ŠTAVAR",
+    "Name": "JANJA",
+    "Time": "01:40:21"
+  },
+  {
+    "Place": "1051",
+    "Number": "1064",
+    "Surename": "ZAVOLOVŠEK",
+    "Name": "MAŠA",
+    "Time": "01:40:24"
+  },
+  {
+    "Place": "1052",
+    "Number": "985",
+    "Surename": "POŽGAN",
+    "Name": "TEODOR",
+    "Time": "01:40:25"
+  },
+  {
+    "Place": "1053",
+    "Number": "1159",
+    "Surename": "BRANCELJ",
+    "Name": "JURE",
+    "Time": "01:40:26"
+  },
+  {
+    "Place": "1054",
+    "Number": "1319",
+    "Surename": "AJSTER",
+    "Name": "MATJAŽ",
+    "Time": "01:40:26"
+  },
+  {
+    "Place": "1055",
+    "Number": "1186",
+    "Surename": "MEISTERL",
+    "Name": "DORLI",
+    "Time": "01:40:30"
+  },
+  {
+    "Place": "1056",
+    "Number": "1151",
+    "Surename": "SIVEC",
+    "Name": "ANDREJA",
+    "Time": "01:40:33"
+  },
+  {
+    "Place": "1057",
+    "Number": "364",
+    "Surename": "MIKLAVC",
+    "Name": "ZALA",
+    "Time": "01:40:35"
+  },
+  {
+    "Place": "1058",
+    "Number": "1150",
+    "Surename": "PAVLINJEK",
+    "Name": "FRANCI",
+    "Time": "01:40:36"
+  },
+  {
+    "Place": "1059",
+    "Number": "805",
+    "Surename": "ŽIDO",
+    "Name": "ALEN",
+    "Time": "01:40:38"
+  },
+  {
+    "Place": "1060",
+    "Number": "900",
+    "Surename": "HRIBAR",
+    "Name": "MITJA",
+    "Time": "01:40:43"
+  },
+  {
+    "Place": "1061",
+    "Number": "1189",
+    "Surename": "OBRUL",
+    "Name": "MATIC",
+    "Time": "01:40:52"
+  },
+  {
+    "Place": "1062",
+    "Number": "907",
+    "Surename": "HUDOVERNIK",
+    "Name": "MANCA",
+    "Time": "01:40:52"
+  },
+  {
+    "Place": "1063",
+    "Number": "766",
+    "Surename": "RUNOVEC",
+    "Name": "JANEZ",
+    "Time": "01:40:53"
+  },
+  {
+    "Place": "1064",
+    "Number": "335",
+    "Surename": "RODOŠEK",
+    "Name": "FLORIJAN",
+    "Time": "01:40:57"
+  },
+  {
+    "Place": "1065",
+    "Number": "256",
+    "Surename": "ČAKŠ",
+    "Name": "MATEJ",
+    "Time": "01:41:09"
+  },
+  {
+    "Place": "1066",
+    "Number": "138",
+    "Surename": "TRDAN",
+    "Name": "NINA",
+    "Time": "01:41:09"
+  },
+  {
+    "Place": "1067",
+    "Number": "112",
+    "Surename": "ROBEŽNIK",
+    "Name": "ZALA",
+    "Time": "01:41:14"
+  },
+  {
+    "Place": "1068",
+    "Number": "877",
+    "Surename": "KLANČNIK",
+    "Name": "MATEVŽ",
+    "Time": "01:41:16"
+  },
+  {
+    "Place": "1069",
+    "Number": "925",
+    "Surename": "POLAK",
+    "Name": "LUKA",
+    "Time": "01:41:17"
+  },
+  {
+    "Place": "1070",
+    "Number": "1423",
+    "Surename": "BOROVIČ",
+    "Name": "SAŠO",
+    "Time": "01:41:23"
+  },
+  {
+    "Place": "1071",
+    "Number": "1254",
+    "Surename": "PRETNAR",
+    "Name": "LUKA",
+    "Time": "01:41:26"
+  },
+  {
+    "Place": "1072",
+    "Number": "1213",
+    "Surename": "BAHOR",
+    "Name": "BLAŽ",
+    "Time": "01:41:29"
+  },
+  {
+    "Place": "1073",
+    "Number": "402",
+    "Surename": "DOUBEK",
+    "Name": "FILIP",
+    "Time": "01:41:34"
+  },
+  {
+    "Place": "1074",
+    "Number": "1464",
+    "Surename": "HERCOG",
+    "Name": "IRENA",
+    "Time": "01:41:39"
+  },
+  {
+    "Place": "1075",
+    "Number": "1223",
+    "Surename": "LIČEN",
+    "Name": "ROBI",
+    "Time": "01:41:44"
+  },
+  {
+    "Place": "1076",
+    "Number": "1199",
+    "Surename": "HAUPTMAN",
+    "Name": "ANA",
+    "Time": "01:42:00"
+  },
+  {
+    "Place": "1077",
+    "Number": "730",
+    "Surename": "SEME",
+    "Name": "TANJA",
+    "Time": "01:42:01"
+  },
+  {
+    "Place": "1078",
+    "Number": "831",
+    "Surename": "PRAPER",
+    "Name": "JOŽE",
+    "Time": "01:42:13"
+  },
+  {
+    "Place": "1079",
+    "Number": "61",
+    "Surename": "BERNARD PUŠNIK",
+    "Name": "TIM",
+    "Time": "01:42:17"
+  },
+  {
+    "Place": "1080",
+    "Number": "1095",
+    "Surename": "OŠTARIJAŠ",
+    "Name": "MARCEL",
+    "Time": "01:42:23"
+  },
+  {
+    "Place": "1081",
+    "Number": "988",
+    "Surename": "MOROZ",
+    "Name": "MATEVZ",
+    "Time": "01:42:27"
+  },
+  {
+    "Place": "1082",
+    "Number": "1055",
+    "Surename": "OBSIVAC",
+    "Name": "JAN",
+    "Time": "01:42:36"
+  },
+  {
+    "Place": "1083",
+    "Number": "1102",
+    "Surename": "STEGNJAIĆ",
+    "Name": "NADA",
+    "Time": "01:42:37"
+  },
+  {
+    "Place": "1084",
+    "Number": "998",
+    "Surename": "UJČIĆ",
+    "Name": "ZORAN",
+    "Time": "01:42:42"
+  },
+  {
+    "Place": "1085",
+    "Number": "887",
+    "Surename": "TENČIĆ",
+    "Name": "KLAUDIO",
+    "Time": "01:42:43"
+  },
+  {
+    "Place": "1086",
+    "Number": "1226",
+    "Surename": "FRISCHENGRUBER",
+    "Name": "KURT",
+    "Time": "01:42:43"
+  },
+  {
+    "Place": "1087",
+    "Number": "1375",
+    "Surename": "BITENC",
+    "Name": "PETRA",
+    "Time": "01:42:44"
+  },
+  {
+    "Place": "1088",
+    "Number": "577",
+    "Surename": "TURK",
+    "Name": "SAMO",
+    "Time": "01:42:46"
+  },
+  {
+    "Place": "1089",
+    "Number": "743",
+    "Surename": "GOMILŠEK",
+    "Name": "DONA",
+    "Time": "01:43:07"
+  },
+  {
+    "Place": "1090",
+    "Number": "1370",
+    "Surename": "BEVC",
+    "Name": "JERNEJ",
+    "Time": "01:43:08"
+  },
+  {
+    "Place": "1091",
+    "Number": "786",
+    "Surename": "VIGALI",
+    "Name": "DRAGO",
+    "Time": "01:43:14"
+  },
+  {
+    "Place": "1092",
+    "Number": "1446",
+    "Surename": "LAVRIČ",
+    "Name": "TJAŠA",
+    "Time": "01:43:14"
+  },
+  {
+    "Place": "1093",
+    "Number": "1286",
+    "Surename": "TOMŠIČ",
+    "Name": "MIHA",
+    "Time": "01:43:18"
+  },
+  {
+    "Place": "1094",
+    "Number": "1302",
+    "Surename": "PERNUS",
+    "Name": "FRANCI",
+    "Time": "01:43:19"
+  },
+  {
+    "Place": "1095",
+    "Number": "1350",
+    "Surename": "STROJIN",
+    "Name": "JOŽE",
+    "Time": "01:43:26"
+  },
+  {
+    "Place": "1096",
+    "Number": "658",
+    "Surename": "SKARON",
+    "Name": "PAULO",
+    "Time": "01:43:26"
+  },
+  {
+    "Place": "1097",
+    "Number": "744",
+    "Surename": "GOMILŠEK",
+    "Name": "ALJAŽ",
+    "Time": "01:43:28"
+  },
+  {
+    "Place": "1098",
+    "Number": "542",
+    "Surename": "SLUGA",
+    "Name": "MIHA",
+    "Time": "01:43:31"
+  },
+  {
+    "Place": "1099",
+    "Number": "967",
+    "Surename": "GRUŠKOVNJAK",
+    "Name": "LARA",
+    "Time": "01:43:32"
+  },
+  {
+    "Place": "1100",
+    "Number": "1246",
+    "Surename": "DI PIPPO",
+    "Name": "PATRICK",
+    "Time": "01:43:36"
+  },
+  {
+    "Place": "1101",
+    "Number": "968",
+    "Surename": "LOVENJAK",
+    "Name": "JASMINA",
+    "Time": "01:43:36"
+  },
+  {
+    "Place": "1102",
+    "Number": "278",
+    "Surename": "TRATNIK",
+    "Name": "LUKA",
+    "Time": "01:43:37"
+  },
+  {
+    "Place": "1103",
+    "Number": "195",
+    "Surename": "KOTROCZÓNÉ LENGYEL",
+    "Name": "ENIKŐ",
+    "Time": "01:43:38"
+  },
+  {
+    "Place": "1104",
+    "Number": "857",
+    "Surename": "GOLOB",
+    "Name": "BOŠTJAN",
+    "Time": "01:43:43"
+  },
+  {
+    "Place": "1105",
+    "Number": "858",
+    "Surename": "GOLOB",
+    "Name": "ERIKA",
+    "Time": "01:43:43"
+  },
+  {
+    "Place": "1106",
+    "Number": "1109",
+    "Surename": "KERIN",
+    "Name": "MATEJ",
+    "Time": "01:43:44"
+  },
+  {
+    "Place": "1107",
+    "Number": "212",
+    "Surename": "VREČIČ",
+    "Name": "GREGOR",
+    "Time": "01:43:44"
+  },
+  {
+    "Place": "1108",
+    "Number": "888",
+    "Surename": "POROČNIK",
+    "Name": "MATIC",
+    "Time": "01:43:45"
+  },
+  {
+    "Place": "1109",
+    "Number": "154",
+    "Surename": "ŠKUFCA",
+    "Name": "MARUŠA",
+    "Time": "01:43:54"
+  },
+  {
+    "Place": "1110",
+    "Number": "769",
+    "Surename": "RYBÁŘOVÁ",
+    "Name": "SIMONA",
+    "Time": "01:43:55"
+  },
+  {
+    "Place": "1111",
+    "Number": "1034",
+    "Surename": "BELEJ",
+    "Name": "BLAŽ",
+    "Time": "01:44:04"
+  },
+  {
+    "Place": "1112",
+    "Number": "500",
+    "Surename": "TOCZEK",
+    "Name": "ANDRE",
+    "Time": "01:44:05"
+  },
+  {
+    "Place": "1113",
+    "Number": "1399",
+    "Surename": "DRENIK",
+    "Name": "TAMARA",
+    "Time": "01:44:14"
+  },
+  {
+    "Place": "1114",
+    "Number": "479",
+    "Surename": "KALŠEK",
+    "Name": "EVA",
+    "Time": "01:44:17"
+  },
+  {
+    "Place": "1115",
+    "Number": "491",
+    "Surename": "JEŽOVNIK",
+    "Name": "BOGDAN",
+    "Time": "01:44:18"
+  },
+  {
+    "Place": "1116",
+    "Number": "14",
+    "Surename": "RAFAJ",
+    "Name": "SINIŠA",
+    "Time": "01:44:20"
+  },
+  {
+    "Place": "1117",
+    "Number": "934",
+    "Surename": "VILMAN",
+    "Name": "MARKO",
+    "Time": "01:44:20"
+  },
+  {
+    "Place": "1118",
+    "Number": "15",
+    "Surename": "ŠOLAR",
+    "Name": "JAN",
+    "Time": "01:44:23"
+  },
+  {
+    "Place": "1119",
+    "Number": "738",
+    "Surename": "PIROSKA",
+    "Name": "FRICS",
+    "Time": "01:44:28"
+  },
+  {
+    "Place": "1120",
+    "Number": "652",
+    "Surename": "MOŽE",
+    "Name": "JAKA",
+    "Time": "01:44:29"
+  },
+  {
+    "Place": "1121",
+    "Number": "182",
+    "Surename": "DOLINAR",
+    "Name": "BLAZ",
+    "Time": "01:44:31"
+  },
+  {
+    "Place": "1122",
+    "Number": "778",
+    "Surename": "ZAVRL",
+    "Name": "DANIJEL",
+    "Time": "01:44:36"
+  },
+  {
+    "Place": "1123",
+    "Number": "411",
+    "Surename": "BLAZNIK",
+    "Name": "MIRAN",
+    "Time": "01:44:38"
+  },
+  {
+    "Place": "1124",
+    "Number": "776",
+    "Surename": "ŠEŠKO",
+    "Name": "DEJAN",
+    "Time": "01:44:42"
+  },
+  {
+    "Place": "1125",
+    "Number": "885",
+    "Surename": "ŠVENDA",
+    "Name": "ANIN",
+    "Time": "01:44:45"
+  },
+  {
+    "Place": "1126",
+    "Number": "1191",
+    "Surename": "SIRK",
+    "Name": "MATIJA",
+    "Time": "01:44:47"
+  },
+  {
+    "Place": "1127",
+    "Number": "876",
+    "Surename": "KOS",
+    "Name": "RAFAEL",
+    "Time": "01:44:50"
+  },
+  {
+    "Place": "1128",
+    "Number": "541",
+    "Surename": "KOVAČ",
+    "Name": "MARTIN",
+    "Time": "01:44:51"
+  },
+  {
+    "Place": "1129",
+    "Number": "729",
+    "Surename": "SEME",
+    "Name": "PETER",
+    "Time": "01:44:53"
+  },
+  {
+    "Place": "1130",
+    "Number": "724",
+    "Surename": "LISJAK",
+    "Name": "ANJA",
+    "Time": "01:44:56"
+  },
+  {
+    "Place": "1131",
+    "Number": "1233",
+    "Surename": "KOMPA",
+    "Name": "ALEKSANDRA",
+    "Time": "01:44:58"
+  },
+  {
+    "Place": "1132",
+    "Number": "1200",
+    "Surename": "ROZMAN",
+    "Name": "PRIMOŽ",
+    "Time": "01:44:59"
+  },
+  {
+    "Place": "1133",
+    "Number": "99",
+    "Surename": "KOLAR",
+    "Name": "DAMIR",
+    "Time": "01:44:59"
+  },
+  {
+    "Place": "1134",
+    "Number": "23",
+    "Surename": "PAPEŽ",
+    "Name": "JERNEJ",
+    "Time": "01:44:59"
+  },
+  {
+    "Place": "1135",
+    "Number": "1337",
+    "Surename": "FLISAR",
+    "Name": "UROŠ",
+    "Time": "01:45:02"
+  },
+  {
+    "Place": "1136",
+    "Number": "789",
+    "Surename": "SULIGOI",
+    "Name": "ANDREJ",
+    "Time": "01:45:03"
+  },
+  {
+    "Place": "1137",
+    "Number": "1411",
+    "Surename": "HUNSKI",
+    "Name": "MATIC",
+    "Time": "01:45:13"
+  },
+  {
+    "Place": "1138",
+    "Number": "21",
+    "Surename": "SELAKOVIČ",
+    "Name": "GAŠPER",
+    "Time": "01:45:14"
+  },
+  {
+    "Place": "1139",
+    "Number": "227",
+    "Surename": "TODOROVIĆ",
+    "Name": "MIODRAG",
+    "Time": "01:45:14"
+  },
+  {
+    "Place": "1140",
+    "Number": "1334",
+    "Surename": "LONČAR",
+    "Name": "MAJA",
+    "Time": "01:45:20"
+  },
+  {
+    "Place": "1141",
+    "Number": "1153",
+    "Surename": "SVAJDA",
+    "Name": "MARKO",
+    "Time": "01:45:23"
+  },
+  {
+    "Place": "1142",
+    "Number": "1043",
+    "Surename": "ARČAN",
+    "Name": "GREGOR",
+    "Time": "01:45:25"
+  },
+  {
+    "Place": "1143",
+    "Number": "139",
+    "Surename": "PELHAN",
+    "Name": "TINKA",
+    "Time": "01:45:25"
+  },
+  {
+    "Place": "1144",
+    "Number": "140",
+    "Surename": "CERGOL",
+    "Name": "INA",
+    "Time": "01:45:26"
+  },
+  {
+    "Place": "1145",
+    "Number": "1042",
+    "Surename": "ČRETNIK",
+    "Name": "TADEJ",
+    "Time": "01:45:28"
+  },
+  {
+    "Place": "1146",
+    "Number": "1053",
+    "Surename": "ŠTAMOL",
+    "Name": "IVAN",
+    "Time": "01:45:28"
+  },
+  {
+    "Place": "1147",
+    "Number": "279",
+    "Surename": "SERŠEN",
+    "Name": "DORA",
+    "Time": "01:45:30"
+  },
+  {
+    "Place": "1148",
+    "Number": "1082",
+    "Surename": "RUPNIK",
+    "Name": "MARTIN",
+    "Time": "01:45:35"
+  },
+  {
+    "Place": "1149",
+    "Number": "898",
+    "Surename": "HODNIK",
+    "Name": "DEJAN",
+    "Time": "01:45:40"
+  },
+  {
+    "Place": "1150",
+    "Number": "350",
+    "Surename": "PAVIC",
+    "Name": "MIRNA",
+    "Time": "01:45:40"
+  },
+  {
+    "Place": "1151",
+    "Number": "466",
+    "Surename": "KASTELIC",
+    "Name": "ALENKA",
+    "Time": "01:45:42"
+  },
+  {
+    "Place": "1152",
+    "Number": "349",
+    "Surename": "POLIC",
+    "Name": "VINKO",
+    "Time": "01:45:48"
+  },
+  {
+    "Place": "1153",
+    "Number": "1038",
+    "Surename": "BUBNIČ",
+    "Name": "NINA",
+    "Time": "01:45:49"
+  },
+  {
+    "Place": "1154",
+    "Number": "929",
+    "Surename": "BANIČ",
+    "Name": "ALEŠA",
+    "Time": "01:45:53"
+  },
+  {
+    "Place": "1155",
+    "Number": "1228",
+    "Surename": "MIKLAUTZ",
+    "Name": "MICHAELA",
+    "Time": "01:45:54"
+  },
+  {
+    "Place": "1156",
+    "Number": "798",
+    "Surename": "CIZELJ",
+    "Name": "KLEMEN",
+    "Time": "01:45:57"
+  },
+  {
+    "Place": "1157",
+    "Number": "40",
+    "Surename": "BOŠTJANČIČ",
+    "Name": "PETER",
+    "Time": "01:45:58"
+  },
+  {
+    "Place": "1158",
+    "Number": "465",
+    "Surename": "KASTELIC",
+    "Name": "KRISTAN",
+    "Time": "01:45:59"
+  },
+  {
+    "Place": "1159",
+    "Number": "845",
+    "Surename": "KOGOJ AŽBE",
+    "Name": "DAVID",
+    "Time": "01:46:00"
+  },
+  {
+    "Place": "1160",
+    "Number": "32",
+    "Surename": "ILERŠIČ",
+    "Name": "LUKA",
+    "Time": "01:46:10"
+  },
+  {
+    "Place": "1161",
+    "Number": "1207",
+    "Surename": "BEVK",
+    "Name": "PATRIK",
+    "Time": "01:46:13"
+  },
+  {
+    "Place": "1162",
+    "Number": "391",
+    "Surename": "VODIČAR",
+    "Name": "TADEJ",
+    "Time": "01:46:16"
+  },
+  {
+    "Place": "1163",
+    "Number": "420",
+    "Surename": "KRAJNIK",
+    "Name": "SIMON",
+    "Time": "01:46:18"
+  },
+  {
+    "Place": "1164",
+    "Number": "249",
+    "Surename": "BURGER",
+    "Name": "ANNA",
+    "Time": "01:46:19"
+  },
+  {
+    "Place": "1165",
+    "Number": "324",
+    "Surename": "JANUŠIČ",
+    "Name": "DARKO",
+    "Time": "01:46:21"
+  },
+  {
+    "Place": "1166",
+    "Number": "1503",
+    "Surename": "LAPAJNE",
+    "Name": "KSENIJA",
+    "Time": "01:46:26"
+  },
+  {
+    "Place": "1167",
+    "Number": "616",
+    "Surename": "URBANC",
+    "Name": "LUKA",
+    "Time": "01:46:28"
+  },
+  {
+    "Place": "1168",
+    "Number": "617",
+    "Surename": "JELEN",
+    "Name": "TEA",
+    "Time": "01:46:29"
+  },
+  {
+    "Place": "1169",
+    "Number": "419",
+    "Surename": "HABJAN",
+    "Name": "ROK",
+    "Time": "01:46:32"
+  },
+  {
+    "Place": "1170",
+    "Number": "754",
+    "Surename": "PETRIČ",
+    "Name": "BOJAN",
+    "Time": "01:46:37"
+  },
+  {
+    "Place": "1171",
+    "Number": "408",
+    "Surename": "VEREBÉLYI",
+    "Name": "ANI",
+    "Time": "01:46:37"
+  },
+  {
+    "Place": "1172",
+    "Number": "850",
+    "Surename": "TIŠLER",
+    "Name": "URBAN",
+    "Time": "01:46:38"
+  },
+  {
+    "Place": "1173",
+    "Number": "779",
+    "Surename": "VUJASINOVIČ",
+    "Name": "NELA",
+    "Time": "01:46:39"
+  },
+  {
+    "Place": "1174",
+    "Number": "412",
+    "Surename": "SMERDELJ",
+    "Name": "LUKA",
+    "Time": "01:46:41"
+  },
+  {
+    "Place": "1175",
+    "Number": "395",
+    "Surename": "GRILJC",
+    "Name": "KRISTJAN",
+    "Time": "01:46:41"
+  },
+  {
+    "Place": "1176",
+    "Number": "1395",
+    "Surename": "ŠALAMIJA",
+    "Name": "ANŽE",
+    "Time": "01:46:50"
+  },
+  {
+    "Place": "1177",
+    "Number": "995",
+    "Surename": "LAMPREHT",
+    "Name": "JURE",
+    "Time": "01:46:51"
+  },
+  {
+    "Place": "1178",
+    "Number": "290",
+    "Surename": "UTROŠA",
+    "Name": "VIKTOR",
+    "Time": "01:46:53"
+  },
+  {
+    "Place": "1179",
+    "Number": "894",
+    "Surename": "STARIHA",
+    "Name": "PETER",
+    "Time": "01:46:57"
+  },
+  {
+    "Place": "1180",
+    "Number": "45",
+    "Surename": "REPANŠEK",
+    "Name": "SAŠO",
+    "Time": "01:47:06"
+  },
+  {
+    "Place": "1181",
+    "Number": "1096",
+    "Surename": "ŠUNKO",
+    "Name": "SAMO",
+    "Time": "01:47:07"
+  },
+  {
+    "Place": "1182",
+    "Number": "620",
+    "Surename": "KARNEL",
+    "Name": "JORG",
+    "Time": "01:47:09"
+  },
+  {
+    "Place": "1183",
+    "Number": "33",
+    "Surename": "ZUPANC",
+    "Name": "SIMONA",
+    "Time": "01:47:12"
+  },
+  {
+    "Place": "1184",
+    "Number": "1280",
+    "Surename": "LIKAR",
+    "Name": "MATIJA",
+    "Time": "01:47:13"
+  },
+  {
+    "Place": "1185",
+    "Number": "1281",
+    "Surename": "LIKAR",
+    "Name": "MATJAŽ",
+    "Time": "01:47:16"
+  },
+  {
+    "Place": "1186",
+    "Number": "882",
+    "Surename": "ZELKO",
+    "Name": "GORAZD",
+    "Time": "01:47:16"
+  },
+  {
+    "Place": "1187",
+    "Number": "735",
+    "Surename": "SLEMENŠEK",
+    "Name": "ROMANCA",
+    "Time": "01:47:16"
+  },
+  {
+    "Place": "1188",
+    "Number": "161",
+    "Surename": "OČKO",
+    "Name": "MATIC",
+    "Time": "01:47:20"
+  },
+  {
+    "Place": "1189",
+    "Number": "971",
+    "Surename": "KRAMBERGER",
+    "Name": "NASTJA",
+    "Time": "01:47:20"
+  },
+  {
+    "Place": "1190",
+    "Number": "1504",
+    "Surename": "BREGAR",
+    "Name": "ŽIGA",
+    "Time": "01:47:24"
+  },
+  {
+    "Place": "1191",
+    "Number": "437",
+    "Surename": "SLIVNIK",
+    "Name": "MARUŠA",
+    "Time": "01:47:27"
+  },
+  {
+    "Place": "1192",
+    "Number": "1184",
+    "Surename": "VESELKO",
+    "Name": "MITJA",
+    "Time": "01:47:49"
+  },
+  {
+    "Place": "1193",
+    "Number": "512",
+    "Surename": "REPE",
+    "Name": "ZALA",
+    "Time": "01:47:58"
+  },
+  {
+    "Place": "1194",
+    "Number": "16",
+    "Surename": "RUSJAN",
+    "Name": "SIMON",
+    "Time": "01:48:04"
+  },
+  {
+    "Place": "1195",
+    "Number": "303",
+    "Surename": "MOROZ",
+    "Name": "EGON",
+    "Time": "01:48:04"
+  },
+  {
+    "Place": "1196",
+    "Number": "1360",
+    "Surename": "REZONJA",
+    "Name": "ALES",
+    "Time": "01:48:07"
+  },
+  {
+    "Place": "1197",
+    "Number": "389",
+    "Surename": "PLANOVŠEK",
+    "Name": "TOMAŽ",
+    "Time": "01:48:13"
+  },
+  {
+    "Place": "1198",
+    "Number": "494",
+    "Surename": "STEINHUBER",
+    "Name": "ARNOLD",
+    "Time": "01:48:17"
+  },
+  {
+    "Place": "1199",
+    "Number": "1222",
+    "Surename": "RAVNIK",
+    "Name": "TIM",
+    "Time": "01:48:17"
+  },
+  {
+    "Place": "1200",
+    "Number": "989",
+    "Surename": "LUKAN",
+    "Name": "DAVID",
+    "Time": "01:48:21"
+  },
+  {
+    "Place": "1201",
+    "Number": "1300",
+    "Surename": "KOVAČ",
+    "Name": "MELITA",
+    "Time": "01:48:22"
+  },
+  {
+    "Place": "1202",
+    "Number": "495",
+    "Surename": "WOLFGER",
+    "Name": "DANIEL",
+    "Time": "01:48:23"
+  },
+  {
+    "Place": "1203",
+    "Number": "24",
+    "Surename": "REP",
+    "Name": "DENIS",
+    "Time": "01:48:25"
+  },
+  {
+    "Place": "1204",
+    "Number": "697",
+    "Surename": "DJORDJEVIĆ",
+    "Name": "ALEKSANDAR",
+    "Time": "01:48:34"
+  },
+  {
+    "Place": "1205",
+    "Number": "436",
+    "Surename": "KELIH",
+    "Name": "NATAŠA",
+    "Time": "01:48:34"
+  },
+  {
+    "Place": "1206",
+    "Number": "434",
+    "Surename": "TALIČ",
+    "Name": "KALMEN",
+    "Time": "01:48:42"
+  },
+  {
+    "Place": "1207",
+    "Number": "450",
+    "Surename": "FRANDOLI",
+    "Name": "MANUEL",
+    "Time": "01:48:43"
+  },
+  {
+    "Place": "1208",
+    "Number": "578",
+    "Surename": "JANKOVIČ",
+    "Name": "MITJA",
+    "Time": "01:48:44"
+  },
+  {
+    "Place": "1209",
+    "Number": "496",
+    "Surename": "LUKMAN",
+    "Name": "SAŠO",
+    "Time": "01:48:45"
+  },
+  {
+    "Place": "1210",
+    "Number": "908",
+    "Surename": "LASSNIG",
+    "Name": "JOHANNES",
+    "Time": "01:48:45"
+  },
+  {
+    "Place": "1211",
+    "Number": "497",
+    "Surename": "HOJNIK",
+    "Name": "GREGOR",
+    "Time": "01:48:54"
+  },
+  {
+    "Place": "1212",
+    "Number": "986",
+    "Surename": "KREMŽAR",
+    "Name": "LUCIJA",
+    "Time": "01:48:57"
+  },
+  {
+    "Place": "1213",
+    "Number": "959",
+    "Surename": "JEREB",
+    "Name": "ANA",
+    "Time": "01:49:01"
+  },
+  {
+    "Place": "1214",
+    "Number": "507",
+    "Surename": "ZOTLER",
+    "Name": "POLONA",
+    "Time": "01:49:06"
+  },
+  {
+    "Place": "1215",
+    "Number": "328",
+    "Surename": "VERŠČAJ",
+    "Name": "LUKA",
+    "Time": "01:49:07"
+  },
+  {
+    "Place": "1216",
+    "Number": "329",
+    "Surename": "MEHAK",
+    "Name": "EVA",
+    "Time": "01:49:07"
+  },
+  {
+    "Place": "1217",
+    "Number": "509",
+    "Surename": "URBANIJA",
+    "Name": "MANCA",
+    "Time": "01:49:09"
+  },
+  {
+    "Place": "1218",
+    "Number": "6",
+    "Surename": "VODOSEK",
+    "Name": "PETER",
+    "Time": "01:49:20"
+  },
+  {
+    "Place": "1219",
+    "Number": "1",
+    "Surename": "VODOSEK",
+    "Name": "JANI",
+    "Time": "01:49:22"
+  },
+  {
+    "Place": "1220",
+    "Number": "696",
+    "Surename": "LOBNIK",
+    "Name": "MATEVZ",
+    "Time": "01:49:30"
+  },
+  {
+    "Place": "1221",
+    "Number": "354",
+    "Surename": "KEMPERL",
+    "Name": "ANŽE",
+    "Time": "01:49:33"
+  },
+  {
+    "Place": "1222",
+    "Number": "765",
+    "Surename": "ŽUMER",
+    "Name": "MIRKO",
+    "Time": "01:49:35"
+  },
+  {
+    "Place": "1223",
+    "Number": "1473",
+    "Surename": "BERTONCELJ",
+    "Name": "JURE",
+    "Time": "01:49:43"
+  },
+  {
+    "Place": "1224",
+    "Number": "1313",
+    "Surename": "PORENTA",
+    "Name": "KARMEN",
+    "Time": "01:49:47"
+  },
+  {
+    "Place": "1225",
+    "Number": "1382",
+    "Surename": "BOHINC",
+    "Name": "GREGA",
+    "Time": "01:49:48"
+  },
+  {
+    "Place": "1226",
+    "Number": "218",
+    "Surename": "RODE",
+    "Name": "GREGOR",
+    "Time": "01:49:51"
+  },
+  {
+    "Place": "1227",
+    "Number": "1147",
+    "Surename": "ZAGAR",
+    "Name": "EVA",
+    "Time": "01:49:52"
+  },
+  {
+    "Place": "1228",
+    "Number": "1414",
+    "Surename": "MIJOVIC",
+    "Name": "VUKSAN",
+    "Time": "01:49:58"
+  },
+  {
+    "Place": "1229",
+    "Number": "1009",
+    "Surename": "MILOŠIČ",
+    "Name": "DANI",
+    "Time": "01:50:00"
+  },
+  {
+    "Place": "1230",
+    "Number": "919",
+    "Surename": "RICHTER",
+    "Name": "KATARINA",
+    "Time": "01:50:02"
+  },
+  {
+    "Place": "1231",
+    "Number": "291",
+    "Surename": "JIROUŠEK",
+    "Name": "JAKUB",
+    "Time": "01:50:03"
+  },
+  {
+    "Place": "1232",
+    "Number": "948",
+    "Surename": "KLÁŠTERKA",
+    "Name": "JAN",
+    "Time": "01:50:11"
+  },
+  {
+    "Place": "1233",
+    "Number": "588",
+    "Surename": "ZAJŠEK",
+    "Name": "DEJAN",
+    "Time": "01:50:17"
+  },
+  {
+    "Place": "1234",
+    "Number": "177",
+    "Surename": "VRTAČNIK",
+    "Name": "BLAŽ",
+    "Time": "01:50:19"
+  },
+  {
+    "Place": "1235",
+    "Number": "1111",
+    "Surename": "PRIBANIĆ",
+    "Name": "TOMISLAV",
+    "Time": "01:50:19"
+  },
+  {
+    "Place": "1236",
+    "Number": "1398",
+    "Surename": "ŠTAJDUHAR",
+    "Name": "MAJA",
+    "Time": "01:50:20"
+  },
+  {
+    "Place": "1237",
+    "Number": "589",
+    "Surename": "RAJH",
+    "Name": "ŽIGA",
+    "Time": "01:50:23"
+  },
+  {
+    "Place": "1238",
+    "Number": "176",
+    "Surename": "EBERHARD",
+    "Name": "MAJA",
+    "Time": "01:50:25"
+  },
+  {
+    "Place": "1239",
+    "Number": "209",
+    "Surename": "FILIPIČ",
+    "Name": "ŽIGA",
+    "Time": "01:50:35"
+  },
+  {
+    "Place": "1240",
+    "Number": "1447",
+    "Surename": "PASAGIC",
+    "Name": "ELVEDIN",
+    "Time": "01:50:35"
+  },
+  {
+    "Place": "1241",
+    "Number": "50",
+    "Surename": "KMETIČ",
+    "Name": "BOJAN",
+    "Time": "01:50:38"
+  },
+  {
+    "Place": "1242",
+    "Number": "610",
+    "Surename": "MEDGYESI",
+    "Name": "PETER",
+    "Time": "01:50:39"
+  },
+  {
+    "Place": "1243",
+    "Number": "1472",
+    "Surename": "POGAČNIK",
+    "Name": "MARKO",
+    "Time": "01:50:43"
+  },
+  {
+    "Place": "1244",
+    "Number": "1376",
+    "Surename": "SLAPNIK",
+    "Name": "NATASA",
+    "Time": "01:50:48"
+  },
+  {
+    "Place": "1245",
+    "Number": "1180",
+    "Surename": "VIDMAR",
+    "Name": "MITJA",
+    "Time": "01:50:48"
+  },
+  {
+    "Place": "1246",
+    "Number": "990",
+    "Surename": "PIVK",
+    "Name": "TADEJ",
+    "Time": "01:50:50"
+  },
+  {
+    "Place": "1247",
+    "Number": "1475",
+    "Surename": "GARTNER",
+    "Name": "LUKA",
+    "Time": "01:50:50"
+  },
+  {
+    "Place": "1248",
+    "Number": "149",
+    "Surename": "ŽEL",
+    "Name": "JURIJ",
+    "Time": "01:50:58"
+  },
+  {
+    "Place": "1249",
+    "Number": "552",
+    "Surename": "TURŠČAK",
+    "Name": "MAJA",
+    "Time": "01:51:02"
+  },
+  {
+    "Place": "1250",
+    "Number": "1296",
+    "Surename": "DEMŠAR",
+    "Name": "TINA",
+    "Time": "01:51:05"
+  },
+  {
+    "Place": "1251",
+    "Number": "310",
+    "Surename": "ŠKERLAK",
+    "Name": "BENJAMIN",
+    "Time": "01:51:14"
+  },
+  {
+    "Place": "1252",
+    "Number": "717",
+    "Surename": "CELEC",
+    "Name": "BRANKA",
+    "Time": "01:51:19"
+  },
+  {
+    "Place": "1253",
+    "Number": "370",
+    "Surename": "KVAPIL",
+    "Name": "MATEJ",
+    "Time": "01:51:36"
+  },
+  {
+    "Place": "1254",
+    "Number": "550",
+    "Surename": "KAĆANSKI",
+    "Name": "MARKO",
+    "Time": "01:51:38"
+  },
+  {
+    "Place": "1255",
+    "Number": "719",
+    "Surename": "HERIC",
+    "Name": "BOGOMIR",
+    "Time": "01:51:40"
+  },
+  {
+    "Place": "1256",
+    "Number": "748",
+    "Surename": "SZOKÁCS",
+    "Name": "PÉTER",
+    "Time": "01:51:48"
+  },
+  {
+    "Place": "1257",
+    "Number": "960",
+    "Surename": "KOSI",
+    "Name": "DANIJEL",
+    "Time": "01:51:49"
+  },
+  {
+    "Place": "1258",
+    "Number": "1112",
+    "Surename": "ZUPANČIČ",
+    "Name": "BLAŽ",
+    "Time": "01:51:49"
+  },
+  {
+    "Place": "1259",
+    "Number": "493",
+    "Surename": "STAUBMANN",
+    "Name": "RENE",
+    "Time": "01:51:52"
+  },
+  {
+    "Place": "1260",
+    "Number": "679",
+    "Surename": "JAZBEC",
+    "Name": "MATEJ",
+    "Time": "01:52:10"
+  },
+  {
+    "Place": "1261",
+    "Number": "1501",
+    "Surename": "DERLINK",
+    "Name": "MIRAN",
+    "Time": "01:52:12"
+  },
+  {
+    "Place": "1262",
+    "Number": "503",
+    "Surename": "HVALA",
+    "Name": "SIMON",
+    "Time": "01:52:13"
+  },
+  {
+    "Place": "1263",
+    "Number": "302",
+    "Surename": "RUPNIK",
+    "Name": "MIHA",
+    "Time": "01:52:19"
+  },
+  {
+    "Place": "1264",
+    "Number": "298",
+    "Surename": "MARTINEC",
+    "Name": "TOMISLAV",
+    "Time": "01:52:19"
+  },
+  {
+    "Place": "1265",
+    "Number": "630",
+    "Surename": "MASLO",
+    "Name": "JASMIN",
+    "Time": "01:52:25"
+  },
+  {
+    "Place": "1266",
+    "Number": "1081",
+    "Surename": "KORENČ",
+    "Name": "MATEJ",
+    "Time": "01:52:31"
+  },
+  {
+    "Place": "1267",
+    "Number": "332",
+    "Surename": "KURIDŽA FERIĆ",
+    "Name": "ALEKSANDRA",
+    "Time": "01:52:41"
+  },
+  {
+    "Place": "1268",
+    "Number": "1083",
+    "Surename": "GROM",
+    "Name": "DAVID",
+    "Time": "01:52:42"
+  },
+  {
+    "Place": "1269",
+    "Number": "956",
+    "Surename": "LIPAR",
+    "Name": "TADEJ",
+    "Time": "01:52:55"
+  },
+  {
+    "Place": "1270",
+    "Number": "184",
+    "Surename": "CERJAK",
+    "Name": "ALEŠ",
+    "Time": "01:53:00"
+  },
+  {
+    "Place": "1271",
+    "Number": "832",
+    "Surename": "THIEL",
+    "Name": "RÜDIGER",
+    "Time": "01:53:17"
+  },
+  {
+    "Place": "1272",
+    "Number": "1362",
+    "Surename": "KOCEN",
+    "Name": "ROBERT",
+    "Time": "01:53:18"
+  },
+  {
+    "Place": "1273",
+    "Number": "827",
+    "Surename": "RAVNIK",
+    "Name": "BOŠTJAN",
+    "Time": "01:53:21"
+  },
+  {
+    "Place": "1274",
+    "Number": "336",
+    "Surename": "SOJER",
+    "Name": "NINA",
+    "Time": "01:53:22"
+  },
+  {
+    "Place": "1275",
+    "Number": "337",
+    "Surename": "TURŠIČ",
+    "Name": "TINE",
+    "Time": "01:53:23"
+  },
+  {
+    "Place": "1276",
+    "Number": "826",
+    "Surename": "RAVNIK",
+    "Name": "MARK",
+    "Time": "01:53:25"
+  },
+  {
+    "Place": "1277",
+    "Number": "1234",
+    "Surename": "POLŠAK",
+    "Name": "GREGA",
+    "Time": "01:53:27"
+  },
+  {
+    "Place": "1278",
+    "Number": "644",
+    "Surename": "FAJDIGA",
+    "Name": "MITJA",
+    "Time": "01:53:28"
+  },
+  {
+    "Place": "1279",
+    "Number": "1385",
+    "Surename": "GJERKEŠ",
+    "Name": "SIMONA",
+    "Time": "01:53:30"
+  },
+  {
+    "Place": "1280",
+    "Number": "698",
+    "Surename": "JANČIČ",
+    "Name": "GREGOR",
+    "Time": "01:53:33"
+  },
+  {
+    "Place": "1281",
+    "Number": "881",
+    "Surename": "VOGRINČIČ",
+    "Name": "BOJAN",
+    "Time": "01:53:33"
+  },
+  {
+    "Place": "1282",
+    "Number": "173",
+    "Surename": "MAJDIČ",
+    "Name": "SAMO",
+    "Time": "01:53:35"
+  },
+  {
+    "Place": "1283",
+    "Number": "60",
+    "Surename": "JURMAN",
+    "Name": "TOMAŽ",
+    "Time": "01:53:35"
+  },
+  {
+    "Place": "1284",
+    "Number": "375",
+    "Surename": "MARCH",
+    "Name": "MATTHIAS",
+    "Time": "01:53:39"
+  },
+  {
+    "Place": "1285",
+    "Number": "1396",
+    "Surename": "KMET",
+    "Name": "DALIBOR",
+    "Time": "01:54:09"
+  },
+  {
+    "Place": "1286",
+    "Number": "1008",
+    "Surename": "GRAJFONER",
+    "Name": "DOMEN",
+    "Time": "01:54:15"
+  },
+  {
+    "Place": "1287",
+    "Number": "626",
+    "Surename": "SOTOŠEK",
+    "Name": "ANDREJ",
+    "Time": "01:54:29"
+  },
+  {
+    "Place": "1288",
+    "Number": "983",
+    "Surename": "MIHALJEVIĆ",
+    "Name": "MATIJA",
+    "Time": "01:54:31"
+  },
+  {
+    "Place": "1289",
+    "Number": "141",
+    "Surename": "NAHTIGAL",
+    "Name": "KATARINA",
+    "Time": "01:54:33"
+  },
+  {
+    "Place": "1290",
+    "Number": "1386",
+    "Surename": "LENIČ",
+    "Name": "MONIKA",
+    "Time": "01:54:49"
+  },
+  {
+    "Place": "1291",
+    "Number": "703",
+    "Surename": "ZSUZSANNA",
+    "Name": "CSÁK",
+    "Time": "01:54:59"
+  },
+  {
+    "Place": "1292",
+    "Number": "704",
+    "Surename": "GÁBOR",
+    "Name": "ANGYAL",
+    "Time": "01:54:59"
+  },
+  {
+    "Place": "1293",
+    "Number": "22",
+    "Surename": "TOPLAK",
+    "Name": "TOMAŽ",
+    "Time": "01:55:03"
+  },
+  {
+    "Place": "1294",
+    "Number": "1126",
+    "Surename": "JURJEC",
+    "Name": "ALEŠ",
+    "Time": "01:55:19"
+  },
+  {
+    "Place": "1295",
+    "Number": "1120",
+    "Surename": "ROBNIK",
+    "Name": "GORAZD",
+    "Time": "01:55:21"
+  },
+  {
+    "Place": "1296",
+    "Number": "1110",
+    "Surename": "MARAS",
+    "Name": "IVAN",
+    "Time": "01:55:21"
+  },
+  {
+    "Place": "1297",
+    "Number": "1324",
+    "Surename": "ESIH",
+    "Name": "ZALA",
+    "Time": "01:55:21"
+  },
+  {
+    "Place": "1298",
+    "Number": "365",
+    "Surename": "KRANER",
+    "Name": "ŠPELA",
+    "Time": "01:55:28"
+  },
+  {
+    "Place": "1299",
+    "Number": "742",
+    "Surename": "HOSNI",
+    "Name": "DAVID",
+    "Time": "01:55:36"
+  },
+  {
+    "Place": "1300",
+    "Number": "741",
+    "Surename": "HOSNI",
+    "Name": "VLADIMIR",
+    "Time": "01:55:43"
+  },
+  {
+    "Place": "1301",
+    "Number": "1477",
+    "Surename": "ZAVRL",
+    "Name": "KATJA",
+    "Time": "01:55:47"
+  },
+  {
+    "Place": "1302",
+    "Number": "1478",
+    "Surename": "NASTRAN",
+    "Name": "ANDRAŽ",
+    "Time": "01:56:14"
+  },
+  {
+    "Place": "1303",
+    "Number": "1169",
+    "Surename": "RUDOLF",
+    "Name": "KLEMEN",
+    "Time": "01:56:18"
+  },
+  {
+    "Place": "1304",
+    "Number": "1235",
+    "Surename": "PAVLIČ",
+    "Name": "JURE",
+    "Time": "01:56:23"
+  },
+  {
+    "Place": "1305",
+    "Number": "504",
+    "Surename": "HVALA",
+    "Name": "SAMO",
+    "Time": "01:56:47"
+  },
+  {
+    "Place": "1306",
+    "Number": "1168",
+    "Surename": "LAMPREHT",
+    "Name": "PRIMOŽ",
+    "Time": "01:56:57"
+  },
+  {
+    "Place": "1307",
+    "Number": "1050",
+    "Surename": "PRAVDIĆ",
+    "Name": "MARKO",
+    "Time": "01:57:02"
+  },
+  {
+    "Place": "1308",
+    "Number": "1307",
+    "Surename": "VRANICAR",
+    "Name": "JURE",
+    "Time": "01:57:03"
+  },
+  {
+    "Place": "1309",
+    "Number": "1215",
+    "Surename": "GLUSIC",
+    "Name": "DANIJEL",
+    "Time": "01:57:06"
+  },
+  {
+    "Place": "1310",
+    "Number": "673",
+    "Surename": "KOREN",
+    "Name": "KLAVDIJA",
+    "Time": "01:57:14"
+  },
+  {
+    "Place": "1311",
+    "Number": "846",
+    "Surename": "MUCCI",
+    "Name": "ROBERT",
+    "Time": "01:57:19"
+  },
+  {
+    "Place": "1312",
+    "Number": "656",
+    "Surename": "LEVSTEK",
+    "Name": "JANEZ",
+    "Time": "01:57:28"
+  },
+  {
+    "Place": "1313",
+    "Number": "262",
+    "Surename": "MUNDA",
+    "Name": "JANKO",
+    "Time": "01:57:37"
+  },
+  {
+    "Place": "1314",
+    "Number": "1287",
+    "Surename": "TOMSIC",
+    "Name": "ANDREJ",
+    "Time": "01:58:05"
+  },
+  {
+    "Place": "1315",
+    "Number": "451",
+    "Surename": "DEMORI",
+    "Name": "MANUEL",
+    "Time": "01:58:09"
+  },
+  {
+    "Place": "1316",
+    "Number": "1011",
+    "Surename": "PUNGERCAR",
+    "Name": "NEJC",
+    "Time": "01:58:18"
+  },
+  {
+    "Place": "1317",
+    "Number": "1284",
+    "Surename": "JAKLIČ",
+    "Name": "MATEVŽ",
+    "Time": "01:58:27"
+  },
+  {
+    "Place": "1318",
+    "Number": "455",
+    "Surename": "STOLTE",
+    "Name": "NICK",
+    "Time": "01:58:31"
+  },
+  {
+    "Place": "1319",
+    "Number": "849",
+    "Surename": "DANIJEL",
+    "Name": "PERIC",
+    "Time": "01:58:33"
+  },
+  {
+    "Place": "1320",
+    "Number": "454",
+    "Surename": "MUELLER STARKE",
+    "Name": "ALEXANDER",
+    "Time": "01:58:38"
+  },
+  {
+    "Place": "1321",
+    "Number": "1325",
+    "Surename": "DIKLIČ",
+    "Name": "MATIC",
+    "Time": "01:58:41"
+  },
+  {
+    "Place": "1322",
+    "Number": "861",
+    "Surename": "ŠTERK",
+    "Name": "GREGOR",
+    "Time": "01:58:47"
+  },
+  {
+    "Place": "1323",
+    "Number": "862",
+    "Surename": "FRANCEKOVIČ ŠTERK",
+    "Name": "JUDITA",
+    "Time": "01:58:58"
+  },
+  {
+    "Place": "1324",
+    "Number": "684",
+    "Surename": "ROSIN",
+    "Name": "HARALD",
+    "Time": "01:59:04"
+  },
+  {
+    "Place": "1325",
+    "Number": "1297",
+    "Surename": "LANZINGER",
+    "Name": "GERD",
+    "Time": "01:59:05"
+  },
+  {
+    "Place": "1326",
+    "Number": "954",
+    "Surename": "ANTONIĆ",
+    "Name": "IVANA",
+    "Time": "01:59:07"
+  },
+  {
+    "Place": "1327",
+    "Number": "685",
+    "Surename": "LANZINGER",
+    "Name": "DORIS",
+    "Time": "01:59:09"
+  },
+  {
+    "Place": "1328",
+    "Number": "979",
+    "Surename": "VIDOVIČ",
+    "Name": "SANJA",
+    "Time": "01:59:14"
+  },
+  {
+    "Place": "1329",
+    "Number": "1285",
+    "Surename": "AMON",
+    "Name": "EDITA",
+    "Time": "01:59:16"
+  },
+  {
+    "Place": "1330",
+    "Number": "1062",
+    "Surename": "DROBNIČ",
+    "Name": "ANDRAŽ",
+    "Time": "01:59:35"
+  },
+  {
+    "Place": "1331",
+    "Number": "615",
+    "Surename": "PRISTAVEC",
+    "Name": "JOŠT",
+    "Time": "01:59:49"
+  },
+  {
+    "Place": "1332",
+    "Number": "79",
+    "Surename": "VAN SUŠNIK",
+    "Name": "ZIGA",
+    "Time": "01:59:49"
+  },
+  {
+    "Place": "1333",
+    "Number": "1134",
+    "Surename": "KAYSER",
+    "Name": "LAURENT",
+    "Time": "01:59:56"
+  },
+  {
+    "Place": "1334",
+    "Number": "401",
+    "Surename": "DOUBEK",
+    "Name": "ROBERT",
+    "Time": "01:59:59"
+  },
+  {
+    "Place": "1335",
+    "Number": "563",
+    "Surename": "BUTORAC",
+    "Name": "IGOR",
+    "Time": "02:00:09"
+  },
+  {
+    "Place": "1336",
+    "Number": "511",
+    "Surename": "KRIŽAN",
+    "Name": "HRVOJE",
+    "Time": "02:00:24"
+  },
+  {
+    "Place": "1337",
+    "Number": "700",
+    "Surename": "BENC",
+    "Name": "MARIO",
+    "Time": "02:00:25"
+  },
+  {
+    "Place": "1338",
+    "Number": "1433",
+    "Surename": "LAMBERGAR",
+    "Name": "FLORJAN",
+    "Time": "02:01:05"
+  },
+  {
+    "Place": "1339",
+    "Number": "815",
+    "Surename": "PETRANOVIĆ",
+    "Name": "MARTINA",
+    "Time": "02:01:06"
+  },
+  {
+    "Place": "1340",
+    "Number": "1027",
+    "Surename": "MASTNAK",
+    "Name": "MATIJA",
+    "Time": "02:01:12"
+  },
+  {
+    "Place": "1341",
+    "Number": "121",
+    "Surename": "FORSTHUBER",
+    "Name": "JAN",
+    "Time": "02:01:44"
+  },
+  {
+    "Place": "1342",
+    "Number": "120",
+    "Surename": "LAPANJA",
+    "Name": "NIKA",
+    "Time": "02:01:45"
+  },
+  {
+    "Place": "1343",
+    "Number": "1144",
+    "Surename": "SELAN",
+    "Name": "MANCA",
+    "Time": "02:02:04"
+  },
+  {
+    "Place": "1344",
+    "Number": "1145",
+    "Surename": "URTELJ",
+    "Name": "MATJAŽ",
+    "Time": "02:02:05"
+  },
+  {
+    "Place": "1345",
+    "Number": "795",
+    "Surename": "OCEPEK",
+    "Name": "ALEKSANDRA",
+    "Time": "02:02:11"
+  },
+  {
+    "Place": "1346",
+    "Number": "196",
+    "Surename": "KASTREVC",
+    "Name": "JOŽE",
+    "Time": "02:02:41"
+  },
+  {
+    "Place": "1347",
+    "Number": "927",
+    "Surename": "GLAVAN",
+    "Name": "ANJA",
+    "Time": "02:02:52"
+  },
+  {
+    "Place": "1348",
+    "Number": "122",
+    "Surename": "SOTLAR",
+    "Name": "JERNEJA",
+    "Time": "02:02:58"
+  },
+  {
+    "Place": "1349",
+    "Number": "926",
+    "Surename": "MRZELJ",
+    "Name": "MANCA",
+    "Time": "02:03:04"
+  },
+  {
+    "Place": "1350",
+    "Number": "333",
+    "Surename": "FERIĆ",
+    "Name": "DRAGO",
+    "Time": "02:03:06"
+  },
+  {
+    "Place": "1351",
+    "Number": "1441",
+    "Surename": "ŽELEZNIK",
+    "Name": "DAVID",
+    "Time": "02:04:12"
+  },
+  {
+    "Place": "1352",
+    "Number": "674",
+    "Surename": "PANGERC",
+    "Name": "TEJA",
+    "Time": "02:04:17"
+  },
+  {
+    "Place": "1353",
+    "Number": "1203",
+    "Surename": "SELAK",
+    "Name": "SIMON",
+    "Time": "02:04:32"
+  },
+  {
+    "Place": "1354",
+    "Number": "1204",
+    "Surename": "LESJAK",
+    "Name": "SIMON",
+    "Time": "02:04:40"
+  },
+  {
+    "Place": "1355",
+    "Number": "883",
+    "Surename": "HOLSEDL",
+    "Name": "MIHAEL",
+    "Time": "02:05:01"
+  },
+  {
+    "Place": "1356",
+    "Number": "514",
+    "Surename": "FLOR",
+    "Name": "MAŠA",
+    "Time": "02:05:16"
+  },
+  {
+    "Place": "1357",
+    "Number": "513",
+    "Surename": "FRAS",
+    "Name": "ŽIGA",
+    "Time": "02:05:17"
+  },
+  {
+    "Place": "1358",
+    "Number": "532",
+    "Surename": "HRNČIČ",
+    "Name": "NEŽA",
+    "Time": "02:05:30"
+  },
+  {
+    "Place": "1359",
+    "Number": "531",
+    "Surename": "HRNČIČ",
+    "Name": "NIK",
+    "Time": "02:05:34"
+  },
+  {
+    "Place": "1360",
+    "Number": "811",
+    "Surename": "PEKOLJ",
+    "Name": "ANDRAŽ",
+    "Time": "02:05:44"
+  },
+  {
+    "Place": "1361",
+    "Number": "1272",
+    "Surename": "KOKAL",
+    "Name": "BOJAN",
+    "Time": "02:05:55"
+  },
+  {
+    "Place": "1362",
+    "Number": "137",
+    "Surename": "TRDAN",
+    "Name": "LEA",
+    "Time": "02:06:20"
+  },
+  {
+    "Place": "1363",
+    "Number": "833",
+    "Surename": "THIEL",
+    "Name": "OLIVER",
+    "Time": "02:07:05"
+  },
+  {
+    "Place": "1364",
+    "Number": "1085",
+    "Surename": "PEČARIČ",
+    "Name": "ALBINA",
+    "Time": "02:07:13"
+  },
+  {
+    "Place": "1365",
+    "Number": "524",
+    "Surename": "SLANA",
+    "Name": "IGOR",
+    "Time": "02:07:16"
+  },
+  {
+    "Place": "1366",
+    "Number": "944",
+    "Surename": "SAJEVIC",
+    "Name": "PRIMOŽ",
+    "Time": "02:08:24"
+  },
+  {
+    "Place": "1367",
+    "Number": "404",
+    "Surename": "GRETA KERŠTANJ",
+    "Name": "METKA",
+    "Time": "02:08:24"
+  },
+  {
+    "Place": "1368",
+    "Number": "871",
+    "Surename": "MONTINA",
+    "Name": "CINZIA",
+    "Time": "02:08:59"
+  },
+  {
+    "Place": "1369",
+    "Number": "627",
+    "Surename": "LUŽNIK",
+    "Name": "ALJOŠA",
+    "Time": "02:09:42"
+  },
+  {
+    "Place": "1370",
+    "Number": "915",
+    "Surename": "AJDNIK",
+    "Name": "NINA",
+    "Time": "02:10:01"
+  },
+  {
+    "Place": "1371",
+    "Number": "194",
+    "Surename": "ZSUZSANNA",
+    "Name": "CSÉPE",
+    "Time": "02:10:15"
+  },
+  {
+    "Place": "1372",
+    "Number": "193",
+    "Surename": "GÁBOR",
+    "Name": "FÉNYSZARUSY",
+    "Time": "02:10:21"
+  },
+  {
+    "Place": "1373",
+    "Number": "439",
+    "Surename": "HEEG",
+    "Name": "SVEN",
+    "Time": "02:11:51"
+  },
+  {
+    "Place": "1374",
+    "Number": "1369",
+    "Surename": "ZUPAN",
+    "Name": "MATIC",
+    "Time": "02:12:28"
+  },
+  {
+    "Place": "1375",
+    "Number": "1248",
+    "Surename": "ROSENSTEIN",
+    "Name": "SIEGBERT",
+    "Time": "02:14:32"
+  },
+  {
+    "Place": "1376",
+    "Number": "1247",
+    "Surename": "ROSENSTEIN",
+    "Name": "MIRJAM",
+    "Time": "02:14:40"
+  },
+  {
+    "Place": "1377",
+    "Number": "345",
+    "Surename": "BROJAN",
+    "Name": "DREJC",
+    "Time": "02:14:52"
+  },
+  {
+    "Place": "1378",
+    "Number": "1091",
+    "Surename": "ZUPANC",
+    "Name": "ANŽE",
+    "Time": "02:14:53"
+  },
+  {
+    "Place": "1379",
+    "Number": "820",
+    "Surename": "GARBAJS",
+    "Name": "BLAŽ",
+    "Time": "02:15:02"
+  },
+  {
+    "Place": "1380",
+    "Number": "821",
+    "Surename": "BUŠINOSKI",
+    "Name": "TINE",
+    "Time": "02:15:14"
+  },
+  {
+    "Place": "1381",
+    "Number": "1327",
+    "Surename": "LEVKOV",
+    "Name": "VLADIMIR",
+    "Time": "02:15:37"
+  },
+  {
+    "Place": "1382",
+    "Number": "1413",
+    "Surename": "MALETIN",
+    "Name": "LUKA",
+    "Time": "02:15:47"
+  },
+  {
+    "Place": "1383",
+    "Number": "1328",
+    "Surename": "ANDRIĆ",
+    "Name": "GAVRILO",
+    "Time": "02:15:51"
+  },
+  {
+    "Place": "1384",
+    "Number": "1367",
+    "Surename": "ŽELEZNIK",
+    "Name": "MITJA",
+    "Time": "02:17:55"
+  },
+  {
+    "Place": "1385",
+    "Number": "373",
+    "Surename": "KOMLJENOVIČ",
+    "Name": "MARJANA",
+    "Time": "02:18:39"
+  },
+  {
+    "Place": "1386",
+    "Number": "222",
+    "Surename": "MAKSIMOVIC",
+    "Name": "STEVAN",
+    "Time": "02:19:09"
+  },
+  {
+    "Place": "1387",
+    "Number": "980",
+    "Surename": "MIHALJEVIĆ",
+    "Name": "SILVIJA",
+    "Time": "02:20:08"
+  },
+  {
+    "Place": "1388",
+    "Number": "536",
+    "Surename": "VLAJNIĆ",
+    "Name": "VEDRAN",
+    "Time": "02:20:17"
+  },
+  {
+    "Place": "1389",
+    "Number": "1107",
+    "Surename": "KATINIĆ",
+    "Name": "KARLO",
+    "Time": "02:20:17"
+  },
+  {
+    "Place": "1390",
+    "Number": "109",
+    "Surename": "KLAVORA",
+    "Name": "KATJA",
+    "Time": "02:20:53"
+  },
+  {
+    "Place": "1391",
+    "Number": "1401",
+    "Surename": "MANDELC",
+    "Name": "NEŽA",
+    "Time": "02:21:02"
+  },
+  {
+    "Place": "1392",
+    "Number": "311",
+    "Surename": "ŽGANJAR",
+    "Name": "KOLOMAN",
+    "Time": "02:21:08"
+  },
+  {
+    "Place": "1393",
+    "Number": "403",
+    "Surename": "DOUBKOVÁ",
+    "Name": "KLÁRA",
+    "Time": "02:22:48"
+  },
+  {
+    "Place": "1394",
+    "Number": "221",
+    "Surename": "STOJICIC",
+    "Name": "DEJAN",
+    "Time": "02:23:45"
+  },
+  {
+    "Place": "1395",
+    "Number": "1108",
+    "Surename": "TURKOVIC",
+    "Name": "MARKO",
+    "Time": "02:27:27"
+  },
+  {
+    "Place": "1396",
+    "Number": "688",
+    "Surename": "KOŠIR PERNUŠ",
+    "Name": "MATEJA",
+    "Time": "02:27:36"
+  },
+  {
+    "Place": "1397",
+    "Number": "745",
+    "Surename": "GOMILŠEK",
+    "Name": "MATJAŽ",
+    "Time": "02:29:56"
+  },
+  {
+    "Place": "1398",
+    "Number": "1195",
+    "Surename": "DREMELJ",
+    "Name": "KLEMEN",
+    "Time": "02:31:59"
+  },
+  {
+    "Place": "1399",
+    "Number": "1164",
+    "Surename": "GAJŠEK",
+    "Name": "TILEN",
+    "Time": "02:35:01"
+  },
+  {
+    "Place": "1400",
+    "Number": "570",
+    "Surename": "BABNIK",
+    "Name": "MITJA",
+    "Time": "02:35:11"
+  },
+  {
+    "Place": "1401",
+    "Number": "759",
+    "Surename": "ŽUGAJ",
+    "Name": "KRISTIJAN",
+    "Time": "02:36:36"
+  },
+  {
+    "Place": "1402",
+    "Number": "1154",
+    "Surename": "MARUNICA",
+    "Name": "ANĐELO",
+    "Time": "02:36:50"
+  },
+  {
+    "Place": "1403",
+    "Number": "771",
+    "Surename": "POLANŠČAK",
+    "Name": "ROBERT",
+    "Time": "02:36:54"
+  },
+  {
+    "Place": "1404",
+    "Number": "758",
+    "Surename": "VANIĆ",
+    "Name": "MATIJA",
+    "Time": "02:36:55"
+  },
+  {
+    "Place": "1405",
+    "Number": "537",
+    "Surename": "STANIŠEVSKI",
+    "Name": "MARKO",
+    "Time": "02:38:09"
+  },
+  {
+    "Place": "1406",
+    "Number": "1141",
+    "Surename": "MELEGH",
+    "Name": "ÁRPÁD",
+    "Time": "02:39:21"
+  },
+  {
+    "Place": "1407",
+    "Number": "557",
+    "Surename": "NAGY",
+    "Name": "KAROLY",
+    "Time": "02:39:26"
+  },
+  {
+    "Place": "1408",
+    "Number": "1140",
+    "Surename": "MIRK",
+    "Name": "ANETT",
+    "Time": "02:39:31"
+  },
+  {
+    "Place": "1409",
+    "Number": "1152",
+    "Surename": "PATASY",
+    "Name": "KLAUDIA",
+    "Time": "02:39:36"
+  },
+  {
+    "Place": "1410",
+    "Number": "1127",
+    "Surename": "PEJIČ",
+    "Name": "BORO",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1131",
+    "Surename": "LUTRING",
+    "Name": "DEJAN",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1193",
+    "Surename": "OMAHNA",
+    "Name": "URBAN",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1041",
+    "Surename": "SPEGLIC",
+    "Name": "SEBASTJAN",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1323",
+    "Surename": "KRULJAC",
+    "Name": "TOMISLAV",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "706",
+    "Surename": "PETEK",
+    "Name": "LOJZE",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "812",
+    "Surename": "KOŠAK",
+    "Name": "MIHA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "790",
+    "Surename": "VEBER",
+    "Name": "MATEVŽ",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1023",
+    "Surename": "SEILS",
+    "Name": "GERO",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "606",
+    "Surename": "HABJAN",
+    "Name": "UROS",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "607",
+    "Surename": "GRAMC",
+    "Name": "MARKO",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "614",
+    "Surename": "KNAFELJC",
+    "Name": "LUKA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "409",
+    "Surename": "SÁNDOR",
+    "Name": "ENIKŐ",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "417",
+    "Surename": "JENŠTERLE",
+    "Name": "LUKA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "418",
+    "Surename": "TOČAJ",
+    "Name": "PRIMOŽ",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "527",
+    "Surename": "CEGLAR",
+    "Name": "ALJAŽ",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "257",
+    "Surename": "KRANJC",
+    "Name": "SREČKO",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "304",
+    "Surename": "NAGODE",
+    "Name": "BLAŽ",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "299",
+    "Surename": "PERNUŠ",
+    "Name": "NEJC",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "300",
+    "Surename": "JENKO",
+    "Name": "MITJA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "96",
+    "Surename": "LIPOVEC",
+    "Name": "ANDRAŽ",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "98",
+    "Surename": "MIHEVC",
+    "Name": "NIKO",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "74",
+    "Surename": "LIPOVEC",
+    "Name": "MAX",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "18",
+    "Surename": "SAJOVIC",
+    "Name": "UROŠ",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1417",
+    "Surename": "ŠMID",
+    "Name": "ALEKSANDER",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1502",
+    "Surename": "ŠPAROVEC",
+    "Name": "JAKOB",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1457",
+    "Surename": "GRILC",
+    "Name": "MARTIN",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1410",
+    "Surename": "PETKOVIĆ",
+    "Name": "KARMEN",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "1322",
+    "Surename": "PRNJAK",
+    "Name": "SANJA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "728",
+    "Surename": "VODENIK JUVAN",
+    "Name": "URŠKA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "565",
+    "Surename": "KOLAR",
+    "Name": "MAJA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "880",
+    "Surename": "MOLJK",
+    "Name": "NUŠA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "415",
+    "Surename": "SUBOTIC",
+    "Name": "DRAGANA",
+    "Time": "DNF"
+  },
+  {
+    "Place": "1410",
+    "Number": "179",
+    "Surename": "SLUGA",
+    "Name": "NINA",
+    "Time": "DNF"
+  }
+]
