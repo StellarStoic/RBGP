@@ -49,6 +49,7 @@ footer {
   left: 0;
   width: 100%;
   display: flex;
+  font-size: 24;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -237,6 +238,7 @@ button:hover {
 #results {
     margin-bottom: 20px;
     line-height: 1.3em;
+    font-size: 1.3em;
 }
 
 #results ol {
@@ -622,6 +624,26 @@ button:hover {
   cursor: pointer;
 }
 
+/* contact */
+
+.contact-section {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-section p {
+  margin: 10px 0;
+}
+
+.build-by {
+  font-size: 1rem;
+  color: rgba(128, 128, 128, 0.853);
+}
+
 
 /* 
   ##Device = Laptops, Desktops
@@ -651,6 +673,26 @@ button:hover {
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
   }
+
+  /* contact */
+
+.contact-section {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-section p {
+  margin: 10px 0;
+}
+
+.build-by {
+  font-size: 1rem;
+  color: rgba(128, 128, 128, 0.853);
+}
 }
 
 /* 
@@ -672,7 +714,7 @@ button:hover {
     font-family:'Courier Prime', monospace;
     padding: 11px 11px 11px 11px;
     margin-right: 10px;
-    font-size: 24px;
+    font-size: 3em;
     font-weight: bold;
     border: none;
     border-radius: 4px;
@@ -691,6 +733,7 @@ button:hover {
   width: 100%;
   font-family:'Courier Prime', monospace;
   padding: 10px;
+  font-size: 3em;
   border: none;
   border-radius: 4px;
   background-color: #f1f3f6;
@@ -724,13 +767,89 @@ button:hover {
           box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
+#results{
+  font-size: 2em;
+}
+
 #results h3 {
-  font-size: 250%;
+  font-size: 3em;
+  line-height: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
+
+/* GDPR */
+
+.GDPR h1 {
+  margin: 10%;
+
+  font-size: 2em;
+}
+
+.GDPR {
+  margin: 5%;
+  margin-bottom: 13% ;
+  font-size: 3em;
+}
+
+/* about */
+
+.rog-pony {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 3em;
+}
+
+#ROGlogo {
+  position: relative;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+  margin-top: -3%;
+  opacity: 0.9;
+}
+#RBGPlogo {
+  position: relative;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+  margin-top: 5%;
+  opacity: 0.9;
+}
+
+.aboutTitles{
+  position: relative;
+  text-align: center;
+}
+
+/* contact */
+
+.contact-section {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-section p {
+  margin: 10px 0;
+}
+
+.build-by {
+  font-size: 1rem;
+  color: rgba(128, 128, 128, 0.853);
+}
+
 
 /* Times modal */
 
@@ -756,12 +875,11 @@ input[type="checkbox"] {
 
 footer {
   position: fixed;
-  font-size: 1.5em;
-
   bottom: 0;
   left: 0;
   width: 100%;
   height: 3%;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -779,6 +897,7 @@ footer {
   right: 5%;
   background-color: transparent;
   font-size: 45px;
+  font-weight: bold;
   cursor: pointer;
   opacity: 0.5;
 
@@ -800,10 +919,7 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   /* Add your styles for tablets and iPads in landscape orientation here */
-  .container {
-    max-width: 800px;
-    margin: 10px auto;
-  }
+
 button  {
     
     display: flex;
@@ -840,6 +956,7 @@ input[type="checkbox"] {
   /* Search container */
 .search-container {
   margin-bottom: 20px;
+
 }
 
 .search-container input[type="text"] {
