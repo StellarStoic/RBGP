@@ -32,6 +32,17 @@ h1 {
 }
 
 
+.build-by {
+  position: fixed;
+  top: 44vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: rgba(128, 128, 128, 0.853);
+  z-index: 2;
+}
+
+
 /* footer */
 .blur-background {
   position: fixed;
@@ -68,6 +79,20 @@ footer {
   transition: font-weight (fade-in-out) 5s;
   font-weight: bold;
 
+}
+
+/* home */
+
+.home-greeting {
+  font-size: 1.6em;
+  margin: 4% auto;
+  text-align: center;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0 auto;
 }
 
 /* gdpr */
@@ -128,9 +153,11 @@ footer {
   justify-content: center;
   height: 50vh;
   margin-top: 20px;
+
 }
 
 .home-greeting {
+  /* margin-top: 20px; */
   margin-bottom: 20px;
 }
 
@@ -277,7 +304,7 @@ button:hover {
     margin-bottom: 7%;
 }
 
-/* text strike thtough on radio btn */
+/* text strike trough on radio btn */
 .strikethrough {
     text-decoration: line-through;
 }
@@ -639,11 +666,6 @@ button:hover {
   margin: 10px 0;
 }
 
-.build-by {
-  font-size: 1rem;
-  color: rgba(128, 128, 128, 0.853);
-}
-
 
 /* 
   ##Device = Laptops, Desktops
@@ -690,8 +712,13 @@ button:hover {
 }
 
 .build-by {
-  font-size: 1rem;
+  position: fixed;
+  top: 44vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
   color: rgba(128, 128, 128, 0.853);
+  z-index: 2;
 }
 }
 
@@ -733,7 +760,7 @@ button:hover {
   width: 100%;
   font-family:'Courier Prime', monospace;
   padding: 10px;
-  font-size: 3em;
+  font-size: 1.5em;
   border: none;
   border-radius: 4px;
   background-color: #f1f3f6;
@@ -756,7 +783,7 @@ button:hover {
   width: auto;
   border: 2px solid #ccc;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 16px;
   color: #555;
   outline: none;
 }
@@ -778,6 +805,20 @@ button:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+/* home */
+
+.home-greeting {
+  font-size: 1.6em;
+  margin: 4% auto;
+  text-align: center;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0 auto;
 }
 
 /* GDPR */
@@ -846,8 +887,13 @@ button:hover {
 }
 
 .build-by {
-  font-size: 1rem;
+  position: fixed;
+  top: 44vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
   color: rgba(128, 128, 128, 0.853);
+  z-index: 2;
 }
 
 
@@ -929,7 +975,7 @@ button  {
     font-family:'Courier Prime', monospace;
     padding: 11px 11px 11px 11px;
     margin-right: 10px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     border: none;
     border-radius: 4px;
@@ -972,7 +1018,7 @@ input[type="checkbox"] {
 .search-container {
   display: flex; /* This will align the children (input and button) in a row */
   flex-direction: row;
-  width: 80%; /* Or whatever width you want */
+  width: 80%;
   justify-content: space-between; /* This will put some space between the input and button */
   margin-top: 10%;
   margin-left: 10%;
@@ -983,7 +1029,7 @@ input[type="checkbox"] {
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 5px;
-  font-size: 21px;
+  font-size: 16px;
   color: #555;
   outline: none;
 }
@@ -992,5 +1038,36 @@ input[type="checkbox"] {
   border-color: #007bff;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
           box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* home */
+
+.home-greeting {
+  font-size: 1.8em;
+  margin: 4% auto;
+  text-align: center;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 1.7em;
+  margin: 0 auto;
+}
+}
+
+@media (min-width: 873px) and (max-width: 1024px) {
+
+  /* home */
+
+.home-greeting {
+  font-size: 1.8em;
+  margin: 4% auto;
+  text-align: center;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 1.7em;
+  margin: 0 auto;
 }
 }
