@@ -31,8 +31,7 @@ h1 {
     font-weight: bold;
 }
 
-
-.build-by {
+.builtByInContacts {
   position: fixed;
   top: 44vh;
   left: 50%;
@@ -41,7 +40,17 @@ h1 {
   color: rgba(128, 128, 128, 0.853);
   z-index: 2;
 }
-
+.builtByInHome {
+  display: block;
+  position: absolute;
+  margin-top: auto;
+  padding-top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: rgba(128, 128, 128, 0.853);
+  /* z-index: 2; */
+}
 
 /* footer */
 .blur-background {
@@ -711,7 +720,7 @@ button:hover {
   margin: 10px 0;
 }
 
-.build-by {
+.builtByInContacts {
   position: fixed;
   top: 44vh;
   left: 50%;
@@ -719,6 +728,17 @@ button:hover {
   font-size: 0.7rem;
   color: rgba(128, 128, 128, 0.853);
   z-index: 2;
+}
+.builtByInHome {
+  display: block;
+  position: absolute;
+  margin-top: auto;
+  padding-top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: rgba(128, 128, 128, 0.853);
+  /* z-index: 2; */
 }
 }
 
@@ -886,7 +906,7 @@ button:hover {
   margin: 10px 0;
 }
 
-.build-by {
+.builtByInContacts {
   position: fixed;
   top: 44vh;
   left: 50%;
