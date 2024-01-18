@@ -79,15 +79,46 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
+
+
+// uncomment and use this function when we have the results for the current year
+// function processCompetitors() {
+//     competitors = new Map(); // Clear the competitors map
+//     uniqueCompetitors = new Set(); // Clear unique competitors set
+//     excludedTimes = new Map(); // Clear excluded times
+
+//     let allYears = [];
+//     for (let year = 2015; year <= currentYear; year++) {
+//         allYears.push(year);
+//     }
+//     competitors.forEach((compData, competitor) => {
+//         recalculateTotalTime(competitor);
+//     });
+
+
+// uncomment this function bellow when new year starts and we don't have the results for the current year yet
+// Or try to use manual steps in the instructions next to lastYearWithData variable 
+// And don't forget to change textContent currentYear - 1 to only CurrentYear after the race
 function processCompetitors() {
     competitors = new Map(); // Clear the competitors map
     uniqueCompetitors = new Set(); // Clear unique competitors set
     excludedTimes = new Map(); // Clear excluded times
 
+    let currentYear = new Date().getFullYear();
+    let lastYearWithData = currentYear - 1; // Manually set this to currentYear - 1 if current year's data is not available yet
+
+    // Example: If the current year is 2024 and its data is not available, set lastYearWithData = 2023
+    lastYearWithData = 2023;
+
     let allYears = [];
-    for (let year = 2015; year <= currentYear; year++) {
+    for (let year = 2015; year <= lastYearWithData; year++) {
         allYears.push(year);
     }
+
+
+
+
+    // Your existing code for processing competitors
     competitors.forEach((compData, competitor) => {
         recalculateTotalTime(competitor);
     });
@@ -214,7 +245,7 @@ function processCompetitors() {
             }
         }
     }
-        
+
     function clearTimes() {
         let timesDiv = document.getElementById('times');
         if (timesDiv) {
@@ -222,9 +253,6 @@ function processCompetitors() {
         }
     }
     
-    
-    
-
     function isUniqueCompetitor(item) {
         let competitorId = `${item.Name.normalize('NFD').replace(/[\u0300-\u036f]/g, "")} ${item.Surename.normalize('NFD').replace(/[\u0300-\u036f]/g, "")} ${item.Number}`;
         if (uniqueCompetitors.has(competitorId)) {
@@ -312,8 +340,8 @@ function processCompetitors() {
     
         let duplicate = compData.years.some(yearObj => yearObj.entries.length > 1);  // Check if any year has duplicate entries
         let textContent = duplicate ? 
-        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime} ?` :
-        `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime}`;
+        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear - 1} with a total time of ${totalTime} ?` :
+        `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear - 1} with a total time of ${totalTime}`;
         
         li.textContent = textContent;
         li.addEventListener('click', function() {
