@@ -342,8 +342,8 @@ function processCompetitors() {
         let textContent = duplicate ? 
         // if we have the results for current year use lines with currentYear
         // if we don'ts have the results for current year yet use lines with currentYear -1
-        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime} ?` :
-        `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime}`;
+        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to 2024 with a total time of ${totalTime} ?` :
+        `${compData.displayName} finished all RBGP editions from 2015 to 2024 with a total time of ${totalTime}`;
         // `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime} ?` :
         // `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime}`;
         
