@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
-
+// I think this un-commenting thing is not needed anymore?
 // uncomment and use this function when we have the results for the current year
 // function processCompetitors() {
 //     competitors = new Map(); // Clear the competitors map
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 //         recalculateTotalTime(competitor);
 //     });
 
-
+// I think this un-commenting thing is not needed anymore?
 // uncomment this function bellow when new year starts and we don't have the results for the current year yet
 // Or try to use manual steps in the instructions next to lastYearWithData variable 
 // And don't forget to change textContent currentYear - 1 to only CurrentYear after the race
@@ -340,8 +340,12 @@ function processCompetitors() {
     
         let duplicate = compData.years.some(yearObj => yearObj.entries.length > 1);  // Check if any year has duplicate entries
         let textContent = duplicate ? 
-        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear - 1} with a total time of ${totalTime} ?` :
-        `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear - 1} with a total time of ${totalTime}`;
+        // if we have the results for current year use lines with currentYear
+        // if we don'ts have the results for current year yet use lines with currentYear -1
+        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime} ?` :
+        `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime}`;
+        // `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime} ?` :
+        // `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime}`;
         
         li.textContent = textContent;
         li.addEventListener('click', function() {
