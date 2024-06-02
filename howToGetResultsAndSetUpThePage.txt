@@ -1,0 +1,14 @@
+Manually copy paste the results to the spreadsheet (in open office use ctrl+shift+v for paste special to get actual times and not the dayTime format) 
+after that save file in the /data/results_in_CSV/{eventNumber}_rbgp_{year}csv_results.csv. 
+then in the script parseResultsFromCSV.py change the csv filename and then ran the script. 
+Now create the new folder in the data folder with the name of the year 
+and in it create a json file with the name of the year as 2024.json paste the data which we parse in this file.
+Then in veterans.js file search for the following lines and properly comented out the right one...         
+
+        // if we have the results for current year use lines with currentYear
+        // if we don'ts have the results for current year yet use lines with currentYear -1
+        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime} ?` :
+        `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear} with a total time of ${totalTime}`;
+        // `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime} ?` :
+        // `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime}`;
+ 
