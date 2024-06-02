@@ -1,6 +1,5 @@
 import csv
 import json
-import pandas as pd
 
 # Read the CSV file
 csv_file_path = 'data/results_In_CSV/10_rbgp_2024_csv_results.csv'
@@ -16,13 +15,13 @@ with open(csv_file_path, mode='r', encoding='utf-8') as csv_file:
     csv_reader = csv.reader(csv_file)
     for row in csv_reader:
         if len(row) >= 5:
-            place, number, surename, name, time = row[0], row[1], row[2], row[3], row[4]
+            place, number, surename, name, time = row[0], row[1], row[2].strip(), row[3].strip(), row[4]
             formatted_time = format_time(time)
             results.append({
                 "Place": "",
                 "Number": number,
-                "Surename": surename,
-                "Name": name,
+                "Surename": surename if surename else "",
+                "Name": name if name else "",
                 "Time": formatted_time
             })
 
