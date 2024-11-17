@@ -184,7 +184,7 @@ function processCompetitors() {
                         checkbox.name = `exclude-${competitor}-${year}`;
                         checkbox.addEventListener('change', function() {
                             if (this.checked && yearObj.entries.length > 1) {
-                                alert('If you want to make permanent changes to your time please contact us at info@jeba.si');
+                                alert('If you want to make permanent changes to your time please contact me at https://t.me/StellarStoic');
                             }
                             let checkboxes = document.getElementsByName(this.name);
                             for (let i = 0; i < checkboxes.length; i++) {

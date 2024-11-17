@@ -1,5 +1,7 @@
 # Red Bull Goni Pony Results Website
 
+Hosted [here](https://rbgp.051200229.xyz) - Previously hosted on jeba.si but moved to reduce the cost of this hobby project.
+
 This project is a website dedicated to presenting the results of the Red Bull Goni Pony 20" city bike competition in a user-friendly and visually appealing way.
 
 ## Overview
@@ -31,4 +33,4 @@ For more information, please see the [full license](https://creativecommons.org/
 
 ## Contact
 
-For any questions or concerns, please contact me.
+For any questions or concerns, please contact me via Github or [Telegram](https://t.me/StellarStoic).
