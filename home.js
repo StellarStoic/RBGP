@@ -22,7 +22,7 @@ function loadHomePage() {
   
       let countdownText = document.createElement('p');
       countdownText.classList.add('countdown');
-      const nextEventDate = new Date("2025-06-01"); // Set the date of the next event here
+      const nextEventDate = new Date("2026-06-01"); // Set the date of the next event here
       const currentDate = new Date();
       const timeDifference = nextEventDate.getTime() - currentDate.getTime();
       const weeksUntilNextEvent = Math.ceil(timeDifference / (1000 * 3600 * 24 * 7));

@@ -107,8 +107,8 @@ function processCompetitors() {
     let currentYear = new Date().getFullYear();
     let lastYearWithData = currentYear - 1; // Manually set this to currentYear - 1 if current year's data is not available yet
 
-    // Example: If the current year is 2024 and its data is not available, set lastYearWithData = 2023
-    lastYearWithData = 2023;
+    // Example: If the current year is 2025 and its data is not available, set lastYearWithData = 2024
+    lastYearWithData = 2025;
 
     let allYears = [];
     for (let year = 2015; year <= lastYearWithData; year++) {
@@ -116,12 +116,11 @@ function processCompetitors() {
     }
 
 
-
-
-    // Your existing code for processing competitors
+    // NOW recalculate total time for each competitor
     competitors.forEach((compData, competitor) => {
         recalculateTotalTime(competitor);
     });
+
 
     function formatName(name) {
         return name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
@@ -131,7 +130,7 @@ function processCompetitors() {
         if (!isUniqueCompetitor(item)) return;
         let competitor = (item.Name.normalize('NFD').replace(/[\u0300-\u036f]/g, "") + ' ' + item.Surename.normalize('NFD').replace(/[\u0300-\u036f]/g, "")).toLowerCase();
         if (!competitors.has(competitor)) {
-            competitors.set(competitor, { years: [], totalDuration: 0, dnfYears: [], displayName: formatName(item.Name) + ' ' + formatName(item.Surename), hasDuplicateEntries: false });  // NEW
+            competitors.set(competitor, { years: [], totalDuration: 0, dnfYears: [], displayName: formatName(item.Name) + ' ' + formatName(item.Surename), hasDuplicateEntries: false });
         }
         let compData = competitors.get(competitor);
         let yearIndex = compData.years.findIndex(year => year.year === item.year);
@@ -142,8 +141,6 @@ function processCompetitors() {
             compData.hasDuplicateEntries = true; // NEW
         }
     });
-
-    
 
     function displayCompetitorTimes(competitor) {
         let compData = competitors.get(competitor);
@@ -296,6 +293,10 @@ function processCompetitors() {
             }
         });
     });
+
+
+        
+
     
     let allYearsCompetitors = Array.from(competitors.entries()).filter(([competitor, compData]) => {
         // Exclude competitors with a 'DNF' entry in any year and no valid time entry in that year
@@ -342,8 +343,8 @@ function processCompetitors() {
         let textContent = duplicate ? 
         // if we have the results for current year use lines with currentYear
         // if we don'ts have the results for current year yet use lines with currentYear -1
-        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to 2024 with a total time of ${totalTime} ?` :
-        `${compData.displayName} finished all RBGP editions from 2015 to 2024 with a total time of ${totalTime}`;
+        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to 2025 with a total time of ${totalTime} ?` :
+        `${compData.displayName} finished all RBGP editions from 2015 to 2025 with a total time of ${totalTime}`;
         // `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime} ?` :
         // `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime}`;
         
