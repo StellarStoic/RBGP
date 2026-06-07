@@ -86,19 +86,22 @@ function formatTimeDifference(totalSeconds) {
     return `${minutes} minute${minutes === 1 ? '' : 's'} and ${seconds} second${seconds === 1 ? '' : 's'}`;
 }
 
-// Launch a short confetti celebration once per session for a newly beaten record.
+// Launch a record celebration no more than once every 30 minutes.
 function celebrateNewRecordOnce(eventYear, recordTime) {
     const celebrationKey = `rbgp-record-celebrated-${eventYear}-${recordTime}`;
+    const celebrationCooldown = 30 * 60 * 1000;
+    const currentTime = Date.now();
 
     try {
-        if (sessionStorage.getItem(celebrationKey)) {
+        const previousCelebration = Number(localStorage.getItem(celebrationKey));
+        if (previousCelebration && currentTime - previousCelebration < celebrationCooldown) {
             return;
         }
 
-        // Mark the celebration before starting it so reopening Home cannot trigger it again.
-        sessionStorage.setItem(celebrationKey, 'true');
+        // Store the launch time so the same record can celebrate again after 30 minutes.
+        localStorage.setItem(celebrationKey, String(currentTime));
     } catch (error) {
-        // Continue without session tracking when browser privacy settings block sessionStorage.
+        // Skip the effect when browser privacy settings prevent reliable cooldown tracking.
         return;
     }
 
@@ -106,21 +109,34 @@ function celebrateNewRecordOnce(eventYear, recordTime) {
         return;
     }
 
+    const recordElement = document.querySelector('.record-time');
+    if (!recordElement) {
+        return;
+    }
+
+    const recordBounds = recordElement.getBoundingClientRect();
+    const originX = recordBounds.left + (recordBounds.width / 2);
+    const originY = recordBounds.top + (recordBounds.height / 2);
     const confettiContainer = document.createElement('div');
     confettiContainer.className = 'record-confetti';
     confettiContainer.setAttribute('aria-hidden', 'true');
 
     const colors = ['#e6194b', '#f58231', '#ffe119', '#3cb44b', '#0082c8', '#911eb4', '#ffffff'];
 
-    // Create varied pieces whose positions and animation delays produce the celebration effect.
+    // Throw varied pieces upward from the record text before gravity carries them off-screen.
     for (let index = 0; index < 90; index++) {
         const confettiPiece = document.createElement('span');
         confettiPiece.className = 'record-confetti-piece';
-        confettiPiece.style.left = `${Math.random() * 100}%`;
+        confettiPiece.style.left = `${originX + ((Math.random() - 0.5) * recordBounds.width * 0.75)}px`;
+        confettiPiece.style.top = `${originY + ((Math.random() - 0.5) * 12)}px`;
         confettiPiece.style.backgroundColor = colors[index % colors.length];
-        confettiPiece.style.animationDelay = `${Math.random() * 0.8}s`;
-        confettiPiece.style.animationDuration = `${2.6 + Math.random() * 1.8}s`;
-        confettiPiece.style.setProperty('--confetti-drift', `${Math.round((Math.random() - 0.5) * 260)}px`);
+        confettiPiece.style.animationDelay = `${Math.random() * 0.45}s`;
+        confettiPiece.style.animationDuration = `${3.2 + Math.random() * 1.3}s`;
+        confettiPiece.style.setProperty('--confetti-launch-x', `${Math.round((Math.random() - 0.5) * 420)}px`);
+        // Travel from the record text to the top edge, then overshoot above the viewport.
+        confettiPiece.style.setProperty('--confetti-launch-y', `${Math.round(-(originY + 40 + Math.random() * 180))}px`);
+        confettiPiece.style.setProperty('--confetti-fall-x', `${Math.round((Math.random() - 0.5) * 520)}px`);
+        confettiPiece.style.setProperty('--confetti-fall-y', `${Math.ceil(window.innerHeight - originY + 80)}px`);
         confettiPiece.style.setProperty('--confetti-rotation', `${Math.round(540 + Math.random() * 720)}deg`);
         confettiContainer.appendChild(confettiPiece);
     }
@@ -130,7 +146,7 @@ function celebrateNewRecordOnce(eventYear, recordTime) {
     // Remove the animation elements after every piece has finished falling.
     window.setTimeout(() => {
         confettiContainer.remove();
-    }, 5500);
+    }, 5600);
 }
 
 // Load every earlier result year and return the fastest historical result.
@@ -269,22 +285,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Recreate the home section and its countdown when the Home button is clicked.
 document.getElementById('home-btn').addEventListener('click', function() {
+    resetSearchView();
     hideHomeGreeting();
     loadHomePage();
 });
 
 // Hide the home section when the Veterans section is opened.
 document.getElementById('all-years-button').addEventListener('click', function() {
+    resetSearchView();
     hideHomeGreeting();
 });
 
 // Hide the home section when the Top 10 section is opened.
 document.getElementById('top10').addEventListener('click', function() {
+    resetSearchView();
     hideHomeGreeting();
 });
 
 // Hide the home section when the Overall section is opened.
 document.getElementById('all-overall').addEventListener('click', function() {
+    resetSearchView();
+    hideHomeGreeting();
+});
+
+// Hide the home section when the Rogljičev Kilometer ranking is opened.
+document.getElementById('rogljicev-km').addEventListener('click', function() {
+    resetSearchView();
     hideHomeGreeting();
 });
 

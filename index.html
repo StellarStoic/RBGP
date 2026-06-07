@@ -3,7 +3,7 @@
 <head>
     <title>RBGP</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="style.css?v=20260607-footer">
+    <link rel="stylesheet" href="style.css?v=20260607-record-confetti">
 </head>
 <body>
 
@@ -24,6 +24,7 @@
         <button id="all-years-button"><span>Veterans</span></button>
         <button id="top10">Top10</button>
         <button id="all-overall">Overall</button>
+        <button id="rogljicev-km">Rogljičev Km</button>
     </div>
     <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -37,6 +38,14 @@
 </div>
 
     <div id="top101-overall"></div>
+    <div id="search-data-switch" class="search-data-switch is-goni-pony" role="status">
+        <span id="search-data-notice">Search in the general Goni Pony results</span>
+        <button id="search-data-toggle" class="search-data-toggle" type="button" role="switch" aria-checked="false" aria-label="Switch search to Rogljičev Kilometer results">
+            <span class="search-data-toggle-label search-data-toggle-label-general">Goni Pony</span>
+            <span class="search-data-toggle-label search-data-toggle-label-rogljicev">Rogljičev Km</span>
+            <span class="search-data-toggle-knob" aria-hidden="true"></span>
+        </button>
+    </div>
     <div id="results"></div>
     <div id="times"></div>
     <section id="chart-container" aria-labelledby="chart-title">
@@ -86,13 +95,14 @@ data-start-page="chat"
 <link rel="stylesheet" href="https://nostri-chat-hosted.f9ofwt.click/public/bundle.css">
     <!-- Load editable event details before the home-page countdown logic. -->
     <script src="greetings.js?v=20260607-record"></script>
-    <script src="home.js?v=20260607-confetti"></script>
+    <script src="home.js?v=20260607-full-height-confetti"></script>
     <script src="veterans.js"></script>
     <script src="allOverall.js"></script>
-    <script src="top10.js"></script>
-    <script src="chart.js?v=20260607-endpoint-labels"></script>
+    <script src="rogljicevKm.js?v=20260607-search"></script>
+    <script src="top10.js?v=20260607-exclude-dnf"></script>
+    <script src="chart.js?v=20260607-rogljicev-background"></script>
     <script src="scrollToTopBtn.js"></script>
-    <script src="search.js"></script>
+    <script src="search.js?v=20260607-search-visibility"></script>
 
     
 </body>

@@ -10,10 +10,12 @@ let colorIndex = 0;
 let colorMap = {};
 let bicycleSvgText = '';
 let bicycleSvgIsLoaded = false;
+let rogljicevKmBackgroundIsLoaded = false;
 
 const bicycleMarkerCache = new Map();
 const bicycleMarkerSize = 34;
 const websiteFontFamily = "'Courier Prime', monospace";
+const rogljicevKmBackgroundImage = new Image();
 
 // Canvas text does not inherit CSS, so configure Chart.js to use the website font.
 Chart.defaults.font.family = websiteFontFamily;
@@ -28,6 +30,59 @@ const colorPalette = [
     '#e7298a',
     '#6b4c3b'
 ];
+
+// Load the Rogljičev Kilometer map used as a washed-out chart background.
+rogljicevKmBackgroundImage.onload = function() {
+    rogljicevKmBackgroundIsLoaded = true;
+
+    if (myChart && window.activeSearchDataset === 'rogljicevKm') {
+        myChart.update('none');
+    }
+};
+rogljicevKmBackgroundImage.src = 'pics/rogljicevKm.png';
+
+// Draw a responsive washed-out map behind Rogljičev Kilometer chart content.
+const rogljicevKmBackgroundPlugin = {
+    id: 'rogljicevKmBackground',
+    beforeDraw(chart) {
+        const context = chart.ctx;
+        const width = chart.width;
+        const height = chart.height;
+
+        // Give every exported chart a solid base instead of a transparent canvas.
+        context.save();
+        context.fillStyle = '#ffffff';
+        context.fillRect(0, 0, width, height);
+
+        if (
+            window.activeSearchDataset !== 'rogljicevKm' ||
+            !rogljicevKmBackgroundIsLoaded
+        ) {
+            context.restore();
+            return;
+        }
+
+        // Use cover-style scaling so the map always fills the complete chart without distortion.
+        const imageScale = Math.max(
+            width / rogljicevKmBackgroundImage.naturalWidth,
+            height / rogljicevKmBackgroundImage.naturalHeight
+        );
+        const imageWidth = rogljicevKmBackgroundImage.naturalWidth * imageScale;
+        const imageHeight = rogljicevKmBackgroundImage.naturalHeight * imageScale;
+        const imageX = (width - imageWidth) / 2;
+        const imageY = (height - imageHeight) / 2;
+
+        context.globalAlpha = 0.12;
+        context.drawImage(
+            rogljicevKmBackgroundImage,
+            imageX,
+            imageY,
+            imageWidth,
+            imageHeight
+        );
+        context.restore();
+    }
+};
 
 // Format seconds as race time without showing an unnecessary leading hour.
 function secondsToRaceTime(totalSeconds) {
@@ -45,7 +100,7 @@ function secondsToRaceTime(totalSeconds) {
 
 // Convert a valid HH:MM:SS result into seconds for Chart.js.
 function timeToSeconds(time) {
-    if (typeof time !== 'string' || !/^\d{2}:\d{2}:\d{2}$/.test(time)) {
+    if (typeof time !== 'string' || !/^\d{1,2}:\d{2}:\d{2}$/.test(time)) {
         return null;
     }
 
@@ -84,7 +139,10 @@ function getNextColor() {
 // Build the chart title with singular or plural participant wording.
 function getChartTitle(participantCount) {
     const participantLabel = participantCount === 1 ? 'Participant' : 'Participants';
-    return `RedBull Goni Pony ${participantLabel} time comparison`;
+    const competitionName = window.activeSearchDataset === 'rogljicevKm'
+        ? 'Rogljičev Kilometer'
+        : 'RedBull Goni Pony';
+    return `${competitionName} ${participantLabel} time comparison`;
 }
 
 // Load the Pony bicycle SVG once so chart markers can be recolored per participant.
@@ -276,9 +334,15 @@ function buildParticipantDatasets(selectedItems) {
 
 // Return the complete competition year range for the chart axis.
 function getChartYearRange(selectedYears) {
-    const firstYear = greetingsConfig.firstResultsYear || Math.min(...selectedYears);
-    const loadedYears = Array.isArray(data)
-        ? data.map(item => Number(item.year)).filter(Number.isFinite)
+    const isRogljicevKm = window.activeSearchDataset === 'rogljicevKm';
+    const firstYear = isRogljicevKm
+        ? Math.min(...selectedYears)
+        : greetingsConfig.firstResultsYear || Math.min(...selectedYears);
+    const activeItems = isRogljicevKm
+        ? window.rogljicevKmData || window.selectedItems
+        : data;
+    const loadedYears = Array.isArray(activeItems)
+        ? activeItems.map(item => Number(item.year)).filter(Number.isFinite)
         : [];
     const lastYear = loadedYears.length > 0
         ? Math.max(...loadedYears)
@@ -336,6 +400,9 @@ function updateChart() {
 
     myChart = new Chart(chartContext, {
         type: 'line',
+        plugins: [
+            rogljicevKmBackgroundPlugin
+        ],
         data: {
             datasets
         },
@@ -447,7 +514,10 @@ function updateChart() {
                     },
                     callbacks: {
                         title(tooltipItems) {
-                            return `${tooltipItems[0].raw.x} Goni Pony`;
+                            const competitionName = window.activeSearchDataset === 'rogljicevKm'
+                                ? 'Rogljičev Kilometer'
+                                : 'Goni Pony';
+                            return `${tooltipItems[0].raw.x} ${competitionName}`;
                         },
                         label(context) {
                             const result = context.raw.result;
@@ -472,6 +542,13 @@ document.getElementById('results').addEventListener('change', event => {
 
     const selectedResult = event.target.resultItem;
     if (!selectedResult || selectedResult.Time === 'DNF') {
+        return;
+    }
+
+    // Reject stale checkboxes from another competition before they reach the chart.
+    if (selectedResult.competition !== window.activeSearchDataset) {
+        event.target.checked = false;
+        clearChart();
         return;
     }
 

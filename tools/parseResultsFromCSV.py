@@ -2,7 +2,7 @@ import csv
 import json
 
 # Read the CSV file
-csv_file_path = 'data/results_In_CSV/11_rbgp_2025_csv_results.csv'
+csv_file_path = 'data/results_In_CSV/12_rbgp_2026_csv_results.csv'
 results = []
 
 # Function to convert time to hh:mm:ss format

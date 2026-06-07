@@ -12,10 +12,14 @@ document.getElementById('top10').addEventListener('click', function() {
 
 
 
-function timeToSeconds(time) {
-    if (!time) return;  // Add this to handle potential undefined times
-    let parts = time.split(':');
-    return parts[0] * 3600 + parts[1] * 60 + parseFloat(parts[2]);
+// Convert only valid finish times so DNF and malformed results cannot enter Top10.
+function top10TimeToSeconds(time) {
+    if (typeof time !== 'string' || !/^\d{1,2}:\d{2}:\d{2}$/.test(time)) {
+        return null;
+    }
+
+    const [hours, minutes, seconds] = time.split(':').map(Number);
+    return (hours * 3600) + (minutes * 60) + seconds;
 }
 
 function showTop10ByYear() {
@@ -27,13 +31,12 @@ function showTop10ByYear() {
         return acc;
     }, {});
 
-    // Then, for each year, we'll sort the competitors by time and take the first 10
+    // For each year, completely exclude DNF/invalid results before sorting the fastest ten.
     let top10ByYear = Object.keys(groupedByYear).reduce((acc, year) => {
-        let sortedCompetitors = [...groupedByYear[year]].sort((a, b) => {
-            let aTime = timeToSeconds(a.Time);
-            let bTime = timeToSeconds(b.Time);
-            return aTime - bTime; // Sort in ascending order
-        }).slice(0, 10); // Take the first 10
+        let sortedCompetitors = groupedByYear[year]
+            .filter(item => top10TimeToSeconds(item.Time) !== null)
+            .sort((a, b) => top10TimeToSeconds(a.Time) - top10TimeToSeconds(b.Time))
+            .slice(0, 10);
 
         acc[year] = sortedCompetitors;
         return acc;

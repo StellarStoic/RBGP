@@ -160,6 +160,28 @@ footer {
   text-align: center;
 }
 
+/* Present the Rogljičev Kilometer story and statistics on the About page. */
+.rogljicev-about {
+  margin-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.rogljicev-about-image {
+  display: block;
+  width: min(100%, 900px);
+  height: auto;
+  margin: 2rem auto 0;
+  border-radius: 14px;
+  opacity: 0.78;
+}
+
+/* Credit the source directly below the Rogljičev Kilometer route image. */
+.image-source {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.8em;
+}
+
 
 /* home */
 
@@ -211,17 +233,138 @@ footer {
   background-color: #f58231;
 }
 
-.button-container {
-  display: flex;
+/* Show which isolated competition dataset the search currently uses. */
+.search-data-switch {
+  display: none;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 14px;
+  width: fit-content;
+  max-width: calc(100% - 20px);
+  margin: 1.25rem auto 0.75rem;
+  padding: 12px 16px;
+  border-radius: 16px;
+  text-align: center;
+  transition: color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Reveal the dataset switch only after the user submits a search. */
+.search-data-switch.is-visible {
+  display: flex;
+}
+
+.search-data-switch span {
+  font-weight: bold;
+}
+
+/* Use the Red Bull red-blue identity for general race search mode. */
+.search-data-switch.is-goni-pony {
+  color: #ffffff;
+  background: linear-gradient(110deg, #a04b4dba 0%, #a04b4dba 45%, #3962a49f 55%, #3962a49f 100%);
+  box-shadow: 0 5px 16px rgba(23, 78, 166, 0.28);
+}
+
+/* Use yellow on black for the Rogljičev Kilometer search mode. */
+.search-data-switch.is-rogljicev-km {
+  color: #f5c131;
+  background: #1212126b;
+  box-shadow: 0 5px 16px rgba(245, 206, 49, 0.3);
+}
+
+/* Present both datasets inside a clear two-position toggle track. */
+.search-data-toggle {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 220px;
+  min-height: 46px;
+  margin: 0;
+  padding: 4px;
+  overflow: hidden;
+  border: 2px solid currentColor;
+  border-radius: 999px;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: none;
+  isolation: isolate;
+}
+
+.search-data-toggle:hover,
+.search-data-toggle:focus-visible {
+  background: rgba(255, 255, 255, 0.26);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.search-data-toggle-label {
+  position: relative;
+  z-index: 2;
+  padding: 0 8px;
+  font-size: 0.78rem;
+  line-height: 1.1;
+  transition: color 0.25s ease;
+}
+
+/* Move this pill to show which competition dataset is currently active. */
+.search-data-toggle-knob {
+  position: absolute;
+  z-index: 1;
+  top: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  height: calc(100% - 8px);
+  border-radius: 999px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.search-data-switch.is-goni-pony .search-data-toggle-label-general {
+  color: #d7191f71;
+}
+
+.search-data-switch.is-goni-pony .search-data-toggle-label-rogljicev {
+  color: #ffffff;
+}
+
+.search-data-switch.is-rogljicev-km .search-data-toggle-knob {
+  background: #f5c131;
+  transform: translateX(100%);
+}
+
+.search-data-switch.is-rogljicev-km .search-data-toggle-label-general {
+  color: #f5c131;
+}
+
+.search-data-switch.is-rogljicev-km .search-data-toggle-label-rogljicev {
+  color: #1212126b;
+}
+
+@media (max-width: 600px) {
+  .search-data-switch {
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+  }
+
+  .search-data-toggle {
+    width: min(100%, 260px);
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Button styles */
 button {
     font-family:'Courier Prime', monospace;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin-right: 0;
     font-size: 16px;
     font-weight: bold;
     border: none;
@@ -1209,36 +1352,42 @@ input[type="checkbox"] {
   pointer-events: none;
 }
 
-/* Animate each confetti piece from above the viewport to below it. */
+/* Start every confetti piece at the new-record text before launching it upward. */
 .record-confetti-piece {
-  --confetti-drift: 0px;
+  --confetti-launch-x: 0px;
+  --confetti-launch-y: -200px;
+  --confetti-fall-x: 0px;
+  --confetti-fall-y: 100vh;
   --confetti-rotation: 720deg;
   position: absolute;
-  top: -10vh;
   width: 10px;
   height: 18px;
   border-radius: 2px;
   opacity: 0;
-  animation-name: record-confetti-fall;
-  animation-timing-function: cubic-bezier(0.18, 0.72, 0.32, 1);
+  animation-name: record-confetti-launch-and-fall;
+  animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
 
-/* Move, rotate, and fade the confetti during the short celebration. */
-@keyframes record-confetti-fall {
+/* Throw confetti upward, pause near its peak, then let it fall below the viewport. */
+@keyframes record-confetti-launch-and-fall {
   0% {
     opacity: 0;
-    transform: translate3d(0, -10vh, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0) rotate(0deg);
   }
-  10% {
+  5% {
     opacity: 1;
   }
-  90% {
+  28% {
+    opacity: 1;
+    transform: translate3d(var(--confetti-launch-x), var(--confetti-launch-y), 0) rotate(360deg);
+  }
+  88% {
     opacity: 1;
   }
   100% {
     opacity: 0;
-    transform: translate3d(var(--confetti-drift), 115vh, 0) rotate(var(--confetti-rotation));
+    transform: translate3d(var(--confetti-fall-x), var(--confetti-fall-y), 0) rotate(var(--confetti-rotation));
   }
 }
 
