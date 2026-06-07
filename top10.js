@@ -22,6 +22,73 @@ function top10TimeToSeconds(time) {
     return (hours * 3600) + (minutes * 60) + seconds;
 }
 
+// Sort complete yearly results with valid finishers first and every DNF entry last.
+function getCompleteYearResults(yearResults) {
+    return [...yearResults].sort((first, second) => {
+        const firstTime = top10TimeToSeconds(first.Time);
+        const secondTime = top10TimeToSeconds(second.Time);
+
+        if (firstTime === null && secondTime === null) {
+            return 0;
+        }
+
+        if (firstTime === null) {
+            return 1;
+        }
+
+        if (secondTime === null) {
+            return -1;
+        }
+
+        return firstTime - secondTime;
+    });
+}
+
+// Build either the Top10 or complete yearly participant list.
+function createYearResultList(results, showCompleteList) {
+    const resultList = document.createElement('ul');
+    resultList.className = showCompleteList ? 'top10-year-list is-expanded' : 'top10-year-list';
+
+    let rank = 0;
+    let previousTime = '';
+
+    results.forEach((item, index) => {
+        const validTime = top10TimeToSeconds(item.Time);
+        const listItem = document.createElement('li');
+
+        if (validTime === null) {
+            listItem.textContent = `DNF. ${capitalizeFirstLetter(item.Name)} ${capitalizeFirstLetter(item.Surename)} [${item.Number}] (${item.Time || 'DNF'})`;
+            listItem.classList.add('top10-dnf');
+        } else {
+            if (item.Time !== previousTime) {
+                rank = showCompleteList ? index + 1 : rank + 1;
+            }
+
+            listItem.textContent = `${rank}. ${capitalizeFirstLetter(item.Name)} ${capitalizeFirstLetter(item.Surename)} [${item.Number}] (${item.Time})`;
+            previousTime = item.Time;
+        }
+
+        resultList.appendChild(listItem);
+    });
+
+    return resultList;
+}
+
+// Replace a year's Top10 with its complete results, or collapse it back to Top10.
+function toggleCompleteYearResults(yearSection, yearResults, top10Results) {
+    const isExpanded = yearSection.classList.toggle('is-expanded');
+    const currentList = yearSection.querySelector('.top10-year-list');
+    const toggleIcon = yearSection.querySelector('.top10-toggle-icon');
+    const yearHeading = yearSection.querySelector('.top10-year-heading');
+
+    currentList.replaceWith(createYearResultList(
+        isExpanded ? getCompleteYearResults(yearResults) : top10Results,
+        isExpanded
+    ));
+    toggleIcon.textContent = isExpanded ? '−' : '+';
+    yearHeading.setAttribute('aria-expanded', String(isExpanded));
+}
+
 function showTop10ByYear() {
     // Clear the chart first if there is any active
     clearChart(); 
@@ -47,17 +114,43 @@ function showTop10ByYear() {
     resultsDiv.innerHTML = ''; // Clear previous results
 
     Object.keys(top10ByYear).sort((a, b) => a - b).forEach(year => { // Sort years in ascending order
-        let h3 = document.createElement('h3');
-        h3.textContent = year;
-        resultsDiv.appendChild(h3);
+        const yearSection = document.createElement('section');
+        yearSection.className = 'top10-year-section';
 
-        let ol = document.createElement('ul');
-        top10ByYear[year].forEach((item, index) => {
-            let li = document.createElement('li');
-            li.textContent = `${index + 1}. ${capitalizeFirstLetter(item.Name)} ${capitalizeFirstLetter(item.Surename)} [${item.Number}] (${item.Time})`;
-            ol.appendChild(li);
+        const yearHeading = document.createElement('h3');
+        yearHeading.className = 'top10-year-heading';
+        yearHeading.tabIndex = 0;
+        yearHeading.setAttribute('role', 'button');
+        yearHeading.setAttribute('aria-expanded', 'false');
+        yearHeading.setAttribute('aria-label', `Show all ${year} participants`);
+
+        const yearText = document.createElement('span');
+        yearText.textContent = year;
+
+        const toggleIcon = document.createElement('span');
+        toggleIcon.className = 'top10-toggle-icon';
+        toggleIcon.textContent = '+';
+        toggleIcon.setAttribute('aria-hidden', 'true');
+
+        yearHeading.appendChild(yearText);
+        yearHeading.appendChild(toggleIcon);
+        yearSection.appendChild(yearHeading);
+        yearSection.appendChild(createYearResultList(top10ByYear[year], false));
+
+        // Expand or collapse the complete year when either the heading or icon is clicked.
+        yearHeading.addEventListener('click', function() {
+            toggleCompleteYearResults(yearSection, groupedByYear[year], top10ByYear[year]);
         });
-        resultsDiv.appendChild(ol);
+
+        // Give keyboard users the same expand/collapse behavior as pointer users.
+        yearHeading.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                toggleCompleteYearResults(yearSection, groupedByYear[year], top10ByYear[year]);
+            }
+        });
+
+        resultsDiv.appendChild(yearSection);
     });
 }
 

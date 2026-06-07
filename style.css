@@ -436,6 +436,46 @@ button:hover {
     margin-bottom: 20px;
 }
 
+/* Keep each Top10 year title visible above its collapsible participant list. */
+.top10-year-section {
+    margin-bottom: 1.5rem;
+}
+
+/* Make the year and plus/minus icon one large accessible expand control. */
+#results .top10-year-heading {
+    display: flex;
+    flex-direction: row;
+    background-color: #c8c8c8bc;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.35em 0.5em;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#results .top10-year-heading:hover,
+#results .top10-year-heading:focus-visible {
+    background: rgba(151, 213, 255, 0.518);
+    outline: none;
+}
+
+/* Show a clear plus/minus control on the right side of every year title. */
+.top10-toggle-icon {
+    flex: 0 0 auto;
+    margin-left: 1rem;
+    font-size: 0.75em;
+    line-height: 1;
+}
+
+/* Visually separate non-finishers at the bottom of an expanded year. */
+.top10-dnf {
+    color: #666666;
+}
+
 /* Times section */
 #times {
     margin-bottom: 20px;
