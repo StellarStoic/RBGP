@@ -3,7 +3,7 @@
 <head>
     <title>RBGP</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20260607-snapshot">
 </head>
 <body>
 
@@ -39,8 +39,24 @@
     <div id="top101-overall"></div>
     <div id="results"></div>
     <div id="times"></div>
-    <div id="chart-container">
-        <canvas id="myChart"></canvas>
+    <section id="chart-container" aria-labelledby="chart-title">
+        <div class="chart-heading">
+            <div class="chart-heading-row">
+                <div>
+                    <h2 id="chart-title">Participant time comparison</h2>
+                    <p>Faster finish times appear higher. Swipe horizontally on mobile to compare event years.</p>
+                </div>
+                <button id="chart-snapshot-button" type="button" title="Download chart as PNG" aria-label="Download chart as PNG">
+                    <img src="pics/cameraIcon.png" alt="">
+                    <span>Snapshot</span>
+                </button>
+            </div>
+        </div>
+        <div class="chart-scroll">
+            <div class="chart-canvas-wrap">
+                <canvas id="myChart" role="img" aria-label="Selected participants' finish times compared across event years"></canvas>
+            </div>
+        </div>
     </div>
 
     <!-- Footer with hyperlinks -->
@@ -70,12 +86,12 @@ data-start-page="chat"
 ></script>
 <link rel="stylesheet" href="https://nostri-chat-hosted.f9ofwt.click/public/bundle.css">
     <!-- Load editable event details before the home-page countdown logic. -->
-    <script src="greetings.js"></script>
-    <script src="home.js"></script>
+    <script src="greetings.js?v=20260607-record"></script>
+    <script src="home.js?v=20260607-confetti"></script>
     <script src="veterans.js"></script>
     <script src="allOverall.js"></script>
     <script src="top10.js"></script>
-    <script src="chart.js"></script>
+    <script src="chart.js?v=20260607-snapshot"></script>
     <script src="scrollToTopBtn.js"></script>
     <script src="search.js"></script>
 

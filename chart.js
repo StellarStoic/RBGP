@@ -1,247 +1,352 @@
-let ctx = document.getElementById('myChart').getContext('2d');
-let myChart; // Declare myChart in global scope
-let delayed;
+const chartCanvas = document.getElementById('myChart');
+const chartContext = chartCanvas.getContext('2d');
+const chartContainer = document.getElementById('chart-container');
+const chartCanvasWrap = document.querySelector('.chart-canvas-wrap');
+const chartSnapshotButton = document.getElementById('chart-snapshot-button');
+
+let myChart;
+let colorIndex = 0;
 let colorMap = {};
 
-function secondsToHms(d) {
-    d = Number(d);
-    var h = Math.floor(d / 3600);
-    var m = Math.floor(d % 3600 / 60);
-    var s = Math.floor(d % 3600 % 60);
-    
-    var hDisplay = h > 0 ? (h < 10 ? "0" : "") + h + ":" : "00:";
-    var mDisplay = m > 0 ? (m < 10 ? "0" : "") + m + ":" : "00:";
-    var sDisplay = s > 0 ? (s < 10 ? "0" : "") + s : "00";
-    return hDisplay + mDisplay + sDisplay; 
-}
-
-
-function clearChart() {
-    if (myChart !== undefined && myChart !== null) {
-        myChart.destroy();
-        myChart = null;
-    }
-    window.selectedItems = [];
-    colorMap = {};
-}
-
-function stringsMatch(str1, str2) {
-    return str1.localeCompare(str2, undefined, { sensitivity: 'base' }) === 0;
-}
-
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
-}
-
-function timeToSeconds(time) {
-    if (!time) return;  // Add this to handle potential undefined times
-    let parts = time.split(':');
-    return parts[0] * 3600 + parts[1] * 60 + parseFloat(parts[2]);
-}
-
-let colorIndex = 0;
-let colorPalette = [
-    '#e6194b', '#3cb44b', '#ffe119', '#0082c8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#d2f53c', '#fabebe', 
-    '#008080', '#e6beff', '#aa6e28', '#fffac8', '#800000', '#aaffc3', '#808000', '#000080', '#808080'
-    , '#000000', '#f582f5', '#0000FF', '#018571', '#e31a1c',
+const colorPalette = [
+    '#d7191c',
+    '#2c7bb6',
+    '#1a9641',
+    '#f28e2b',
+    '#7b3294',
+    '#008080',
+    '#e7298a',
+    '#6b4c3b'
 ];
 
-// Generate colors
+// Format seconds as race time without showing an unnecessary leading hour.
+function secondsToRaceTime(totalSeconds) {
+    const roundedSeconds = Math.round(Number(totalSeconds));
+    const hours = Math.floor(roundedSeconds / 3600);
+    const minutes = Math.floor((roundedSeconds % 3600) / 60);
+    const seconds = roundedSeconds % 60;
+
+    if (hours > 0) {
+        return `${hours}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    }
+
+    return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+}
+
+// Convert a valid HH:MM:SS result into seconds for Chart.js.
+function timeToSeconds(time) {
+    if (typeof time !== 'string' || !/^\d{2}:\d{2}:\d{2}$/.test(time)) {
+        return null;
+    }
+
+    const [hours, minutes, seconds] = time.split(':').map(Number);
+    return (hours * 3600) + (minutes * 60) + seconds;
+}
+
+// Preserve the shared name formatter used by the Top10 and Overall result views.
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toLocaleUpperCase('sl-SI') + string.slice(1).toLocaleLowerCase('sl-SI');
+}
+
+// Format imported uppercase names while preserving multi-word names and surnames.
+function formatChartName(item) {
+    return `${item.Name} ${item.Surename}`
+        .toLocaleLowerCase('sl-SI')
+        .replace(/(^|\s|-)\p{L}/gu, letter => letter.toLocaleUpperCase('sl-SI'));
+}
+
+// Create a stable key so every participant keeps the same line color.
+function getParticipantKey(item) {
+    return `${item.Name} ${item.Surename}`
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .trim()
+        .toLocaleLowerCase('sl-SI');
+}
+
+// Return the next high-contrast color used to distinguish participants.
 function getNextColor() {
-    // Fetch a color from the array and increment the index
-    let color = colorPalette[colorIndex];
-    colorIndex = (colorIndex + 1) % colorPalette.length; // Cycle back to the start of the array if we run out of colors
+    const color = colorPalette[colorIndex];
+    colorIndex = (colorIndex + 1) % colorPalette.length;
     return color;
 }
 
+// Create a filesystem-safe timestamp for the exported PNG filename.
+function getSnapshotTimestamp() {
+    const now = new Date();
+    const date = [
+        now.getFullYear(),
+        (now.getMonth() + 1).toString().padStart(2, '0'),
+        now.getDate().toString().padStart(2, '0')
+    ].join('-');
+    const time = [
+        now.getHours().toString().padStart(2, '0'),
+        now.getMinutes().toString().padStart(2, '0'),
+        now.getSeconds().toString().padStart(2, '0')
+    ].join('-');
 
-function updateChart() {
-    // Clear the canvas
-    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+    return `${date}_${time}`;
+}
 
-    // Destroy existing chart if it exists
-    if (typeof myChart !== "undefined" && myChart !== null) {
-        myChart.destroy();
+// Export the complete chart, including off-screen mobile content, on a solid PNG background.
+function exportChartSnapshot() {
+    if (!myChart) {
+        return;
     }
 
-    // Sort the selected items array by year
-    window.selectedItems.sort((a, b) => a.year - b.year);
+    const exportCanvas = document.createElement('canvas');
+    exportCanvas.width = chartCanvas.width;
+    exportCanvas.height = chartCanvas.height;
 
-    // Extract unique years, this will be used as labels on the y-axis
-    let years = [...new Set(window.selectedItems.map(item => item.year))].sort((a, b) => a - b);
+    const exportContext = exportCanvas.getContext('2d');
+    exportContext.fillStyle = '#ffffff';
+    exportContext.fillRect(0, 0, exportCanvas.width, exportCanvas.height);
+    exportContext.drawImage(chartCanvas, 0, 0);
 
-    let datasets = [];
-
-    window.selectedItems.forEach((item) => {
-        let normalizedItemName = item.Name.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        let normalizedItemSurename = item.Surename.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        let id = normalizedItemName + normalizedItemSurename; // Removed the year from id creation
-        if (!colorMap[id]) {
-            colorMap[id] = getNextColor();
+    // Convert the composed canvas to a PNG and trigger its browser download.
+    exportCanvas.toBlob(blob => {
+        if (!blob) {
+            return;
         }
-        let lineColor = colorMap[id];
-    
-        // Find existing dataset for this person or create a new one
-        let dataset = datasets.find(dataset => dataset.label === id);
-        if (!dataset) {
-            dataset = {
-                label: capitalizeFirstLetter(item.Name) + ' ' + capitalizeFirstLetter(item.Surename) + ' \'' + item.year.toString().slice(-2), // Added year to the label
+
+        const downloadUrl = URL.createObjectURL(blob);
+        const downloadLink = document.createElement('a');
+        downloadLink.href = downloadUrl;
+        downloadLink.download = `goni_pony_${getSnapshotTimestamp()}.png`;
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        downloadLink.remove();
+
+        // Release the temporary object URL after the browser starts the download.
+        window.setTimeout(() => {
+            URL.revokeObjectURL(downloadUrl);
+        }, 1000);
+    }, 'image/png');
+}
+
+// Group selected race entries into one chronological line per participant.
+function buildParticipantDatasets(selectedItems) {
+    const datasetsByParticipant = new Map();
+
+    selectedItems.forEach(item => {
+        const timeInSeconds = timeToSeconds(item.Time);
+        if (timeInSeconds === null) {
+            return;
+        }
+
+        const participantKey = getParticipantKey(item);
+        if (!colorMap[participantKey]) {
+            colorMap[participantKey] = getNextColor();
+        }
+
+        if (!datasetsByParticipant.has(participantKey)) {
+            datasetsByParticipant.set(participantKey, {
+                label: formatChartName(item),
                 data: [],
-                fill: false,
-                borderColor: lineColor,
-                backgroundColor: lineColor,
-                borderWidth: 2,
-                pointStyle: 'triangle',
-                pointRadius: 5,
-                pointHoverRadius: 8,
-            };
-            datasets.push(dataset);
-        }
-        // Add data point
-        if (item.Time) {
-            dataset.data.push({
-                x: item.year,
-                y: timeToSeconds(item.Time)
+                borderColor: colorMap[participantKey],
+                backgroundColor: colorMap[participantKey],
+                borderWidth: 3,
+                pointRadius: 6,
+                pointHoverRadius: 9,
+                pointHitRadius: 16,
+                tension: 0.18,
+                spanGaps: true,
+                fill: false
             });
         }
+
+        // Keep the original result metadata on each point for reliable tooltips.
+        datasetsByParticipant.get(participantKey).data.push({
+            x: Number(item.year),
+            y: timeInSeconds,
+            result: item
+        });
     });
-        
 
-    
-    
+    return Array.from(datasetsByParticipant.values()).map(dataset => {
+        dataset.data.sort((first, second) => first.x - second.x);
+        return dataset;
+    });
+}
 
-    // Only proceed if there are selected items
-    if (window.selectedItems.length > 0) {
-        myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: years,
-        datasets: datasets
-    },
-    showLine: true,
-    options: {
-        responsive: true,
-        scales: {
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    callback: function(value, index, values) {
-                        return secondsToHms(value);
+// Remove the chart and reset all selected comparison results.
+function clearChart() {
+    if (myChart) {
+        myChart.destroy();
+        myChart = undefined;
+    }
+
+    chartContainer.classList.remove('is-visible');
+    window.selectedItems = [];
+    colorIndex = 0;
+    colorMap = {};
+}
+
+// Render a mobile-friendly progression chart for the selected race results.
+function updateChart() {
+    if (myChart) {
+        myChart.destroy();
+        myChart = undefined;
+    }
+
+    const selectedItems = Array.isArray(window.selectedItems) ? window.selectedItems : [];
+    const datasets = buildParticipantDatasets(selectedItems);
+
+    if (datasets.length === 0) {
+        chartContainer.classList.remove('is-visible');
+        return;
+    }
+
+    const years = datasets.flatMap(dataset => dataset.data.map(point => point.x));
+    const uniqueYears = [...new Set(years)].sort((first, second) => first - second);
+    const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
+    // Give each event year enough horizontal room to remain readable on narrow screens.
+    chartCanvasWrap.style.width = isMobile
+        ? `${Math.max(640, uniqueYears.length * 90)}px`
+        : '100%';
+
+    chartContainer.classList.add('is-visible');
+
+    myChart = new Chart(chartContext, {
+        type: 'line',
+        data: {
+            datasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            normalized: true,
+            interaction: {
+                mode: 'nearest',
+                axis: 'xy',
+                intersect: false
+            },
+            layout: {
+                padding: isMobile ? 8 : 18
+            },
+            scales: {
+                x: {
+                    type: 'linear',
+                    min: uniqueYears[0] - 0.25,
+                    max: uniqueYears[uniqueYears.length - 1] + 0.25,
+                    ticks: {
+                        stepSize: 1,
+                        precision: 0,
+                        autoSkip: false,
+                        font: {
+                            size: isMobile ? 12 : 14,
+                            weight: 'bold'
+                        },
+                        callback(value) {
+                            return Number.isInteger(value) ? value : '';
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Event year',
+                        font: {
+                            size: isMobile ? 13 : 15,
+                            weight: 'bold'
+                        }
+                    },
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.08)'
+                    }
+                },
+                y: {
+                    reverse: true,
+                    grace: '8%',
+                    ticks: {
+                        maxTicksLimit: isMobile ? 7 : 9,
+                        font: {
+                            size: isMobile ? 11 : 13
+                        },
+                        callback(value) {
+                            return secondsToRaceTime(value);
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Finish time (faster is higher)',
+                        font: {
+                            size: isMobile ? 13 : 15,
+                            weight: 'bold'
+                        }
+                    },
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.1)'
                     }
                 }
             },
-            x: {
-                beginAtZero: true,
-            }
-        },
-                plugins: {
-                    tooltip: {
-                        callbacks: {
-                            title: function(tooltipItems) {
-                                // Get the first tooltip item
-                                let tooltipItem = tooltipItems[0];
-                                
-                                // Get the corresponding dataset and data point
-                                let dataset = myChart.data.datasets[tooltipItem.datasetIndex];
-                                let dataPoint = dataset.data[tooltipItem.dataIndex];
-                            
-                                // Extract name and surname from dataset label
-                                let [name, surname] = dataset.label.split(' ');
-                            
-                                // Find the corresponding item in selectedItems
-                                let item = window.selectedItems.find(item => 
-                                    stringsMatch(item.Name, name) &&
-                                    stringsMatch(item.Surename, surname) &&
-                                    item.year === dataPoint.x
-                                );
-                            
-                                if (item) {
-                                    // Return an empty string as title
-                                    return '';
-                                } else {
-                                    // If item is undefined, return a default string
-                                    return 'Undefined item';
-                                }
-                            }
-                            ,
-                            label: function(context) {
-                                var label = context.dataset.label || '';
-                                if (label) {
-                                    label += ', Bip: ';
-                                }
-                            
-                                // Add bip number to the label
-                                let datasetIndex = context.datasetIndex;
-                                let dataIndex = context.dataIndex;
-                                let dataset = myChart.data.datasets[datasetIndex];
-                                let labelParts = dataset.label.split(' ');
-                                let name = labelParts[0];
-                                let surname = labelParts[1];
-                                let item = window.selectedItems.find(item => 
-                                    stringsMatch(item.Name, name) &&
-                                    stringsMatch(item.Surename, surname) &&
-                                    item.year === myChart.data.labels[dataIndex]
-                                );
-                                if (item) {
-                                    label += item.Number + ', Time: ';
-                                }
-                            
-                                if (context.parsed.y !== null) {
-                                    label += secondsToHms(context.parsed.y);
-                                }
-                                return label;
-                            }
-                            
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        usePointStyle: true,
+                        boxWidth: isMobile ? 10 : 14,
+                        padding: isMobile ? 10 : 18,
+                        font: {
+                            size: isMobile ? 11 : 13
+                        }
+                    }
+                },
+                tooltip: {
+                    displayColors: true,
+                    padding: 12,
+                    titleFont: {
+                        size: 14
+                    },
+                    bodyFont: {
+                        size: 13
+                    },
+                    callbacks: {
+                        title(tooltipItems) {
+                            return `${tooltipItems[0].raw.x} Goni Pony`;
+                        },
+                        label(context) {
+                            const result = context.raw.result;
+                            return `${context.dataset.label}: ${result.Time} · BIP ${result.Number}`;
+                        },
+                        afterLabel(context) {
+                            const result = context.raw.result;
+                            return result.Place ? `Place: ${result.Place}` : '';
                         }
                     }
                 }
-                
-            }
-        });
-    }
-}
-
-
-
-
-document.getElementById('results').addEventListener('change', function(e) {
-    if (e.target.classList.contains('result-checkbox')) {
-        let checkboxText = e.target.parentElement.textContent.trim();
-        if (checkboxText) {
-            let regex = /(.*) \[(.*)\] completed the (\d{4}) Goni Pony race in (.*)/;
-            let matches = checkboxText.match(regex);
-            if (matches) {
-                let name = matches[1].split(' ')[0];
-                let surname = matches[1].split(' ')[1];
-                let number = matches[2];
-                let year = matches[3];
-                let time = matches[4];
-                let item = data.find(item => {
-                    let itemFullName = (capitalizeFirstLetter(item.Name) + ' ' + capitalizeFirstLetter(item.Surename)).trim().toLowerCase();
-                    let itemYear = item.year;
-                    let itemNameSurname = (name + ' ' + surname).trim().toLowerCase();
-                    return itemFullName === itemNameSurname && itemYear.toString() === year;
-                });
-                if (item) {
-                    if (e.target.checked) {
-                        if (!colorMap[name + surname]) {
-                            colorMap[name + surname] = getNextColor();
-                        }
-                        window.selectedItems.push(item);
-                    } else {
-                        let index = window.selectedItems.indexOf(item);
-                        window.selectedItems.splice(index, 1);
-                    }
-                    // Always rebuild the chart from scratch when a checkbox is checked or unchecked
-                    updateChart();
-                }
-            } else {
-                console.error('Unexpected format for checkboxText:', checkboxText);
-                return;
             }
         }
+    });
+}
+
+// Add or remove the exact result object attached to a search-result checkbox.
+document.getElementById('results').addEventListener('change', event => {
+    if (!event.target.classList.contains('result-checkbox')) {
+        return;
     }
+
+    const selectedResult = event.target.resultItem;
+    if (!selectedResult || selectedResult.Time === 'DNF') {
+        return;
+    }
+
+    if (event.target.checked) {
+        if (!window.selectedItems.includes(selectedResult)) {
+            window.selectedItems.push(selectedResult);
+        }
+    } else {
+        window.selectedItems = window.selectedItems.filter(item => item !== selectedResult);
+    }
+
+    updateChart();
 });
 
+// Download the currently rendered participant comparison as a PNG image.
+chartSnapshotButton.addEventListener('click', exportChartSnapshot);
 
-
+// Rebuild the chart when its mobile or desktop layout breakpoint changes.
+window.addEventListener('resize', () => {
+    if (myChart) {
+        updateChart();
+    }
+});

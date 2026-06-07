@@ -78,6 +78,8 @@ function search() {
         let checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.className = 'result-checkbox'; // We'll use this class to select all result checkboxes later
+        checkbox.resultItem = item; // Attach the exact result so the chart does not parse visible text.
+        checkbox.disabled = item.Time === 'DNF'; // Exclude entries without a finish time from the chart.
         
         p.appendChild(checkbox);
 
@@ -129,21 +131,26 @@ window.onload = function() {
     });
 
     let selectAllCheckbox = document.getElementById('select-all');
+    if (selectAllCheckbox) {
     selectAllCheckbox.addEventListener('change', function(e) {
         let allCheckboxes = document.querySelectorAll('.result-checkbox');
         allCheckboxes.forEach(checkbox => {
+            if (checkbox.disabled) {
+                return;
+            }
+
             checkbox.checked = selectAllCheckbox.checked;
 
-            // Update selectedItems
-            let itemText = checkbox.parentElement.textContent.trim();
+            // Update selectedItems with result objects that the chart can use directly.
+            let selectedResult = checkbox.resultItem;
             if (checkbox.checked) {
                 // If checkbox is checked and item is not already in selectedItems, add it
-                if (!window.selectedItems.includes(itemText)) {
-                    window.selectedItems.push(itemText);
+                if (!window.selectedItems.includes(selectedResult)) {
+                    window.selectedItems.push(selectedResult);
                 }
-            } else {
+            } else if (selectedResult) {
                 // If checkbox is not checked and item is in selectedItems, remove it
-                let index = window.selectedItems.indexOf(itemText);
+                let index = window.selectedItems.indexOf(selectedResult);
                 if (index !== -1) {
                     window.selectedItems.splice(index, 1);
                 }
@@ -151,6 +158,7 @@ window.onload = function() {
         });
 
         // Update the chart with the new selected items
-        updateChart(window.selectedItems);
+        updateChart();
     });
+    }
 }

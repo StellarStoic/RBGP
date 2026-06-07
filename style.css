@@ -305,12 +305,118 @@ button:hover {
 
 /* Chart section */
 #chart-container {
-    
+    display: none;
+    width: min(1100px, calc(100% - 40px));
+    margin: 2rem auto 7rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Show the comparison card only after at least one valid result is selected. */
+#chart-container.is-visible {
+    display: block;
+}
+
+/* Explain how race time is represented before users inspect the chart. */
+.chart-heading {
+    margin-bottom: 0.75rem;
+}
+
+/* Keep the chart description centered while placing export controls beside it. */
+.chart-heading-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.chart-heading h2 {
+    margin: 0 0 0.35rem;
+    font-size: clamp(1.25rem, 3vw, 2rem);
+}
+
+.chart-heading p {
+    margin: 0;
+    color: #444444;
+    font-size: clamp(0.85rem, 2vw, 1rem);
+}
+
+/* Present the image export as a compact camera control with a clear touch target. */
+#chart-snapshot-button {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 44px;
+    padding: 0.55rem 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    color: #111111;
+    background: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#chart-snapshot-button:hover,
+#chart-snapshot-button:focus-visible {
+    background: #f4f4f4;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+#chart-snapshot-button img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+/* Allow a wide multi-year chart to scroll instead of shrinking on phones. */
+.chart-scroll {
     width: 100%;
-    max-width: 70%;
-    height: 50%;
-    max-height: 50%;
-    margin-bottom: 7%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Give Chart.js a stable responsive height on desktop and mobile. */
+.chart-canvas-wrap {
+    position: relative;
+    width: 100%;
+    height: clamp(360px, 52vw, 560px);
+}
+
+@media (max-width: 767px) {
+    #chart-container {
+        width: calc(100% - 16px);
+        margin: 1rem auto 6rem;
+        padding: 0.75rem 0.5rem;
+        border-radius: 12px;
+    }
+
+    .chart-heading {
+        padding: 0 0.5rem;
+    }
+
+    .chart-heading-row {
+        flex-direction: column;
+        gap: 0.65rem;
+    }
+
+    #chart-snapshot-button {
+        align-self: center;
+    }
+
+    .chart-canvas-wrap {
+        min-width: 640px;
+        height: 430px;
+    }
 }
 
 /* text strike trough on radio btn */
@@ -1073,6 +1179,64 @@ input[type="checkbox"] {
   font-size: 1.7em;
   margin: 0 auto;
 }
+}
+
+/* Display a new or matched record prominently on its own line. */
+.record-time {
+  display: block;
+  margin: 0.6em 0;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+/* Keep the record celebration above the page without blocking any controls. */
+.record-confetti {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Animate each confetti piece from above the viewport to below it. */
+.record-confetti-piece {
+  --confetti-drift: 0px;
+  --confetti-rotation: 720deg;
+  position: absolute;
+  top: -10vh;
+  width: 10px;
+  height: 18px;
+  border-radius: 2px;
+  opacity: 0;
+  animation-name: record-confetti-fall;
+  animation-timing-function: cubic-bezier(0.18, 0.72, 0.32, 1);
+  animation-fill-mode: forwards;
+}
+
+/* Move, rotate, and fade the confetti during the short celebration. */
+@keyframes record-confetti-fall {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -10vh, 0) rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--confetti-drift), 115vh, 0) rotate(var(--confetti-rotation));
+  }
+}
+
+/* Disable celebration movement when the user requests reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  .record-confetti {
+    display: none;
+  }
 }
 
 @media (min-width: 873px) and (max-width: 1024px) {
