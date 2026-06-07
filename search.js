@@ -3,10 +3,13 @@ window.activeSearchDataset = 'goniPony';
 
 let data = [];
 const currentYear = new Date().getFullYear();
+const mainDataRequests = [];
+let searchRequestId = 0;
 
 // Load and tag every main Goni Pony result so chart selections can verify their source.
 for (let year = 2015; year <= currentYear; year++) {
-    fetch(`data/${year}/${year}.json`)
+    // Keep each yearly request so searches can wait for the complete general dataset.
+    const dataRequest = fetch(`data/${year}/${year}.json`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}`);
@@ -27,7 +30,12 @@ for (let year = 2015; year <= currentYear; year++) {
         .catch(error => {
             console.log(`Failed to load Goni Pony data for ${year}: ${error}`);
         });
+
+    mainDataRequests.push(dataRequest);
 }
+
+// Resolve after every available yearly result file has loaded or been skipped.
+const mainDataReady = Promise.all(mainDataRequests);
 
 // Clear result details left by another view.
 function clearTimes() {
@@ -56,7 +64,71 @@ async function getActiveSearchData() {
         return getRogljicevKmResults();
     }
 
+    // General searches need all available years before filtering participants.
+    await mainDataReady;
     return data;
+}
+
+// Build an accessible loader with the Pony bicycle riding over animated waves.
+function createSearchLoader() {
+    const loader = document.createElement('div');
+    loader.classList.add('search-loader');
+    loader.setAttribute('role', 'status');
+    loader.setAttribute('aria-live', 'polite');
+
+    const scene = document.createElement('div');
+    scene.classList.add('search-loader-scene');
+    scene.setAttribute('aria-hidden', 'true');
+
+    const waves = document.createElement('div');
+    waves.classList.add('search-loader-waves');
+
+    const bicycle = document.createElement('img');
+    bicycle.classList.add('search-loader-bicycle');
+    bicycle.src = 'pics/ponykoloSVG.svg';
+    bicycle.alt = '';
+
+    // Choose a fresh bicycle color every time a search loader is created.
+    const bicycleColors = [
+        'azure',
+        'dark-blue',
+        'gold',
+        'white',
+        'black',
+        'blue',
+        'red',
+        'green',
+        'brown',
+        'pink',
+        'purple',
+        'yellow',
+        'orange'
+    ];
+    const randomColor = bicycleColors[
+        Math.floor(Math.random() * bicycleColors.length)
+    ];
+    bicycle.classList.add(`search-loader-bicycle-${randomColor}`);
+
+    const message = document.createElement('p');
+    message.classList.add('search-loader-message');
+    message.textContent = 'Searching results...';
+
+    scene.appendChild(waves);
+    scene.appendChild(bicycle);
+    loader.appendChild(scene);
+    loader.appendChild(message);
+
+    return loader;
+}
+
+// Replace old results immediately with the current search loading state.
+function showSearchLoader(resultsDiv) {
+    resultsDiv.replaceChildren(createSearchLoader());
+}
+
+// Keep cached searches visible long enough for the loading animation to be perceived.
+function waitForSearchLoader() {
+    return new Promise(resolve => setTimeout(resolve, 300));
 }
 
 // Update the notice and switch label to clearly identify the active competition.
@@ -87,6 +159,8 @@ function showSearchDatasetSwitch() {
 
 // Clear search-specific UI when another page section is opened.
 function resetSearchView() {
+    // Invalidate pending searches so they cannot restore results after navigation.
+    searchRequestId += 1;
     window.activeSearchDataset = 'goniPony';
     document.getElementById('search-input').value = '';
     document.getElementById('results').innerHTML = '';
@@ -153,6 +227,7 @@ async function search() {
     const searchInput = document.getElementById('search-input');
     const query = searchInput.value.trim().toLocaleLowerCase('sl-SI');
     const resultsDiv = document.getElementById('results');
+    const currentRequestId = ++searchRequestId;
 
     if (!query) {
         resultsDiv.innerHTML = '';
@@ -162,12 +237,19 @@ async function search() {
     }
 
     showSearchDatasetSwitch();
+    showSearchLoader(resultsDiv);
 
     const requestedDataset = window.activeSearchDataset;
-    const activeData = await getActiveSearchData();
+    const [activeData] = await Promise.all([
+        getActiveSearchData(),
+        waitForSearchLoader()
+    ]);
 
-    // Ignore an outdated async search if the user switched datasets while it loaded.
-    if (requestedDataset !== window.activeSearchDataset) {
+    // Ignore outdated searches after a dataset switch, newer search, or navigation.
+    if (
+        requestedDataset !== window.activeSearchDataset
+        || currentRequestId !== searchRequestId
+    ) {
         return;
     }
 
@@ -185,6 +267,15 @@ async function search() {
     });
 
     resultsDiv.innerHTML = '';
+
+    if (results.length === 0) {
+        // Show a clear empty state after searching all available participant data.
+        const noResults = document.createElement('p');
+        noResults.classList.add('search-no-results');
+        noResults.textContent = 'No results';
+        resultsDiv.appendChild(noResults);
+        return;
+    }
 
     results.forEach(item => {
         const rank = calculateOverallRank(item, activeData);
