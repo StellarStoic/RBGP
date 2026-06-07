@@ -262,7 +262,8 @@ async function search() {
         return queryWords.every(word =>
             nameWords.some(name => stringsMatch(name, word)) ||
             surnameWords.some(surname => stringsMatch(surname, word)) ||
-            number.includes(word)
+            // Match the complete BIP so searching 21 does not return 212 or 214.
+            number === word
         );
     });
 
