@@ -3,7 +3,7 @@
 <head>
     <title>RBGP</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="style.css?v=20260607-search-loader-colors">
+    <link rel="stylesheet" href="style.css?v=20260607-copy-notification">
 </head>
 <body>
 
@@ -34,6 +34,14 @@
         <div id="times"></div>
         <h2 id="modal-title"></h2>
         <div id="modal-text"></div>
+        <!-- Announce successful clipboard actions visually and to assistive technology. -->
+        <span id="modal-copy-notification" class="modal-copy-notification" role="status" aria-live="polite"></span>
+        <!-- Copy all currently displayed veteran details from the modal. -->
+        <button id="modal-copy-button" class="modal-copy-button" type="button" aria-label="Copy veteran results" title="Copy veteran results">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 7V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2Zm2 0h4a2 2 0 0 1 2 2v6h2V5h-8v2Zm4 2H6v10h8V9Z"/>
+            </svg>
+        </button>
     </div>
 </div>
 
@@ -96,7 +104,7 @@ data-start-page="chat"
     <!-- Load editable event details before the home-page countdown logic. -->
     <script src="greetings.js?v=20260607-record"></script>
     <script src="home.js?v=20260607-full-height-confetti"></script>
-    <script src="veterans.js"></script>
+    <script src="veterans.js?v=20260607-copy-notification"></script>
     <script src="allOverall.js"></script>
     <script src="rogljicevKm.js?v=20260607-search"></script>
     <script src="top10.js?v=20260607-expand-year"></script>

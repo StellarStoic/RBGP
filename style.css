@@ -1076,11 +1076,105 @@ button:hover {
 
 /* Modal Content */
 .modal-content {
+  position: relative;
+  box-sizing: border-box;
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
+  margin: 10vh auto;
+  padding: 28px 56px 64px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: fit-content;
+  min-width: min(420px, calc(100% - 32px));
+  max-width: min(900px, calc(100% - 32px));
+  text-align: center;
+  /* Match the veteran details modal typography with the rest of the website. */
+  font-family: 'Courier Prime', monospace;
+}
+
+/* Keep dynamically generated veteran modal content and controls in the website font. */
+.modal-content h2,
+.modal-content p,
+.modal-content input,
+.modal-content button {
+  font-family: inherit;
+}
+
+.modal-content #times p {
+  margin: 0.75rem auto;
+  line-height: 1.45;
+}
+
+/* Place an unobtrusive copy control in the lower-right corner of the modal. */
+.modal-copy-button {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  padding: 9px;
+  place-items: center;
+  color: #333333;
+  background: #f1f3f6;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+.modal-copy-button svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.modal-copy-button:hover,
+.modal-copy-button:focus-visible {
+  color: #ffffff;
+  background: #333333;
+}
+
+/* Show temporary confirmation beside the copy button after clipboard success. */
+.modal-copy-notification {
+  position: absolute;
+  right: 68px;
+  bottom: 23px;
+  padding: 4px 9px;
+  color: #ffffff;
+  background: #333333;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.2;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.modal-copy-notification.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Make veteran result lines easier to read without stretching the modal on desktops. */
+@media (min-width: 1025px) {
+  .modal-content {
+    font-size: 1.3rem;
+  }
+
+  .modal-content #times h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Keep the content-sized modal usable on narrow screens. */
+@media (max-width: 600px) {
+  .modal-content {
+    min-width: 0;
+    margin: 5vh auto;
+    padding: 24px 20px 62px;
+    width: calc(100% - 24px);
+  }
 }
 
 /* The Close Button */

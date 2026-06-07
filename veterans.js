@@ -233,6 +233,54 @@ function processCompetitors() {
             timesDiv.innerHTML = '';
         }
     }
+
+    // Collect and copy all readable veteran details currently displayed in the modal.
+    async function copyVeteranModalContent() {
+        const modalContent = document.querySelector('#myModal .modal-content');
+        const copyButton = document.getElementById('modal-copy-button');
+        const copyNotification = document.getElementById('modal-copy-notification');
+        const displayedLines = Array.from(
+            modalContent.querySelectorAll('h1, h2, h3, p, li')
+        )
+            .map(element => element.textContent.trim())
+            .filter(Boolean);
+        const contentToCopy = displayedLines.join('\n');
+
+        if (!contentToCopy) {
+            return;
+        }
+
+        try {
+            if (navigator.clipboard && window.isSecureContext) {
+                await navigator.clipboard.writeText(contentToCopy);
+            } else {
+                // Support local or non-secure deployments where Clipboard API is unavailable.
+                const temporaryTextarea = document.createElement('textarea');
+                temporaryTextarea.value = contentToCopy;
+                temporaryTextarea.style.position = 'fixed';
+                temporaryTextarea.style.opacity = '0';
+                document.body.appendChild(temporaryTextarea);
+                temporaryTextarea.select();
+                document.execCommand('copy');
+                temporaryTextarea.remove();
+            }
+
+            copyButton.title = 'Copied!';
+            copyButton.setAttribute('aria-label', 'Veteran results copied');
+            copyNotification.textContent = 'Copied!';
+            copyNotification.classList.add('is-visible');
+            setTimeout(() => {
+                copyButton.title = 'Copy veteran results';
+                copyButton.setAttribute('aria-label', 'Copy veteran results');
+                copyNotification.classList.remove('is-visible');
+            }, 1500);
+        } catch (error) {
+            console.error('Unable to copy veteran results:', error);
+        }
+    }
+
+    // Replace the copy handler when Veterans reloads so repeated visits never duplicate it.
+    document.getElementById('modal-copy-button').onclick = copyVeteranModalContent;
     
     function isUniqueCompetitor(item) {
         let competitorId = `${item.Name.normalize('NFD').replace(/[\u0300-\u036f]/g, "")} ${item.Surename.normalize('NFD').replace(/[\u0300-\u036f]/g, "")} ${item.Number}`;
