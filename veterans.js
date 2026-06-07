@@ -80,35 +80,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
-// I think this un-commenting thing is not needed anymore?
-// uncomment and use this function when we have the results for the current year
-// function processCompetitors() {
-//     competitors = new Map(); // Clear the competitors map
-//     uniqueCompetitors = new Set(); // Clear unique competitors set
-//     excludedTimes = new Map(); // Clear excluded times
-
-//     let allYears = [];
-//     for (let year = 2015; year <= currentYear; year++) {
-//         allYears.push(year);
-//     }
-//     competitors.forEach((compData, competitor) => {
-//         recalculateTotalTime(competitor);
-//     });
-
-// I think this un-commenting thing is not needed anymore?
-// uncomment this function bellow when new year starts and we don't have the results for the current year yet
-// Or try to use manual steps in the instructions next to lastYearWithData variable 
-// And don't forget to change textContent currentYear - 1 to only CurrentYear after the race
 function processCompetitors() {
     competitors = new Map(); // Clear the competitors map
     uniqueCompetitors = new Set(); // Clear unique competitors set
     excludedTimes = new Map(); // Clear excluded times
 
-    let currentYear = new Date().getFullYear();
-    let lastYearWithData = currentYear - 1; // Manually set this to currentYear - 1 if current year's data is not available yet
+    // Avoid calculating an invalid year if the asynchronous result files have not loaded yet.
+    if (data.length === 0) {
+        document.getElementById('results').textContent = 'Results are still loading. Please try again in a moment.';
+        return;
+    }
 
-    // Example: If the current year is 2025 and its data is not available, set lastYearWithData = 2024
-    lastYearWithData = 2025;
+    // Use the newest year found in the loaded result files so no annual code change is required.
+    let lastYearWithData = Math.max(...data.map(item => item.year));
 
     let allYears = [];
     for (let year = 2015; year <= lastYearWithData; year++) {
@@ -341,12 +325,9 @@ function processCompetitors() {
     
         let duplicate = compData.years.some(yearObj => yearObj.entries.length > 1);  // Check if any year has duplicate entries
         let textContent = duplicate ? 
-        // if we have the results for current year use lines with currentYear
-        // if we don'ts have the results for current year yet use lines with currentYear -1
-        `*** Did ${compData.displayName} finished all RBGP editions from 2015 to 2025 with a total time of ${totalTime} ?` :
-        `${compData.displayName} finished all RBGP editions from 2015 to 2025 with a total time of ${totalTime}`;
-        // `*** Did ${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime} ?` :
-        // `${compData.displayName} finished all RBGP editions from 2015 to ${currentYear -1} with a total time of ${totalTime}`;
+        // Display the same automatically detected result year used by the veterans filter.
+        `*** Did ${compData.displayName} finish all RBGP editions from 2015 to ${lastYearWithData} with a total time of ${totalTime}?` :
+        `${compData.displayName} finished all RBGP editions from 2015 to ${lastYearWithData} with a total time of ${totalTime}`;
         
         li.textContent = textContent;
         li.addEventListener('click', function() {

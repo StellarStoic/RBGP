@@ -1,149 +1,156 @@
+let countdownInterval;
+
+// Remove the home content and stop its timer when another section is opened.
 function hideHomeGreeting() {
-    let homeContainer = document.querySelector('.home-container');
+    clearInterval(countdownInterval);
+    countdownInterval = undefined;
+
+    const homeContainer = document.querySelector('.home-container');
     if (homeContainer) {
-        homeContainer.parentNode.removeChild(homeContainer);
+        homeContainer.remove();
     }
 }
 
-//  this loadHomePage is for when we don't know the official date of the RBGP. (set the possible date bellow) Comment out the function and uncomment the function bellow this function for when the official date is known 
+// Format the remaining event time for the live countdown.
+function getCountdownParts(timeDifference) {
+    return {
+        days: Math.floor(timeDifference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((timeDifference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((timeDifference / (1000 * 60)) % 60),
+        seconds: Math.floor((timeDifference / 1000) % 60)
+    };
+}
+
+// Check whether a non-empty results file exists for the configured event year.
+async function eventResultsAreAvailable(eventYear) {
+    try {
+        const response = await fetch(`data/${eventYear}/${eventYear}.json`, {
+            cache: 'no-store'
+        });
+
+        if (!response.ok) {
+            return false;
+        }
+
+        const eventResults = await response.json();
+        return Array.isArray(eventResults) && eventResults.length > 0;
+    } catch (error) {
+        return false;
+    }
+}
+
+// Show the correct finished-event message after checking for that year's result file.
+async function showPostEventMessage(countdownText, eventYear) {
+    countdownText.textContent = `Checking ${eventYear} results...`;
+    const resultsAreAvailable = await eventResultsAreAvailable(eventYear);
+
+    // Do not update home content that was removed while the results check was running.
+    if (!countdownText.isConnected) {
+        return;
+    }
+
+    if (resultsAreAvailable) {
+        countdownText.textContent = `The ${eventYear} Goni Pony event has finished. ${greetingsConfig.resultsAvailableMessage}`;
+        return;
+    }
+
+    countdownText.innerHTML = `The ${eventYear} Goni Pony event has finished. ${greetingsConfig.resultsPendingMessage} In the meantime, you can check <a href="${greetingsConfig.timingResultsUrl}" target="_blank" rel="noopener noreferrer">Timing Ljubljana</a> for the official results.`;
+}
+
+// Show either the detailed live countdown or the automatic post-event results message.
+function updateEventMessage(countdownText, eventDate) {
+    const timeDifference = eventDate.getTime() - Date.now();
+
+    if (timeDifference <= 0) {
+        clearInterval(countdownInterval);
+        countdownInterval = undefined;
+        showPostEventMessage(countdownText, eventDate.getFullYear());
+        return;
+    }
+
+    const remaining = getCountdownParts(timeDifference);
+    const formattedEventDate = eventDate.toLocaleString('en-GB', {
+        dateStyle: 'full',
+        timeStyle: 'short'
+    });
+
+    countdownText.innerHTML = `Listen up, pedal-pushers! ${greetingsConfig.eventName} is making its return in exactly:<br><br><strong>${remaining.days} days, ${remaining.hours} hours, ${remaining.minutes} minutes, and ${remaining.seconds} seconds</strong><br><br>We will be riding vintage bikes up <a href="${greetingsConfig.courseUrl}" target="_blank" rel="noopener noreferrer">${greetingsConfig.courseName}</a>: ${greetingsConfig.courseDescription}, on bikes with no gears.<br><br>No gear, no fear! <a href="${greetingsConfig.registrationUrl}" target="_blank" rel="noopener noreferrer">Event and registration information</a>.<br>See you in ${greetingsConfig.eventLocation} on <strong>${formattedEventDate}</strong>.`;
+}
+
+// Build the home section and start a timer only while the configured event is in the future.
 function loadHomePage() {
-    // Hide the previously opened data
     document.getElementById('results').innerHTML = '';
     document.getElementById('times').innerHTML = '';
-  
+
     let homeContainer = document.querySelector('.home-container');
-    if (!homeContainer) {
-      homeContainer = document.createElement('div');
-      homeContainer.classList.add('home-container');
-  
-      let homeText = document.createElement('p');
-      homeText.classList.add('home-greeting');
-      homeText.textContent = 'Greetings, Pony fans!';
-  
-      let countdownText = document.createElement('p');
-      countdownText.classList.add('countdown');
-      const nextEventDate = new Date("2026-06-01"); // Set the date of the next event here
-      const currentDate = new Date();
-      const timeDifference = nextEventDate.getTime() - currentDate.getTime();
-      const weeksUntilNextEvent = Math.ceil(timeDifference / (1000 * 3600 * 24 * 7));
-      countdownText.innerHTML = `Listen up, pedal-pushers! The Redbull Goni Pony might be making its triumphant return in about <strong>${weeksUntilNextEvent} weeks</strong>.<br> So mark your calendars, or better yet, just keep them clear until we say otherwise! We'll drop the official date as soon as we get the green light. Or, you know, when one of you lovely folks spill the beans in the chat.<br> Stay tuned, keep those wheels oiled, and remember - no gear, no fear!`;
-  
-      // Append the home greeting and countdown text inside the container
-      homeContainer.appendChild(homeText);
-      homeContainer.appendChild(countdownText);
-  
-      // Insert the home container after the button container
-      let buttonContainer = document.querySelector('.button-container');
-      buttonContainer.parentNode.insertBefore(homeContainer, buttonContainer.nextSibling);
+    if (homeContainer) {
+        return;
     }
-  }
 
+    homeContainer = document.createElement('div');
+    homeContainer.classList.add('home-container');
 
+    const homeText = document.createElement('p');
+    homeText.classList.add('home-greeting');
+    homeText.textContent = greetingsConfig.greeting;
 
-//   // this loadHomePage is for when WE KNOW the official date of the RBGP. correct the date, register URL, time and Comment out the function above
-//   function loadHomePage() {
-//     // Clear any previously displayed data
-//     document.getElementById('results').innerHTML = '';
-//     document.getElementById('times').innerHTML = '';
-  
-//     // Select the container for the home page content
-//     let homeContainer = document.querySelector('.home-container');
-//     if (!homeContainer) {
-//         // Create the container if it doesn't exist
-//         homeContainer = document.createElement('div');
-//         homeContainer.classList.add('home-container');
-  
-//         // Create and add the greeting text
-//         let homeText = document.createElement('p');
-//         homeText.classList.add('home-greeting');
-//         homeText.textContent = 'Greetings, Pony fans!';
-//         homeContainer.appendChild(homeText);
-  
-//         // Create and add the countdown text
-//         let countdownText = document.createElement('p');
-//         countdownText.classList.add('countdown');
-//         const officialDate = new Date("2024-06-01T12:00:00"); // Set the official event date and time
-//         const currentDate = new Date();
-//         const timeDifference = officialDate.getTime() - currentDate.getTime();
+    const countdownText = document.createElement('p');
+    countdownText.classList.add('countdown');
 
-//         // Check if the current date is before the event date
-//         if (timeDifference > 0) {
-//             // Set up a countdown interval to update every second
-//             const countdownInterval = setInterval(() => {
-//                 const updatedCurrentDate = new Date();
-//                 const updatedTimeDifference = officialDate.getTime() - updatedCurrentDate.getTime();
+    const eventDate = new Date(greetingsConfig.eventDate);
+    if (Number.isNaN(eventDate.getTime())) {
+        countdownText.textContent = 'The event date is not configured correctly.';
+    } else {
+        updateEventMessage(countdownText, eventDate);
 
-//                 // Calculate days, hours, minutes, and seconds until the event
-//                 const elapsedDays = Math.floor(updatedTimeDifference / (3600 * 24 * 1000));
-//                 const elapsedHours = Math.floor((updatedTimeDifference % (3600 * 24 * 1000)) / (3600 * 1000));
-//                 const elapsedMinutes = Math.floor((updatedTimeDifference % (3600 * 1000)) / (60 * 1000));
-//                 const elapsedSeconds = Math.floor((updatedTimeDifference % (60 * 1000)) / 1000);
+        if (eventDate.getTime() > Date.now()) {
+            countdownInterval = setInterval(() => {
+                updateEventMessage(countdownText, eventDate);
+            }, 1000);
+        }
+    }
 
-//                 // Update the countdown text
-//                 countdownText.innerHTML = `Listen up, pedal-pushers! The Redbull Goni Pony is making its triumphant return in exactly... <br><br><strong>${elapsedDays} days, ${elapsedHours} hours, ${elapsedMinutes} minutes, and ${elapsedSeconds} seconds</strong><br><br> We're gonna be riding vintage bikes up the <a href="https://kranjska-gora.si/en/attractions/vrsic-pass-and-the-russian-road">Vršič Pass</a>. That's 13.5 km, 801m uphill with an average incline of 7.25%!<br>On bikes with no gears! It's like trying to eat soup with a fork, man. But hey, they say 'No gear, no fear!'<br>If you're into that sort of thing, you can <a href="https://www.redbull.com/si-sl/events/goni-pony" target="_blank">register here</a>. It's gonna be a wild ride. Kinda like if nostalgia and adrenaline had a baby, and that baby was really into cycling. See you and your old-timey bikes in Kranjska Gora on <strong>${officialDate.toDateString()}</strong>.`;
+    homeContainer.appendChild(homeText);
+    homeContainer.appendChild(countdownText);
 
-//                 // Stop the interval when the countdown reaches zero
-//                 if (updatedTimeDifference <= 0) {
-//                     clearInterval(countdownInterval);
-//                     countdownText.innerHTML = "And they're off! The race has officially begun, and the results will sprint faster than a team of racing snails. In less than 24 hours, we'll unveil the triumphant pedal pushers on our website. But if you simply can't wait, you might catch a tantalizing glimpse of the official results that will be published at <a href=https://www.timingljubljana.si/>Timing Ljubljana</a>";
-//                 }
-//             }, 1000);
+    const buttonContainer = document.querySelector('.button-container');
+    buttonContainer.parentNode.insertBefore(homeContainer, buttonContainer.nextSibling);
+}
 
-//             homeContainer.appendChild(countdownText);
-//         } else {
-//             countdownText.innerHTML = "The event has started!";
-//             homeContainer.appendChild(countdownText);
-//         }
-
-//         // Insert the home container into the DOM
-//         let buttonContainer = document.querySelector('.button-container');
-//         if (buttonContainer) {
-//             buttonContainer.parentNode.insertBefore(homeContainer, buttonContainer.nextSibling);
-//         }
-//     }
-// }
-
-
-
-// Call the function once the DOM content is loaded
+// Load the home section when the initial page markup is ready.
 document.addEventListener('DOMContentLoaded', function() {
     loadHomePage();
 });
 
-// Also call the function when the home button is clicked
+// Recreate the home section and its countdown when the Home button is clicked.
 document.getElementById('home-btn').addEventListener('click', function() {
     hideHomeGreeting();
     loadHomePage();
 });
 
-// Add event listeners to other buttons
+// Hide the home section when the Veterans section is opened.
 document.getElementById('all-years-button').addEventListener('click', function() {
     hideHomeGreeting();
-    // Call the function or perform the logic for the "Veterans" button
 });
 
+// Hide the home section when the Top 10 section is opened.
 document.getElementById('top10').addEventListener('click', function() {
     hideHomeGreeting();
-    // Call the function or perform the logic for the "Top 10 each year" button
 });
 
+// Hide the home section when the Overall section is opened.
 document.getElementById('all-overall').addEventListener('click', function() {
     hideHomeGreeting();
-    // Call the function or perform the logic for the "Overall ranking" button
 });
 
-// Add event listener to the search button
+// Hide the home section when a search is started.
 document.getElementById('search-button').addEventListener('click', function() {
     hideHomeGreeting();
-    // Call the search function or perform the logic for the search button
 });
 
-// Handle 'Enter' key in the search field
+// Hide the home section when Enter submits the search field.
 document.getElementById('search-input').addEventListener('keyup', function(event) {
-    if (event.key === "Enter") {
+    if (event.key === 'Enter') {
         hideHomeGreeting();
-        // Call the search function or perform the logic for the Enter key
     }
 });
-
-
